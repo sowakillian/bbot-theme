@@ -26,7 +26,15 @@
     }
 
     input {
-      margin-bottom: 30px;
+      width: 300px;
+      padding: 15px;
+      margin: 0 auto 30px auto;
+      border: none;
+      border-radius: 15px;
+
+      &::placeholder {
+        color: #19969a;
+      }
     }
   }
 }

@@ -1,5 +1,46 @@
 <section class="frontpage-faq">
-    <h2>FAQ</h2>
+    <h2>F.A.Q</h2>
 
-    <p>Posez votre question</p>
-</div>
+    <p class="subtitle">Posez votre question</p>
+    
+    <div class="questions">
+        <ul>
+            <li class="question">
+                <div class="question-ask">
+                    <p>Combien je gagne par bouteille recyclée ?</p>
+                </div>
+                <p class="question-answer">La récompense varie entre 1ct et 2ct par bouteille selon les magasins</p>
+            </li>
+            <li class="question">
+                <div class="question-ask">
+                    <p>Combien je gagne par bouteille recyclée ?</p>
+                </div>
+                <p class="question-answer">La récompense varie entre 1ct et 2ct par bouteille selon les magasins</p>
+            </li>
+            <li class="question">
+                <div class="question-ask">
+                    <p>Combien je gagne par bouteille recyclée ?</p>
+                </div>
+                <p class="question-answer">La récompense varie entre 1ct et 2ct par bouteille selon les magasins</p>
+            </li>
+            <li class="question">
+                <div class="question-ask">
+                    <p>Combien je gagne par bouteille recyclée ?</p>
+                </div>
+                <p class="question-answer">La récompense varie entre 1ct et 2ct par bouteille selon les magasins</p>
+            </li>
+            <li class="question">
+                <div class="question-ask">
+                    <p>Combien je gagne par bouteille recyclée ?</p>
+                </div>
+                <p class="question-answer">La récompense varie entre 1ct et 2ct par bouteille selon les magasins</p>
+            </li>
+            <li class="question">
+                <div class="question-ask">
+                    <p>Combien je gagne par bouteille recyclée ?</p>
+                </div>
+                <p class="question-answer">La récompense varie entre 1ct et 2ct par bouteille selon les magasins</p>
+            </li>
+        </ul>
+    </div>
+</section>

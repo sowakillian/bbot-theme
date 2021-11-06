@@ -8,7 +8,7 @@
     </nav>
 
     <nav class="nav-secondary">
-      En savoir plus | Où trouver b:bot ?
+      <a href="">En savoir plus</a> | <a href="">Où trouver b:bot ?</a>
     </nav>
   </div>
 </header>
