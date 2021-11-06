@@ -8,7 +8,7 @@
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/app/themes/bbot",
+  "publicPath": "/wp-content/themes/bbot",
   "devUrl": "http://bbot.test/",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",

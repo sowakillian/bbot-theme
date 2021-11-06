@@ -1,3 +1,4 @@
+@import "common/global";
 @import "common/variables";
 
 /** Import everything from autoload */
@@ -10,14 +11,18 @@
  * @see https://github.com/webpack-contrib/sass-loader#imports
  */
 // @import "~some-node-module";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;300;400;700;800;900&display=swap');
 
 /** Import theme styles */
 @import "common/global";
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";
-@import "components/frontpage/frontpage-header";
-@import "components/frontpage/frontpage-map";
+@import "components/front-page/frontpage-header";
+@import "components/front-page/frontpage-map";
+@import "components/front-page/frontpage-cycle";
+@import "components/front-page/frontpage-glitter";
+@import "components/front-page/frontpage-review";
 @import "components/wp-classes";
 @import "layouts/header";
 @import "layouts/sidebar";

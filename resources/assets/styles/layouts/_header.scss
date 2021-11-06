@@ -5,3 +5,15 @@
 .banner .nav a {
   @extend .nav-link;
 }
+
+.header {
+  background-color: #19969a;
+
+  .wrap {
+    padding: 30px 0;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,8 +1,53 @@
 .frontpage-header {
-  height: 100vh;
-  background-color: grey;
-  width: 100%;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 80px 0;
+  max-width: 1080px;
+  margin: 0 auto;
+
+  &-image {
+    margin-right: 50px;
+    width: 600px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+
+    span {
+      color: #199699;
+    }
+  }
+
+  &-desc {
+    .buttons {
+      margin-top: 60px;
+      display: flex;
+
+      button {
+        border-radius: 10px;
+        padding: 5px 15px;
+        font-weight: 700;
+      }
+
+      .button-green {
+        background-color: #19969a;
+        color: white;
+        margin-right: 15px;
+        border: none;
+      }
+
+      .button-white {
+        background-color: white;
+        border: 2px solid #19969a;
+        color: #19969a;
+      }
+    }
+  }
 }
