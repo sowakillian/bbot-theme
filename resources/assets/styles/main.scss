@@ -11,10 +11,9 @@
  * @see https://github.com/webpack-contrib/sass-loader#imports
  */
 // @import "~some-node-module";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;300;400;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;300;400;700;800;900&display=swap");
 
 /** Import theme styles */
-@import "common/global";
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";
@@ -24,15 +23,13 @@
 @import "components/front-page/frontpage-glitter";
 @import "components/front-page/frontpage-review";
 @import "components/front-page/frontpage-faq";
-
 @import "components/press/press";
-
-@import "components/company/company_desc";
-@import "components/company/company_values";
-@import "components/company/company_team";
-
+@import "components/company/company-desc";
+@import "components/company/company-values";
+@import "components/company/company-team";
+@import "components/contact/contact-choices";
+@import "components/contact/contact-form";
 @import "components/wp-classes";
-
 @import "layouts/header";
 @import "layouts/sidebar";
 @import "layouts/footer";

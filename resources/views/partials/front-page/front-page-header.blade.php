@@ -6,6 +6,8 @@
 
     <div class="frontpage-header-desc">
         <h2>La meilleure manière de <span>recycler vos bouteiles.</span></h2>
+        {{-- {{ $datas->header_text }} --}}
+        <h1>{{ $datas->header_text }}</h1>
 
         <p>Installée dans les supermarchés, B:bot transforme les bouteilles plastique en paillettes sous vos yeux.</p>
         <p>La garantie que 100% des bouteilles sont recyclées. Et pour chaque bouteille recyclée,vous gagnez des euros.</p>

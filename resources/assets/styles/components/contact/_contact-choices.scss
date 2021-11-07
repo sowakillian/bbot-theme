@@ -1,0 +1,42 @@
+.contact-choices {
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+
+  h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #19969a;
+  }
+
+  .choices-list {
+    border: 2px solid #e72283;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+
+    &-title {
+      font-weight: 600;
+      color: #e72283;
+      font-size: 22px;
+    }
+
+    ul {
+      padding: 0;
+    }
+
+    li {
+      list-style: none;
+      color: #19969a;
+      transition: all 0.3s ease;
+      font-weight: 600;
+
+      &:hover {
+        color: #e72283;
+        cursor: pointer;
+      }
+    }
+  }
+}
