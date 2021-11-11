@@ -1,0 +1,22 @@
+.template-btob .main {
+  padding: 25px 0;
+
+  section {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0;
+  }
+
+  h2 {
+    background-color: #19969a;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-align: center;
+  }
+
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+}

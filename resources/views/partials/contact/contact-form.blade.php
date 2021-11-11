@@ -1,4 +1,8 @@
 <div class="contact-form">
+    <div class="cross">
+        <img src="@asset('images/icon_cross.png')">
+    </div>
+    
     <div class="wrap">
         <h2>Je veux devenir partenaire de b:bot</h2>
         <form>

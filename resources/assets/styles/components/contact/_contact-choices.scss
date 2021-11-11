@@ -30,10 +30,10 @@
     li {
       list-style: none;
       color: #19969a;
-      transition: all 0.3s ease;
       font-weight: 600;
 
       &:hover {
+        transition: all 0.3s ease;
         color: #e72283;
         cursor: pointer;
       }

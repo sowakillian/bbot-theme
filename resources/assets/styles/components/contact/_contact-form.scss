@@ -5,7 +5,32 @@
   position: fixed;
   left: 0;
   height: 100vh;
-  top: 0;
+  top: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.6s ease;
+
+  .cross {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &-visible {
+    top: 0;
+    opacity: 100;
+    visibility: visible;
+  }
 
   h2 {
     margin-bottom: 30px;
