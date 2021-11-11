@@ -1,6 +1,10 @@
 <section class="btob-who">
     <div class="wrap">
-        <h2>Et vous, qui êtes-vous ?</h2>
+        <div class="btob-who-header">
+            <img src="@asset('images/bbot-who.png')">
+            <h2>Et vous, qui êtes-vous ?</h2>
+        </div>
+
         <div class="blocks">
             <div class="block">
                 <p class="block-title">Un point de vente en France</p>

@@ -1,19 +1,36 @@
 .btob-who {
+  &-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      margin-bottom: 80px;
+    }
+  }
+
   .blocks {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 60px;
 
     .block {
       background-color: #19969a;
-      color: white;
       border-radius: 15px;
-      padding: 10px 15px;
+      padding: 20px 15px;
       text-align: center;
       width: calc((100% / 3) - 10px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
 
       &-title {
-        font-weight: 600;
+        color: white;
+        text-align: center;
+        font-size: 16px;
       }
     }
   }

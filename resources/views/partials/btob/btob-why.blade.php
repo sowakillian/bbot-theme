@@ -15,7 +15,7 @@
 
                     <div class="block">
                         <div class="block-title">
-                            <span><p>1</p></span> <p>La plus simple pour vous</p>
+                            <span><p>2</p></span> <p>La plus simple pour vous</p>
                         </div>
                         <div class="block-image">
         

@@ -10,13 +10,55 @@
   h2 {
     background-color: #19969a;
     color: white;
-    border-radius: 15px;
-    padding: 10px 15px;
+    border-radius: 35px;
+    padding: 15px 30px;
     text-align: center;
   }
 
   .wrap {
     max-width: 1080px;
     margin: 0 auto;
+  }
+
+  .slide-1 {
+    display: flex;
+    justify-content: space-between;
+
+    & > * {
+      width: calc(100% / 3 - 30px);
+    }
+  }
+
+  .block {
+    display: flex;
+
+    &-title {
+      display: flex;
+      align-items: center;
+      color: #23979a;
+      font-size: 30px;
+      font-weight: 600;
+
+      p {
+        margin-bottom: 0;
+        flex: 1;
+      }
+
+      span {
+        margin-right: 15px;
+        color: white;
+        background-color: #23979a;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+
+        p {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+        }
+      }
+    }
   }
 }
