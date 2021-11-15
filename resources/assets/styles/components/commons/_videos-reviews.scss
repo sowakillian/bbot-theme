@@ -1,0 +1,36 @@
+.videos-reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  button {
+    background-color: transparent;
+    border: none;
+    color: #19969a;
+    text-decoration: underline;
+    font-size: 20px;
+  }
+
+  &-videos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    .video {
+      width: 450px;
+      margin: 0 20px;
+
+      &-image {
+        height: 250px;
+        background-color: grey;
+        background-size: cover;
+      }
+
+      &-text {
+        background-color: red;
+        color: white;
+        padding: 10px 15px;
+      }
+    }
+  }
+}

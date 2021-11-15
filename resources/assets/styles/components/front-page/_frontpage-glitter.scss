@@ -1,4 +1,59 @@
 .frontpage-glitter {
   text-align: center;
-  margin: 70px 0;
+  margin: 70px auto;
+  max-width: 1080px;
+
+  .swiper-pagination {
+    position: relative;
+    margin-top: 50px;
+
+    .swiper-pagination-bullet-active {
+      background-color: #23979a;
+    }
+  }
+
+  .swiper-slide {
+    h3 {
+      margin-top: 20px;
+      font-weight: 800;
+      font-size: 50px;
+
+      span {
+        color: #23979a;
+      }
+    }
+
+    p {
+      margin-top: 20px;
+    }
+  }
+
+  .slide1 {
+    text-align: center;
+
+    .items {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 90px;
+      align-items: flex-end;
+
+      .item {
+        &-text {
+          color: #23979a;
+          font-size: 30px;
+          font-weight: 800;
+        }
+
+        &-image {
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+    h2 {
+      span {
+        color: #23979a;
+      }
+    }
+  }
 }

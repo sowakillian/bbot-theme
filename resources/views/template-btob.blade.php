@@ -11,6 +11,6 @@
   @include('partials.btob.btob-solutions')
   @include('partials.btob.btob-thanks')
   @include('partials.btob.btob-testimonials')
-  @include('partials.front-page.front-page-review')
+  @include('partials.btob.btob-reviews')
   @include('partials.front-page.front-page-faq')
 @endsection

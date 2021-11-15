@@ -11,6 +11,7 @@
     border-radius: 15px;
     padding: 8px 100px;
     margin-bottom: 50px;
+    margin-top: 40px;
   }
 
   h2 {
@@ -20,6 +21,7 @@
 
   .questions {
     font-size: 18px;
+    transition: all 0.1s ease;
 
     li {
       list-style: none;
@@ -30,16 +32,47 @@
     }
 
     .question {
-      margin-bottom: 30px;
+      margin-bottom: 10px;
+      transition: all 0.1s ease;
+
+      &:hover {
+        cursor: pointer;
+      }
 
       &-ask {
         color: #e72686;
         font-weight: 600;
         margin-bottom: 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 0.1s ease;
+
+        img {
+          width: 20px;
+        }
+      }
+
+      &-arrow {
+        transition: all 0.1s ease;
+
+        &-clicked {
+          transform: rotate(180deg);
+        }
       }
 
       &-answer {
         color: #3e3f40;
+        height: 0;
+        opacity: 0;
+        transition: all 0.1s ease;
+
+        &-visible {
+          transition: all 0.1s ease;
+          opacity: 1;
+          height: auto;
+          padding: 0 0 10px 0;
+        }
       }
     }
   }
