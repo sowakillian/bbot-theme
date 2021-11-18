@@ -7,18 +7,18 @@
 
         <div class="blocks">
             <div class="block">
-                <p class="block-title">Un point de vente en France</p>
-                <p>Hypermarchés, Supermarchés..</p>
+                <p class="block-title">{{ $datas->who["block1"]["title"] }}</p>
+                <p>{{ $datas->who["block1"]["description"] }}</p>
             </div>
 
             <div class="block">
-                <p class="block-title">Une collectivité en France</p>
-                <p>Communauté de communes, Mairie, ...</p>
+                <p class="block-title">{{ $datas->who["block2"]["title"] }}</p>
+                <p>{{ $datas->who["block2"]["description"] }}</p>
             </div>
 
             <div class="block">
-                <p class="block-title">Autre</p>
-                <p>Point de vente à l’étranger, Entreprise, Aéroport, Gare, Evènement, ...</p>
+                <p class="block-title">{{ $datas->who["block3"]["title"] }}</p>
+                <p>{{ $datas->who["block2"]["description"] }}</p>
             </div>
         </div>
     </div>

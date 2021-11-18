@@ -8,9 +8,16 @@ class TemplateBtob extends Controller
 {
     public function datas() {
         return (object) array(
-            'about' => 'Que ce soit pour des interviews ou des articles, B:bot adore être sous le feu des projecteurs et montrer de quoi elle est capable.',
-            'phone_number' => '01 84 60 63 68',
-            'email' => 'ksowa@outlook.fr'
+            'who' => array(
+                'block1' => get_field("bbot_who_block_1"),
+                'block2' => get_field("bbot_who_block_2"),
+                'block3' => get_field("bbot_who_block_3")
+            ),
+            'solutions' => array(
+                'block1' => get_field("bbot_solutions_block_1"),
+                'block2' => get_field("bbot_solutions_block_2"),
+                'block3' => get_field("bbot_solutions_block_3")
+            )
         );
     }   
 }

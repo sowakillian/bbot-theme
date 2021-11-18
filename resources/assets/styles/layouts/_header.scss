@@ -17,12 +17,6 @@
     color: #353535;
   }
 
-  .nav-primary {
-    a {
-      margin: 0 10px;
-    }
-  }
-
   .nav-secondary {
     a {
       background-color: white;
@@ -31,12 +25,16 @@
       border-radius: 10px;
     }
   }
-}
 
-.banner .nav li {
-  @extend .nav-item;
-}
+  .nav-primary {
+    a {
+      margin: 0 10px;
+      transition: all 0.2s ease;
 
-.banner .nav a {
-  @extend .nav-link;
+      &:hover {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
 }

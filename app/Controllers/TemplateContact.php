@@ -8,16 +8,8 @@ class TemplateContact extends Controller
 {
     public function datas() {
         return (object) array(
-            'title' => 'Que cherchez-vous ?',
-            'contact_reasons' => [
-                'Je veux acheter une b:bot',
-                'Je veux devenir partenaire de b:bot',
-                'Je veux rejoindre la b:bot team',
-                'Je veux acheter une b:bot',
-                'Je veux acheter une b:bot',
-                'Je veux acheter une b:bot',
-                'Je veux acheter une b:bot',
-            ]
+            'title' => get_field("title"),
+            'contact_goals' => explode("|", get_field("contact_goals"))
         );
     }   
 }
