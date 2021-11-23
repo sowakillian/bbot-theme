@@ -1,4 +1,4 @@
-<section class="frontpage-map">
+<section class="frontpage-map" id="frontpage-map">
     <div class="wrap">
         <h2>Entrez votre code postal et trouvez la b:bot près de chez vous</h2>
         <input type="text" placeholder="Code postal">

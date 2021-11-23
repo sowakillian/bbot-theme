@@ -1,0 +1,67 @@
+.company-team {
+  position: relative;
+
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+
+  .team-member {
+    text-align: center;
+    margin: 0 60px;
+
+    &-photo {
+      width: 260px;
+      height: 260px;
+      background-color: grey;
+      margin-bottom: 25px;
+      border-radius: 50%;
+    }
+
+    &-title {
+      color: white;
+      font-size: 25px;
+      font-weight: 700;
+    }
+
+    &-role {
+      color: #373737;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+
+  .job-type {
+    padding: 140px 0 40px 0;
+    background-color: #199699;
+    position: relative;
+
+    &:nth-child(odd) {
+      background-color: #c1dedf;
+
+      .team-member-title {
+        color: #199699;
+      }
+    }
+
+    &-name {
+      font-size: 180px;
+      font-weight: 900;
+      position: absolute;
+      opacity: 0.3;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: 27%;
+      color: white;
+      text-align: center;
+      line-height: 180px;
+    }
+  }
+
+  .team-members {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+}

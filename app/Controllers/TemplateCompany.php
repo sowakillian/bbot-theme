@@ -10,7 +10,7 @@ class TemplateCompany extends Controller
         return (object) array(
             'description' => get_field("description"),
             'values' => get_field("values"),
-            'team' => []
+            'team' => get_field("team")
         );
     }   
 }

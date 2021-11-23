@@ -13,8 +13,8 @@
         <p>La garantie que 100% des bouteilles sont recyclées. Et pour chaque bouteille recyclée,vous gagnez des euros.</p>
 
         <div class="buttons">
-            <button class="button-green">Trouvez une b:bot<br> près de chez vous</button>
-            <button class="button-white">C'est quoi<br> b:bot ?</button>
+            <a href="#frontpage-map" class="button-green">Trouvez une b:bot<br> près de chez vous</a>
+            <a class="button-white">C'est quoi<br> b:bot ?</a>
         </div>
     </div>
 </div>

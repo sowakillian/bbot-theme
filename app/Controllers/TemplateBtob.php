@@ -17,7 +17,8 @@ class TemplateBtob extends Controller
                 'block1' => get_field("bbot_solutions_block_1"),
                 'block2' => get_field("bbot_solutions_block_2"),
                 'block3' => get_field("bbot_solutions_block_3")
-            )
+            ),
+            'testimonials' => get_field("testimonials")
         );
     }   
 }
