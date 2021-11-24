@@ -34,5 +34,17 @@ export default {
           prevEl: '.btob-why .swiper-button-prev',
         },
       });
+
+      // eslint-disable-next-line no-unused-vars
+      const sliderServices = new Swiper('.btob-services .swiper', {
+        loop: true,
+        pagination: {
+          el: '.btob-services .swiper-pagination',
+        },
+        navigation: {
+          nextEl: '.btob-services .swiper-button-next',
+          prevEl: '.btob-services .swiper-button-prev',
+        },
+      });
   },
 };
