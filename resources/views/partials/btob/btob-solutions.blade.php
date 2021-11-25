@@ -25,7 +25,7 @@
                     {!! $datas->solutions["block2"]["description"] !!}
                 </div>
 
-                <img src={{ $datas->solutions["block2"]["image"]["url"] }}>
+                <img src="@asset('images/bbot_solution_xl.png')">
 
                 <div class="fiche">
                     <p>Fiche technique</p>

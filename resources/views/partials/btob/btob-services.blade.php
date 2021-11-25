@@ -10,7 +10,7 @@
                             <span><p>1</p></span> <p>Reprise et rachat matières garanti</p>
                         </div>
                         <div class="block-image">
-        
+                            <img src="@asset('images/bbot_services_retake.png')">
                         </div>
                     </div>
     
@@ -19,7 +19,7 @@
                             <span><p>2</p></span> <p>Pilotage optimisé via la data</p>
                         </div>
                         <div class="block-image">
-        
+                            <img src="@asset('images/bbot_services_datas.png')">
                         </div>
                     </div>
     
@@ -28,7 +28,7 @@
                             <span><p>3</p></span> <p>Une team à votre service</p>
                         </div>
                         <div class="block-image">
-        
+                            <img src="@asset('images/bbot_services_team.png')">
                         </div>
                     </div>
                 </div>

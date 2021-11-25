@@ -12,10 +12,45 @@
   }
 
   .swiper {
-    padding: 0 100px 40px 100px;
+    padding: 0 100px 80px 100px;
   }
 
   .swiper-slide {
     width: 100%;
+  }
+
+  .block {
+    justify-content: space-around;
+  }
+
+  &-slideItem {
+    &-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #23979a;
+      font-size: 30px;
+      font-weight: 600;
+
+      p {
+        margin-bottom: 0;
+      }
+
+      span {
+        margin-right: 15px;
+        color: white;
+        background-color: #23979a;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+
+        p {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+        }
+      }
+    }
   }
 }
