@@ -1,3 +1,7 @@
+{{--
+  Template Name: Frontpage Template
+--}}
+
 @extends('layouts.app')
 
 @section('content')

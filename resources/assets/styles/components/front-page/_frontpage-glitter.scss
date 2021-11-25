@@ -1,9 +1,33 @@
 .frontpage-glitter {
   text-align: center;
 
+  &-slideHeader {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .swiper-pagination-bullets {
+    transform: translateY(-90px);
+  }
+
+  .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background-color: #1d9699;
+    opacity: 0.2;
+  }
+
   .swiper-button-next,
   .swiper-button-prev {
     color: black;
+  }
+
+  .swiper-button-next {
+    right: 25px;
+  }
+
+  .swiper-button-prev {
+    left: 25px;
   }
 
   .swiper-pagination {
@@ -11,7 +35,7 @@
     margin-top: 50px;
 
     .swiper-pagination-bullet-active {
-      background-color: #23979a;
+      opacity: 1;
     }
   }
 
@@ -92,6 +116,7 @@
 
   .slide1 {
     text-align: center;
+    padding: 90px 0;
 
     .items {
       display: flex;

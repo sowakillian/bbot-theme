@@ -10,3 +10,12 @@ Text Domain:        sage
 License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
+
+.geocoder {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    left: 50%;
+    margin-left: -25%;
+    top: 10px;
+  }

@@ -36,11 +36,13 @@
             </div>
 
             <div class="swiper-slide slide2">
-                <h3>La paillete magique qui fait disparaitre <br><span>les camions... ou presque.</span></h3>
-                <p>Une bouteille réduite en paillette prend 10x moins de place qu’une bouteille compactée. C'est donc 10x moins 
-                    de camions nécessaires au transport !
-                    
-                    La planète vous dit merci !</p>
+                <div class="frontpage-glitter-slideHeader">
+                    <h3>La paillette magique qui fait disparaitre <br><span>les camions... ou presque.</span></h3>
+                    <p>Une bouteille réduite en paillette prend 10x moins de place qu’une bouteille compactée. C'est donc 10x moins 
+                        de camions nécessaires au transport !
+                        
+                        La planète vous dit merci !</p>
+                </div>
 
                     <div class="frontpage-glitter-comparison">
                         <div class="with-bbot">
@@ -108,9 +110,7 @@
 
         <div class="swiper-pagination"></div>
 
-        <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-
     </div>
 </section>

@@ -44,6 +44,38 @@
             </div>
 
             <div class="swiper-slide slide2">
+                <div class="items frontpage-process-header">
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="@asset('images/frontpage-process/bbot_process1.png')">
+                        </div>
+                    </div>
+
+                    <img src="@asset('images/frontpage-process/arrow_right.png')">
+
+                    <div class="item">
+                        <div class="item-image item-image-transparent">
+                            <img src="@asset('images/frontpage-process/bbot_process2.png')">
+                        </div>
+                    </div>
+
+                    <img src="@asset('images/frontpage-process/arrow_right.png')">
+
+                    <div class="item">
+                        <div class="item-image item-image-transparent">
+                            <img src="@asset('images/frontpage-process/bbot_process3.png')">
+                        </div>
+                    </div>
+
+                    <img src="@asset('images/frontpage-process/arrow_right.png')">
+
+                    <div class="item">
+                        <div class="item-image item-image-transparent">
+                            <img src="@asset('images/frontpage-process/bbot_process4.png')">
+                        </div>
+                    </div>
+                </div>
+
                 <p class="slide-title">Triez à<span> la maison</span></p>
                 <p>Pour vous simplifier la vie, déposez vos bouteilles vides directement dans vos sacs de course.
                     Bbot accepte toutes les bouteilles boissons en PET jusqu’à 2,5 litres, vides et avec leurs étiquettes pour 
@@ -66,6 +98,39 @@
             </div>
 
             <div class="swiper-slide slide3">
+
+                <div class="items frontpage-process-header">
+                    <div class="item">
+                        <div class="item-image item-image-transparent">
+                            <img src="@asset('images/frontpage-process/bbot_process1.png')">
+                        </div>
+                    </div>
+
+                    <img src="@asset('images/frontpage-process/arrow_right.png')">
+
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="@asset('images/frontpage-process/bbot_process2.png')">
+                        </div>
+                    </div>
+
+                    <img src="@asset('images/frontpage-process/arrow_right.png')">
+
+                    <div class="item">
+                        <div class="item-image item-image-transparent">
+                            <img src="@asset('images/frontpage-process/bbot_process3.png')">
+                        </div>
+                    </div>
+
+                    <img src="@asset('images/frontpage-process/arrow_right.png')">
+
+                    <div class="item">
+                        <div class="item-image item-image-transparent">
+                            <img src="@asset('images/frontpage-process/bbot_process4.png')">
+                        </div>
+                    </div>
+                </div>
+
                 <p class="slide-title">Scannez vos bouteilles codes-barre vers le haut<span> et le tour est joué !</span></p>
                 <div class="row">
                     <div class="row-item">
@@ -83,6 +148,38 @@
             </div>
 
             <div class="swiper-slide slide3">
+                <div class="items frontpage-process-header">
+                    <div class="item">
+                        <div class="item-image item-image-transparent">
+                            <img src="@asset('images/frontpage-process/bbot_process1.png')">
+                        </div>
+                    </div>
+
+                    <img src="@asset('images/frontpage-process/arrow_right.png')">
+
+                    <div class="item">
+                        <div class="item-image item-image-transparent">
+                            <img src="@asset('images/frontpage-process/bbot_process2.png')">
+                        </div>
+                    </div>
+
+                    <img src="@asset('images/frontpage-process/arrow_right.png')">
+
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="@asset('images/frontpage-process/bbot_process3.png')">
+                        </div>
+                    </div>
+
+                    <img src="@asset('images/frontpage-process/arrow_right.png')">
+
+                    <div class="item">
+                        <div class="item-image item-image-transparent">
+                            <img src="@asset('images/frontpage-process/bbot_process4.png')">
+                        </div>
+                    </div>
+                </div>
+
                 <p class="slide-title">Admirez<span> la paillette magique</span></p>
 
                 <div class="row">
@@ -103,6 +200,38 @@
             </div>
 
             <div class="swiper-slide slide4">
+                <div class="items frontpage-process-header">
+                    <div class="item">
+                        <div class="item-image item-image-transparent">
+                            <img src="@asset('images/frontpage-process/bbot_process1.png')">
+                        </div>
+                    </div>
+
+                    <img src="@asset('images/frontpage-process/arrow_right.png')">
+
+                    <div class="item">
+                        <div class="item-image item-image-transparent">
+                            <img src="@asset('images/frontpage-process/bbot_process2.png')">
+                        </div>
+                    </div>
+
+                    <img src="@asset('images/frontpage-process/arrow_right.png')">
+
+                    <div class="item">
+                        <div class="item-image item-image-transparent">
+                            <img src="@asset('images/frontpage-process/bbot_process3.png')">
+                        </div>
+                    </div>
+
+                    <img src="@asset('images/frontpage-process/arrow_right.png')">
+
+                    <div class="item">
+                        <div class="item-image">
+                            <img src="@asset('images/frontpage-process/bbot_process4.png')">
+                        </div>
+                    </div>
+                </div>
+
                 <p class="slide-title">Cerise sur le gâteau,<span> chaque bouteille déposée rapporte des euros...</span></p>
 
                 <p>En fonction des magasins, la récompense pour chaque bouteille est de 0,01 ou 0,02 euro que 
@@ -111,5 +240,8 @@
         </div>
 
         <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
     </div>
 </section>

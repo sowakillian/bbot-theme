@@ -3,11 +3,23 @@
   margin: 120px auto;
   max-width: 1080px;
 
+  .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background-color: #1d9699;
+    opacity: 0.2;
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
   .items {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
     margin-top: 60px;
+    width: 100%;
 
     .item {
       &-text {
@@ -18,8 +30,16 @@
 
       &-image {
         margin-bottom: 30px;
+
+        &-transparent {
+          opacity: 0.25;
+        }
       }
     }
+  }
+
+  &-header {
+    align-items: center !important;
   }
 
   .row {
