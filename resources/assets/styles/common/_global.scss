@@ -10,3 +10,14 @@ h2,
 p {
   margin: 0;
 }
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #1d9699;
+  opacity: 0.2;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}

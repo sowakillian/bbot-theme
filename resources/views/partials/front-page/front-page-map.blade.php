@@ -1,5 +1,6 @@
 <section class="frontpage-map" id="frontpage-map">
     <div class="wrap">
+        <img class="frontpage-map-arrow" src="@asset('images/arrow_scroll.png')"/>
         <h2>{{ $datas->map_title }}</h2>
         {{-- <input class="frontpage-map-input" type="text" placeholder="Code postal">
 

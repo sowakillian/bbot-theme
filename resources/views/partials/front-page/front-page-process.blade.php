@@ -147,7 +147,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide slide3">
+            <div class="swiper-slide slide4">
                 <div class="items frontpage-process-header">
                     <div class="item">
                         <div class="item-image item-image-transparent">
@@ -187,7 +187,7 @@
                         <img src="@asset('images/frontpage-process/bot_process4_left.png')">
                     </div>
 
-                    <div class="row-item row-item-cross">
+                    <div class="row-item">
                         <p>La seule chose à faire 
                             à ce moment là, c’est 
                             admirer votre chef-d’oeuvre 
@@ -199,7 +199,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide slide4">
+            <div class="swiper-slide slide5">
                 <div class="items frontpage-process-header">
                     <div class="item">
                         <div class="item-image item-image-transparent">
@@ -236,6 +236,8 @@
 
                 <p>En fonction des magasins, la récompense pour chaque bouteille est de 0,01 ou 0,02 euro que 
                     vous pouvez donner à une association ou utiliser en bon d’achat.</p>
+
+                    <img src="@asset('images/frontpage-process/bbot_process5_full.png')">
             </div>
         </div>
 

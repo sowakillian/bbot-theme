@@ -1,7 +1,8 @@
 export default {
   init() {
     console.warn('listenquestio init')
-    this.listenQuestionClicked()
+    this.listenQuestionClicked();
+    this.addSmoothScrolling();
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired
@@ -14,5 +15,17 @@ export default {
             item.querySelector('.question-arrow').classList.toggle('question-arrow-clicked')
         })
     })
+  },
+
+  addSmoothScrolling() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+  
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth',
+          });
+      });
+  });
   },
 };
