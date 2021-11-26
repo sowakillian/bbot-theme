@@ -1,7 +1,7 @@
 <section class="frontpage-faq">
     <h2>F.A.Q</h2>
 
-    <p class="subtitle">Posez votre question</p>
+    <a href="./contact" class="subtitle">Posez votre question</a>
     
     <div class="questions">
         <ul>

@@ -29,7 +29,7 @@ export default {
 
     // eslint-disable-next-line no-unused-vars
     const sliderWhy = new Swiper('.btob-why .swiper', {
-        loop: true,
+        loop: false,
         pagination: {
           el: '.btob-why .swiper-pagination',
         },

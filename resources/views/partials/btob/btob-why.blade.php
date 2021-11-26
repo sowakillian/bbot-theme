@@ -4,7 +4,7 @@
 
         <div class="swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide slide-1">
+                <div class="swiper-slide slide1">
                     <div class="block">
                         <div class="block-title">
                             <span><p>1</p></span> <p>Autofinancé</p>
@@ -42,17 +42,17 @@
 
                         <div class="rows">
                             <div class="row">
-                                <img src="">
-                                <p>La machine la plus économique à l’achat</p>
+                                <img src="@asset('images/btob-why/btob_why2_top.png')">
+                                <p>La machine la plus <span>économique</span> à l’achat</p>
                             </div>
 
                             <div class="row">
-                                <p>La moins coûteuse en exploitation :
-                                    moins de volume : Donc moins de vidage 
-                                    stockage et transport
-                                    La garantie d’une valorisation matière plus élevée
+                                <p>La moins coûteuse en exploitation :<br>
+                                    <span>moins de volume :</span> Donc moins de vidage 
+                                    stockage et transport<br>
+                                    La garantie d’une valorisation matière <span>plus élevée</span>
                                 </p>
-                                <img src="">
+                                <img src="@asset('images/btob-why/btob_why2_bottom.png')">
                             </div>
                         </div>
                     </div>
@@ -88,17 +88,17 @@
 
                         <div class="items">
                             <div class="item">
-                                <img src="@asset('images/btob-why/btob_why3_left.png')" style="width: 160px">
+                                <img src="@asset('images/btob-why/btob_why4_left.png')">
                                 <p><span>Ils voient les paillettes</span> tomber grâce au bac transparent</p>
                             </div>
 
                             <div class="item">
-                                <img src="@asset('images/btob-why/btob_why3_left.png')" style="width: 160px">
+                                <img src="@asset('images/btob-why/btob_why4_middle.png')">
                                 <p><span>Écran géant tactile</span> Communication personnalisable Sondages, QCM, jeux concours</p>
                             </div>
 
                             <div class="item">
-                                <img src="@asset('images/btob-why/btob_why3_left.png')" style="width: 160px">
+                                <img src="@asset('images/btob-why/btob_why4_left.png')">
                                 <p><span>Toutes bouteilles acceptées</span> Communication personnalisable Sondages, QCM, jeux concours</p>
                             </div>
                         </div>

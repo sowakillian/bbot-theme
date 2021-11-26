@@ -13,7 +13,7 @@ export default {
     Swiper.use([Navigation, Pagination]);
     // eslint-disable-next-line no-unused-vars
     const sliderGlitter = new Swiper('.frontpage-glitter .swiper', {
-      loop: true,
+      loop: false,
       pagination: {
         el: '.frontpage-glitter .swiper-pagination',
       },
@@ -25,7 +25,7 @@ export default {
 
     // eslint-disable-next-line no-unused-vars
     const sliderProcess = new Swiper('.frontpage-process .swiper', {
-      loop: true,
+      loop: false,
       pagination: {
         el: '.frontpage-process .swiper-pagination',
       },
