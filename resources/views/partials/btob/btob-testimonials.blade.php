@@ -5,16 +5,20 @@
             <div class="swiper-wrapper">
                 @foreach ($datas->testimonials as $testimonial)
                     <div class="card swiper-slide">
-                        <img class="card-image" src="" />
-                        <p>{{ $testimonial["name"] }}</p>
-                        <p>{{ $testimonial["text"] }}</p>
+                        <div class="card-wrapper">
+                            <img class="card-image" src={{ ($testimonial["photo"])["url"] }} />
+                            <p>{{ $testimonial["name"] }}</p>
+                            <p>{{ $testimonial["text"] }}</p>
+                        </div>
                     </div>
                 @endforeach
+            </div>
 
-                <div class="swiper-pagination"></div>
-
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev">
+                <img src="@asset('images/arrow_left_slider.png')">
+            </div>
+            <div class="swiper-button-next">
+                <img src="@asset('images/arrow_right_slider.png')">
             </div>
         </div>
     </div>

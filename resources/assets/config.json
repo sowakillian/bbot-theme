@@ -10,7 +10,7 @@
   },
   "publicPath": "/wp-content/themes/bbot",
   "devUrl": "http://localhost:8888/bbot",
-  "proxyUrl": "http://localhost:3024",
+  "proxyUrl": "http://localhost:3014",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [
     "app/**/*.php",

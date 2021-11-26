@@ -8,7 +8,7 @@
                 @foreach ($job_type["team_members"] as $team_member)
                 <div class="team-member">
                     {{-- <img class="team-member-photo" src={{ ($team_member["photo"])["url"]}}/> --}}
-                    <img class="team-member-photo" src="@asset('images/todelete_teammember.png')"}/>
+                    <img class="team-member-photo" src={{ ($team_member["photo"])["url"]}}>
                     <p class="team-member-title">{{ $team_member["name"] }}</p>
                     <p class="team-member-role">{{ $team_member["role"] }}</p>
                 </div>

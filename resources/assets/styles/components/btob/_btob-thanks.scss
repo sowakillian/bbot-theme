@@ -1,13 +1,60 @@
 .btob-thanks {
   color: #199699;
   font-weight: 600;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+
+  h2 {
+    display: inline-block;
+  }
+
+  .wrap {
+    text-align: center;
+  }
+
+  .swiper-slide {
+    opacity: 0.21;
+    transition: all 0.3s ease;
+    transform: scale(0.7);
+  }
+
+  .swiper-slide-active {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 36px;
+
+    img {
+      max-width: 100%;
+    }
+
+    &::after {
+      content: "";
+    }
+  }
+
+  .swiper-button-prev {
+    left: 29%;
+  }
+
+  .swiper-button-next {
+    right: 29%;
+  }
+
+  .partner-wrapper {
+    img {
+      max-width: 100%;
+    }
+  }
 
   &-number {
     display: flex;
-    margin-top: 60px;
+    margin: 60px 0 30px 0;
     align-items: center;
     font-size: 30px;
+    justify-content: center;
 
     .number {
       display: flex;

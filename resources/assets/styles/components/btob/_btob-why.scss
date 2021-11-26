@@ -24,6 +24,12 @@
   }
 
   &-slideItem {
+    &-desc {
+      margin-top: 20px;
+      font-weight: 400;
+      font-size: 25px;
+    }
+
     &-title {
       display: flex;
       align-items: center;
@@ -49,6 +55,51 @@
           justify-content: center;
           align-items: center;
           height: 100%;
+        }
+      }
+    }
+  }
+
+  .slide4 {
+    .btob-why-slideItem-desc {
+      margin-bottom: 35px;
+    }
+
+    .items {
+      display: flex;
+      justify-content: center;
+
+      .item {
+        width: 28%;
+
+        p {
+          margin-top: 20px;
+
+          span {
+            color: #23979a;
+            font-weight: 600;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  .slide3 {
+    .items {
+      display: flex;
+      justify-content: center;
+
+      .item {
+        width: 30%;
+
+        &:first-of-type {
+          margin-right: 40px;
+          margin-top: 40px;
+        }
+
+        p {
+          margin-top: 30px;
         }
       }
     }
