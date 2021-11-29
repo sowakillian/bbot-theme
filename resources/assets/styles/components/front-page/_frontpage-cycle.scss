@@ -1,8 +1,9 @@
 .frontpage-cycle {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 100px 0;
+  height: 100vh;
   display: flex;
+  align-items: center;
 
   h2 {
     span {

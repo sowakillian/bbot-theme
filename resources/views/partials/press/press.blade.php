@@ -7,8 +7,8 @@
         <p>{{ $datas->descriptive_text }}</p>
         <h2>On en parle ?</h2>
 
-        <p>Contactez-nous</p>
-        <p>{{ $datas->phone_number }}</p>
-        <p>{{ $datas->email }}</p>
+        <p class="green subtitle">Contactez-nous</p>
+        <p class="green">{{ $datas->phone_number }}</p>
+        <p class="green">{{ $datas->email }}</p>
     </div>
 </div>

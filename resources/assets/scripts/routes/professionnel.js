@@ -45,7 +45,7 @@ export default {
         slidesPerView: 3,
         spaceBetween: 60,
         centeredSlides: true,
-        initialSlide : 2,
+        initialSlide: 1,
         navigation: {
           nextEl: '.btob-thanks .swiper-button-next',
           prevEl: '.btob-thanks .swiper-button-prev',

@@ -1,4 +1,8 @@
 <section class="frontpage-faq">
+    <div class="frontpage-faq-bkg">
+        <img src="@asset('images/bkg_why.png')">
+    </div>
+
     <h2>F.A.Q</h2>
 
     <a href="./contact" class="subtitle">Posez votre question</a>

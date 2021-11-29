@@ -3,6 +3,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
+  position: relative;
+
+  &-bkg {
+    position: absolute;
+    top: -10%;
+    width: 600px;
+
+    img {
+      max-width: 100%;
+    }
+  }
 
   .subtitle {
     color: #e72686;
@@ -20,6 +32,8 @@
   }
 
   .questions {
+    max-width: 1000px;
+    margin: 0 auto;
     font-size: 18px;
     transition: all 0.1s ease;
 
@@ -33,7 +47,7 @@
     }
 
     .question {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
       transition: all 0.1s ease;
 
       &:hover {
@@ -64,14 +78,14 @@
 
       &-answer {
         color: #3e3f40;
-        height: 0;
+        max-height: 0;
         opacity: 0;
-        transition: all 0.1s ease;
+        transition: all 0.3s ease;
 
         &-visible {
-          transition: all 0.1s ease;
+          transition: all 0.3s ease;
           opacity: 1;
-          height: auto;
+          max-height: 100px;
           padding: 0 0 10px 0;
         }
       }

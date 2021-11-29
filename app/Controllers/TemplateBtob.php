@@ -20,7 +20,8 @@ class TemplateBtob extends Controller
             ),
             'testimonials' => get_field("testimonials"),
             'partners' => get_field('partners'),
-            'partners_number' => get_field('partners_number')
+            'partners_number' => get_field('partners_number'),
+            'faq_questions' => get_field("faq_questions_btob"),
         );
     }   
 }

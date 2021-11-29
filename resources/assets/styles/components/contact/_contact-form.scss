@@ -1,10 +1,10 @@
 .contact-form {
-  background-color: #19969a;
+  background-color: #19969ad2;
   color: white;
   width: 100%;
   position: fixed;
   left: 0;
-  height: 100vh;
+  height: calc(100% - 97px);
   top: 100%;
   opacity: 0;
   visibility: hidden;
@@ -27,7 +27,7 @@
   }
 
   &-visible {
-    top: 0;
+    top: 97px;
     opacity: 100;
     visibility: visible;
   }

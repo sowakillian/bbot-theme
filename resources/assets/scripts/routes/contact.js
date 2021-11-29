@@ -1,6 +1,5 @@
 export default {
     init() {
-      console.warn('contacttbrow')
       this.initListClickListener();
     },
     finalize() {
@@ -18,6 +17,10 @@ export default {
 
         document.querySelector('.cross').addEventListener('click', () => {
             document.querySelector('.contact-form').classList.remove('contact-form-visible')
+        })
+
+        document.querySelector('.choices-list').addEventListener('click', () => {
+          document.querySelector('.choices-list-choices').classList.toggle('choices-list-choices-visible')
         })
     },
   };
