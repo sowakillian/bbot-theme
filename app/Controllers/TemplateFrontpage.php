@@ -15,6 +15,8 @@ class TemplateFrontpage extends Controller
             'map_title' => get_field("map_title", $post->ID),
             'map_points' => get_field("map_points", $post->ID),
             'faq_questions' => get_field("faq_questions", $post->ID),
+            'testimonials' => get_field("testimonials", $post->ID),
+            'bottle_number' => get_field("bottle_number", $post->ID),
         );
     }   
 }

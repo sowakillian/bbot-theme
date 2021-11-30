@@ -5,5 +5,5 @@
 @extends('layouts.app')
 
 @section('content')
-    @include('partials.press.press')
+    @include('partials.btob.btob-collectivity')
 @endsection

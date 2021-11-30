@@ -1,5 +1,6 @@
 .btob-who {
-  padding-top: 70px !important;
+  padding-top: 40px !important;
+  min-height: calc(100vh - 280px);
 
   &-header {
     display: flex;
@@ -9,6 +10,7 @@
 
     img {
       margin-bottom: 80px;
+      width: 300px;
     }
   }
 

@@ -1,0 +1,64 @@
+.btob-collectivity {
+  height: calc(100vh - 220px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 60px;
+
+  &-you {
+    background-color: #499697;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 5px 15px;
+    font-size: 22px;
+  }
+
+  h2,
+  h1 {
+    text-align: center;
+  }
+
+  h1 {
+    font-weight: 600;
+    color: #499697;
+    margin: 45px 0;
+  }
+
+  .wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta {
+    display: flex;
+    color: #499697;
+    align-items: center;
+    margin-top: 30px;
+
+    span {
+      font-weight: 600;
+      margin-left: 8px;
+    }
+  }
+
+  a {
+    font-weight: 600;
+    margin-left: 20px;
+    background-color: #499697;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(0.95);
+      text-decoration: none;
+    }
+  }
+}
