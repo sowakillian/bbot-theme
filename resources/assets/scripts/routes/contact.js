@@ -19,8 +19,9 @@ export default {
             document.querySelector('.contact-form').classList.remove('contact-form-visible')
         })
 
-        document.querySelector('.choices-list').addEventListener('click', () => {
+        document.querySelector('.choices-list-title').addEventListener('click', () => {
           document.querySelector('.choices-list-choices').classList.toggle('choices-list-choices-visible')
+          document.querySelector('.question-arrow').classList.toggle('question-arrow-clicked')
         })
     },
   };

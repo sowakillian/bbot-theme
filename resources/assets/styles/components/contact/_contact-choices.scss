@@ -1,4 +1,6 @@
 .contact-choices {
+  height: calc(100vh - 210px);
+
   .wrap {
     max-width: 1080px;
     margin: 0 auto;
@@ -34,6 +36,21 @@
       font-weight: 600;
       color: #e72283;
       font-size: 22px;
+      display: flex;
+      justify-content: space-between;
+
+      .question-arrow {
+        transition: all 0.3s ease;
+        width: 20px;
+
+        img {
+          max-width: 100%;
+        }
+
+        &-clicked {
+          transform: rotate(180deg);
+        }
+      }
 
       &:hover {
         cursor: pointer;

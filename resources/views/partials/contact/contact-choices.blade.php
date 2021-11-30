@@ -3,7 +3,12 @@
         <h2>{{ $datas->title }}</h2>
         
         <div class="choices-list">
-            <p class="choices-list-title">Faites votre choix</p>
+            <div class="choices-list-title">
+                <p>Faites votre choix<p>
+                <div class="question-arrow">
+                   <img src="@asset('images/arrow.png')">
+                </div>
+            </div>
             <ul class="choices-list-choices">
                 @foreach ($datas->contact_goals as $contact_goal)
                     <li>{{ $contact_goal }}</li>

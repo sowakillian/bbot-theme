@@ -6,20 +6,20 @@
         </div>
 
         <div class="blocks">
-            <div class="block">
+            <a href="./pdv" class="block">
                 <p class="block-title">{{ $datas->who["block1"]["title"] }}</p>
                 <p>{{ $datas->who["block1"]["description"] }}</p>
-            </div>
+            </a>
 
-            <div class="block">
+            <a href="./collectivite" class="block">
                 <p class="block-title">{{ $datas->who["block2"]["title"] }}</p>
                 <p>{{ $datas->who["block2"]["description"] }}</p>
-            </div>
+            </a>
 
-            <div class="block">
+            <a href="./autre" class="block">
                 <p class="block-title">{{ $datas->who["block3"]["title"] }}</p>
                 <p>{{ $datas->who["block2"]["description"] }}</p>
-            </div>
+            </a>
         </div>
     </div>
 </section>

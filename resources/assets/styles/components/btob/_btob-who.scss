@@ -17,6 +17,15 @@
     justify-content: space-between;
     margin-top: 60px;
 
+    a {
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(0.95);
+        text-decoration: none;
+      }
+    }
+
     .block {
       background-color: #19969a;
       border-radius: 15px;
