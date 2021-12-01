@@ -9,7 +9,7 @@
         {!! $datas->description !!}
     
         <div class="cta">
-            Vous souhaitez devenir <span>partenaire de Bbot ?</span>
+            Vous souhaitez devenir <span>partenaire de b:bot ?</span>
             <a href="../../contact">Décrivez-nous<br> votre projet ici</a>
         </div>
     </div>

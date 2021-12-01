@@ -11,7 +11,7 @@
                             <img src="@asset('images/frontpage-glitter/bbot_glitter1_1.png')">
                         </div>
                         <p class="item-text">
-                            10x plus de volume
+                            10x moins de volume
                         </p>
                     </div>
 
