@@ -23,28 +23,38 @@
     color: #353535;
   }
 
-  .nav-secondary {
-    a {
-      background-color: white;
-      color: #199699;
-      padding: 8px 15px;
-      border-radius: 10px;
-    }
+  a:hover {
+    text-decoration: none;
+  }
+
+  .current-menu-item a {
+    color: white;
   }
 
   .nav-primary {
     a {
       margin: 0 10px;
       transition: all 0.2s ease;
+    }
+  }
+
+  .nav-secondary {
+    a {
+      background-color: white;
+      color: #199699;
+      padding: 8px 15px;
+      border-radius: 10px;
+      transition: all 0.3s ease;
 
       &:hover {
-        color: white;
-        text-decoration: none;
+        box-shadow: 5px 6px 5px -3px rgba(0, 0, 0, 0.22);
+        -webkit-box-shadow: 5px 6px 5px -3px rgba(0, 0, 0, 0.22);
+        -moz-box-shadow: 5px 6px 5px -3px rgba(0, 0, 0, 0.22);
       }
     }
+  }
 
-    .current-menu-item a {
-      color: white;
-    }
+  .nav-primary a:hover {
+    color: white;
   }
 }

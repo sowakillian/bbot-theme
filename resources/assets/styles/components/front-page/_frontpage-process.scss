@@ -1,7 +1,6 @@
 .frontpage-process {
   text-align: center;
   margin: 120px auto;
-  max-width: 1080px;
 
   .swiper-button-next,
   .swiper-button-prev {
@@ -17,6 +16,27 @@
 
   .swiper-pagination-bullet-active {
     opacity: 1;
+  }
+
+  .swiper-button-next {
+    right: 25px;
+  }
+
+  .swiper-button-prev {
+    left: 25px;
+  }
+
+  .swiper-button-next.swiper-button-disabled,
+  .swiper-button-prev.swiper-button-disabled {
+    transition: opacity 0.3s ease;
+    opacity: 0;
+  }
+
+  .swiper-slide {
+    &-wrapper {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
   }
 
   .items {

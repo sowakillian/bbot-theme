@@ -1,4 +1,5 @@
 <section class="frontpage-community">
+    <img class="frontpage-community-bkg" src="@asset('images/commu_bkg.png')">
     <div class="wrap">
         <div class="frontpage-community-number">
             @foreach (array_map('intval', str_split($datas->bottle_number)) as $partner_number_item)

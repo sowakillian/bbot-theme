@@ -53,7 +53,7 @@ export default {
 
       // eslint-disable-next-line no-unused-vars
       const sliderServices = new Swiper('.btob-services .swiper', {
-        loop: true,
+        loop: false,
         pagination: {
           el: '.btob-services .swiper-pagination',
         },
