@@ -68,6 +68,25 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="swiper-slide">
+                    <div class="swiper-slide-wrapper slide5 slideEnd">
+                        <div class="btob-why-slideItem">
+                            <div class="btob-why-slideItem-title">
+                                <p>La solution de recyclage la plus simple<br> et la plus économique pour vous</p>
+                            </div>
+                            <p  class="btob-why-slideItem-desc">Autofinancée, simple pour vous, et attractive pour vos clients !</p>
+                            <div class="slideEnd-bottom">
+                                <img class="slideEnd-bottom-image" src="@asset('images/bbot-header-illu.png')">
+                                <div class="slideEnd-bottom-buttons">
+                                    <a class="slideEnd-bottom-buttons-button">Demander un devis</a>
+                                    <a class="slideEnd-bottom-buttons-button" href="../../qui-sommes-nous">En savoir plus</a>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="swiper-pagination"></div>

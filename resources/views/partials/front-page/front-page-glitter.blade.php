@@ -63,8 +63,8 @@
             <div class="swiper-slide slide3">
                 <div class="frontpage-glitter-slideHeader">
                     <h3>8 étapes en moins<br><span>dans la chaîne de recyclage.</span></h3>
-                    <p>Avec B:bot, le recyclage de votre bouteille nécessite en moyenne 8 étapes de moins que le système de collecte classique. 
-                    Recycler avec  B:bot nécessite 3 intermédiaires : Vous, B:bot, le recycleur.</p>
+                    <p>Avec b:bot, le recyclage de votre bouteille nécessite en moyenne 8 étapes de moins que le système de collecte classique. 
+                    Recycler avec  b:bot nécessite 3 intermédiaires : Vous, b:bot, le recycleur.</p>
                 </div>
 
                     <div class="frontpage-glitter-comparison">

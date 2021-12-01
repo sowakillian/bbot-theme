@@ -58,4 +58,47 @@
     margin-bottom: 60px;
     display: inline-block;
   }
+
+  .slideEnd-bottom {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+
+    &-buttons {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        padding: 15px;
+        border: none;
+        font-weight: 600;
+        border-radius: 12px;
+        transition: all 0.3s ease;
+
+        &:hover {
+          transform: scale(0.95);
+          text-decoration: none;
+          cursor: pointer;
+        }
+
+        &:first-of-type {
+          margin-bottom: 15px;
+          background-color: #23979a;
+          color: white;
+        }
+
+        &:last-of-type {
+          border: 2px solid #23979a;
+          background-color: white;
+          color: #23979a;
+        }
+      }
+    }
+
+    &-image {
+      width: 300px;
+      margin-right: 40px;
+    }
+  }
 }
