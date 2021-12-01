@@ -7,6 +7,9 @@
         geocoder
      --}}
      <div class="map-wrapper">
+        @foreach ($datas->map_points as $map_point)
+            <span class="map_point" data-latitude={{($map_point["positions"])["latitude"]}} data-longitude={{($map_point["positions"])["longitude"]}}></span>
+        @endforeach
         <div id="geocoder" class="geocoder"></div>
         
         <div class="map" id="map" style="width: 1024px; height:500px;">
@@ -17,18 +20,12 @@
 
     <script>
         mapboxgl.accessToken = 'pk.eyJ1Ijoic293YWsiLCJhIjoiY2tjZzcydzM3MG1zcDJycGZ6eXRmcmxzMyJ9.DWmLAys54iV8ggzsGFGQfA';
+        let bbotPlaces = [];
 
-        const bbotPlaces = [
-            [7.289429, 43.675819],
-            [2.130122, 48.801407],
-            [2.349014, 	48.864716],
-            [1.862801, 50.954468],
-            [8.736900, 41.926701],
-            [5.722387, 49.120277],
-            [4.390300, 45.434700],
-            [-1.552800, 47.218102],
-            [-0.594, 44.8378],
-        ];
+        document.querySelectorAll(".map_point").forEach(point => {
+            bbotPlaces.push([point.dataset.longitude, point.dataset.latitude])
+        })
+
         var map = new mapboxgl.Map({
         container: 'map',
         center: [2.00, 46.00],
