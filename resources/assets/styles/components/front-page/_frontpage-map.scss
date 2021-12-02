@@ -135,4 +135,25 @@
       }
     }
   }
+
+  @media all and (max-width: 1180px) {
+    padding: 40px 30px 80px 30px;
+    text-align: center;
+
+    .map {
+      width: 100% !important;
+    }
+  }
+
+  @media all and (max-width: 400px) {
+    padding: 60px 30px 80px 30px;
+
+    &-arrow {
+      display: none;
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+  }
 }
