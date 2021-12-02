@@ -67,7 +67,11 @@
         const geocoder = new MapboxGeocoder({
             accessToken: mapboxgl.accessToken,
             mapboxgl: mapboxgl,
-            placeholder: 'Code postal'
+            placeholder: 'Code postal',
+            marker: false,
+            flyTo: {
+                zoom: 9
+            }
         });
 
         geocoder.on('result', function(e) {
@@ -81,7 +85,13 @@
 
             if (Math.min(...distancesArray) > 30) {
                 document.querySelector(".frontpage-map-overlay").classList.add("frontpage-map-overlay-visible")
+            } else {
+                document.querySelector(".frontpage-map-overlay").classList.remove("frontpage-map-overlay-visible")
             }
+		});
+
+        geocoder.on('clear', function(e) {
+			document.querySelector(".frontpage-map-overlay").classList.remove("frontpage-map-overlay-visible")
 		});
 
         document.getElementById('geocoder').appendChild(geocoder.onAdd(map));

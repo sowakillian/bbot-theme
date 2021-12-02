@@ -146,7 +146,7 @@
                         </div>
     
                         <div class="row-item row-item-cross">
-                            <img src="@asset('images/frontpage-process/bbot_process3_right.png')">
+                            <img style="width: 200px" src="@asset('images/frontpage-process/bbot_process3_right.png')">
                         </div>
                     </div>
                 </div>
@@ -190,7 +190,7 @@
     
                     <div class="row">
                         <div class="row-item">
-                            <img src="@asset('images/frontpage-process/bot_process4_left.png')">
+                            <img style="width: 150px" src="@asset('images/frontpage-process/bot_process4_left.png')">
                         </div>
     
                         <div class="row-item">

@@ -5,7 +5,7 @@
         <div class="swiper">
             <div class="slides swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="swiper-slide-wrapper  slide-1">
+                    <div class="swiper-slide-wrapper slide-1">
                         <div class="block">
                             <div class="block-title">
                                 <span><p>1</p></span> <p>Reprise et rachat matières garanti</p>
@@ -42,6 +42,24 @@
                                 <span><p>1</p></span> <p>Reprise et rachat matières garanti</p>
                             </div>
                             <p class="btob-why-slideItem-desc">Logistique et valorisation optimisées</p>
+
+                            <div class="btob-services-slideItem-content">
+                                <div class="btob-services-slideItem-content-img">
+                                    <img src="@asset('images/btob-services/btob_services1.png')">
+                                </div>
+                                <div class="btob-services-slideItem-content-desc">
+                                    <p><span>Reprise</span> matière organisée pour s’intégrer à votre 
+                                        logistique.
+                                        <br><br>
+                                        Objectif : utiliser les m3 dans des camions déjà 
+                                        roulant plutôt que de mettre des camions 
+                                        supplémentaires sur la route
+                                    </p>
+                                    <br><br>
+                                    <p><span>Rachat</span> matière à un prix indexé sur l’ICIS Recycled
+                                        PET Europe, avec un minimum garanti</p> 
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -54,17 +72,48 @@
                                 <span><p>2</p></span> <p>Pilotage optimisé via la data</p>
                             </div>
                             <p class="btob-why-slideItem-desc">Gestion simplifiée & analyse facilitée</p>
+
+                            <div class="btob-services-slideItem-content">
+                                <div class="btob-services-slideItem-content-img">
+                                    <img style="height: 300px;" src="@asset('images/btob-services/btob_services3.png')">
+                                </div>
+                                <div class="btob-services-slideItem-content-desc">
+                                    <p>• <span>Réduit les coûts</span> de logistique et maintenance.<br>
+                                       • Suit les volume et les <span>marques collectées</span><br>
+                                       • Reconnaît automatiquement <span>les nouvelles bouteilles</span><br>
+                                    </p>
+                                    <p>Sa technologie est prête pour le <span>« sans ticket »</span><br>
+                                        • <span>Une app</span> prolonge et simplifie l’expérience utilisateur. <br>
+                                        Plus besoin de ticket pour collecter des bons d’achat 
+                                        ou points de fidélité</p> 
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="swiper-slide">
                     <div class="swiper-slide-wrapper">
-                        <div class="btob-why-slideItem">
+                        <div class="btob-why-slideItem btob-services-slideItem">
                             <div class="btob-why-slideItem-title">
                                 <span><p>3</p></span> <p>Une team à votre service</p>
                             </div>
                             <p class="btob-why-slideItem-desc">Choisir B:bot c’est rejoindre une équipe</p>
+
+                            <p class="teamDesc">• <span>Formation</span> de vos équipes<br>
+                                • <span>Hotline</span><br>
+                                • <span>Monitoring à distance</span> en temps réel (8-20h 6/7) <br>
+                                • <span>Maintenance sur site</span> préventive (toutes les 100k bouteilles) et curative (j+1)</p>
+
+                            <div class="btob-services-slideItem-content">
+                                <div class="btob-services-slideItem-content-img">
+                                    <img style="height: 175px" src="@asset('images/btob-services/btob_services4_left.png')">
+                                </div>
+                                <div class="btob-services-slideItem-content-desc">
+                                    <p>Nous accompagnons votre <span>communication</span>
+                                    <p><span>Affichages, kakemonos, stop-rayons, stickers...</span></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

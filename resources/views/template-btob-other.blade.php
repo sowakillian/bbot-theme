@@ -5,5 +5,5 @@
 @extends('layouts.app')
 
 @section('content')
-    Page à compléter
+@include('partials.btob.btob-other')
 @endsection

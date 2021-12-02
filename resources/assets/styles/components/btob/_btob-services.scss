@@ -6,6 +6,49 @@
     max-width: 100% !important;
   }
 
+  &-slideItem {
+    &-content {
+      display: flex;
+      align-items: center;
+      max-width: 90%;
+      margin: 0 auto;
+      margin-top: 50px;
+
+      p {
+        text-align: left;
+      }
+
+      span {
+        font-weight: 600;
+        color: #1d9699;
+      }
+
+      &-img {
+        width: 50%;
+        margin-right: 40px;
+
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+
+    .teamDesc {
+      text-align: left;
+      max-width: 70%;
+      margin: 20px auto 0 auto;
+
+      span {
+        font-weight: 600;
+        color: #1d9699;
+      }
+    }
+  }
+
+  .slide-1 {
+    padding: 30px 0;
+  }
+
   .swiper-slide-wrapper {
     max-width: 1080px;
     margin: 0 auto;
