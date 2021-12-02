@@ -1,9 +1,10 @@
 .header {
   background-color: #19969a;
+  padding: 0 40px;
   font-weight: 600;
   position: fixed;
   width: 100%;
-  z-index: 10;
+  z-index: 40;
   box-shadow: 1px 8px 17px -4px rgba(0, 0, 0, 0.32);
   -webkit-box-shadow: 1px 8px 17px -4px rgba(0, 0, 0, 0.32);
   -moz-box-shadow: 1px 8px 17px -4px rgba(0, 0, 0, 0.32);
@@ -56,5 +57,12 @@
 
   .nav-primary a:hover {
     color: white;
+  }
+
+  @media all and (max-width: 900px) {
+    .nav-primary,
+    .nav-secondary {
+      display: none;
+    }
   }
 }

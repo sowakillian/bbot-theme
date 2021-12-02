@@ -1,5 +1,6 @@
 .contact-choices {
   height: calc(100vh - 210px);
+  padding: 0 30px;
 
   .wrap {
     max-width: 1080px;
@@ -71,6 +72,15 @@
         color: #e72283;
         cursor: pointer;
       }
+    }
+  }
+
+  @media all and (max-width: 900px) {
+    height: auto;
+    min-height: calc(100vh - 210px);
+
+    h2 {
+      font-size: 27px;
     }
   }
 }
