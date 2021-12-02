@@ -1,36 +1,38 @@
 <section class="frontpage-glitter">
     <div class="swiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide slide1">
-                <h2>Pourquoi <span>la paillette, c'est super ?</span></h2>
+            <div class="swiper-slide">
+                <div class="swiper-slide-wrapper slide1">
+                    <h2>Pourquoi <span>la paillette, c'est super ?</span></h2>
 
-                <h3>Zoom sur les <br><span>3 atouts de la paillette.</span></h3>
-                <div class="items">
-                    <div class="item">
-                        <div class="item-image">
-                            <img src="@asset('images/frontpage-glitter/bbot_glitter1_1.png')">
+                    <h3>Zoom sur les <br><span>3 atouts de la paillette.</span></h3>
+                    <div class="items">
+                        <div class="item">
+                            <div class="item-image">
+                                <img src="@asset('images/frontpage-glitter/bbot_glitter1_1.png')">
+                            </div>
+                            <p class="item-text">
+                                10x moins de volume
+                            </p>
                         </div>
-                        <p class="item-text">
-                            10x moins de volume
-                        </p>
-                    </div>
-
-                    <div class="item">
-                        <div class="item-image">
-                            <img src="@asset('images/frontpage-glitter/bbot_glitter1_2.png')">
+    
+                        <div class="item">
+                            <div class="item-image">
+                                <img src="@asset('images/frontpage-glitter/bbot_glitter1_2.png')">
+                            </div>
+                            <p class="item-text">
+                                8 étapes en moins
+                            </p>
                         </div>
-                        <p class="item-text">
-                            8 étapes en moins
-                        </p>
-                    </div>
-
-                    <div class="item">
-                        <div class="item-image">
-                            <img src="@asset('images/frontpage-glitter/bbot_glitter1_3.png')">
+    
+                        <div class="item">
+                            <div class="item-image">
+                                <img src="@asset('images/frontpage-glitter/bbot_glitter1_3.png')">
+                            </div>
+                            <p class="item-text">
+                                100% recyclé
+                            </p>
                         </div>
-                        <p class="item-text">
-                            100% recyclé
-                        </p>
                     </div>
                 </div>
             </div>
