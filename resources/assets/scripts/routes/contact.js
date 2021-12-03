@@ -3,7 +3,7 @@
 export default {
     init() {
       this.initListClickListener();
-      this.sendMail();
+      //this.sendMail();
     },
     finalize() {
       // JavaScript to be fired on the home page, after the init JS
