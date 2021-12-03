@@ -79,6 +79,7 @@
     "bootstrap": "^4.5.3",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.7",
+    "request": "^2.88.2",
     "swiper": "^7.2.0"
   }
 }
