@@ -13,12 +13,12 @@
 
   &-videos {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 50px;
 
     .video {
-      width: 450px;
-      margin: 0 20px;
+      width: calc(50% - 20px);
+      overflow: hidden;
 
       &-image {
         height: 250px;
@@ -30,6 +30,39 @@
         background-color: red;
         color: white;
         padding: 10px 15px;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  @media all and (max-width: 900px) {
+    padding: 0 30px;
+  }
+
+  @media all and (max-width: 767px) {
+    &-videos {
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 10px;
+
+      .video {
+        width: 100%;
+        margin-bottom: 30px;
+
+        &-image {
+          background-position: center;
+          height: 220px;
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 600px) {
+    padding: 0;
+
+    .video {
+      &-image {
+        height: 170px;
       }
     }
   }

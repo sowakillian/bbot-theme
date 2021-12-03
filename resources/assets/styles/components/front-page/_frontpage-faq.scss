@@ -25,6 +25,7 @@
     margin-bottom: 50px;
     margin-top: 40px;
     position: relative;
+    background-color: white;
   }
 
   h2 {
@@ -39,6 +40,10 @@
     margin: 0 auto;
     font-size: 18px;
     transition: all 0.1s ease;
+
+    ul {
+      padding-left: 0;
+    }
 
     li {
       list-style: none;
@@ -92,6 +97,27 @@
           padding: 0 0 10px 0;
         }
       }
+    }
+  }
+
+  @media all and (max-width: 1120px) {
+    padding: 0 30px;
+  }
+
+  @media all and (max-width: 600px) {
+    h2 {
+      font-size: 80px;
+    }
+
+    .subtitle {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      padding: 8px 20px;
+      font-size: 16px;
+    }
+
+    .questions {
+      font-size: 15px;
     }
   }
 }

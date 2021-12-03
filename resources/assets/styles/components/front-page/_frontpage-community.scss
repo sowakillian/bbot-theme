@@ -22,7 +22,6 @@
 
   &-number {
     display: flex;
-    margin-right: 25px;
     margin-bottom: 20px;
     align-items: center;
     justify-content: center;
@@ -96,5 +95,46 @@
 
   p {
     font-weight: 600;
+  }
+
+  @media all and (max-width: 900px) {
+    &-number {
+      span {
+        font-size: 80px;
+      }
+    }
+  }
+
+  @media all and (max-width: 767px) {
+    .wrap {
+      padding: 60px 30px 0 30px;
+      text-align: center;
+    }
+
+    &-number {
+      span {
+        font-size: 50px;
+      }
+    }
+  }
+
+  @media all and (max-width: 600px) {
+    &-number {
+      span {
+        font-size: 30px;
+        padding: 3px 8px;
+      }
+    }
+  }
+
+  @media all and (max-width: 480px) {
+    &-networks {
+      flex-direction: column;
+
+      &-buttons {
+        margin-left: 0;
+        margin-top: 15px;
+      }
+    }
   }
 }
