@@ -66,6 +66,7 @@
     -webkit-user-select: none;
     user-select: none;
     z-index: 1;
+    display: none;
   }
 
   .button-mobile input {
@@ -127,7 +128,7 @@
 
   .nav-mobile {
     position: fixed;
-    background-color: #199699;
+    background-color: #199799ea;
     height: calc(100vh - 97px);
     padding: 30px;
     width: 100%;
@@ -136,14 +137,12 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    opacity: 0;
     visibility: hidden;
     transform: translateX(-100%);
-    transition: all 0.3s ease;
+    transition: all 0.5s ease-in-out;
 
     &-visible {
       transform: translateX(0);
-      opacity: 1;
       visibility: visible;
     }
 
@@ -170,6 +169,10 @@
     .nav-primary,
     .nav-secondary {
       display: none;
+    }
+
+    .button-mobile {
+      display: block;
     }
   }
 }
