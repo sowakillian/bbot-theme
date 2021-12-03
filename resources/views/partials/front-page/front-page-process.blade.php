@@ -3,7 +3,7 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="swiper-slide-wrapper slide1">
-                    <p class="slide-title">"Recycler ses bouteilles, <br><span>c'est simple comme B:bot."</span></p>
+                    <p class="slide-title">"Recycler ses bouteilles, <br><span>c'est simple comme b:bot."</span></p>
 
                     <div class="items">
                         <div class="item">

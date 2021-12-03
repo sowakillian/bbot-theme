@@ -4,7 +4,7 @@
     </div>
 
     <div class="frontpage-cycle-desc">
-        <h2><span>100% des bouteilles sont recyclées!</span><br> C’est notre engagement.</h2>
+        <h2><span>100% des bouteilles sont recyclées !</span><br> C’est notre engagement.</h2>
 
         <p class="how">Et on vous explique comment.</p>
         <p>Toutes les bouteilles colectées par B:bot sont broyées en paillettes.</p>
