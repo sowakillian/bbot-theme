@@ -114,16 +114,20 @@
 
   .button-mobile input:checked ~ span {
     opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
+    transform: rotate(45deg) translate(1px, 0);
   }
 
-  .button-mobile input:checked ~ span:nth-last-child(3) {
+  .button-mobile input:checked ~ span:nth-of-type(2) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
 
   .button-mobile input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  .button-mobile input:checked ~ span:nth-of-type(3) {
+    transform: rotate(-45deg) translate(-2px, -1px);
   }
 
   .nav-mobile {
