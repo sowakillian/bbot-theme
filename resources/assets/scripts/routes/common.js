@@ -3,9 +3,16 @@ export default {
     console.warn('listenquestio init')
     this.listenQuestionClicked();
     this.addSmoothScrolling();
+    this.listenMobileNavClicked();
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired
+  },
+
+  listenMobileNavClicked () {
+    document.querySelector('.button-mobile').addEventListener('click', () => {
+      document.querySelector('.nav-mobile').classList.toggle('nav-mobile-visible')
+    })
   },
 
   listenQuestionClicked () {
