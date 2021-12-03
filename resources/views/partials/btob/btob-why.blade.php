@@ -124,7 +124,6 @@
                                 <img class="slideEnd-bottom-image" src="@asset('images/bbot-header-illu.png')">
                                 <div class="slideEnd-bottom-buttons">
                                     <a class="slideEnd-bottom-buttons-button">Demander un devis</a>
-                                    <a class="slideEnd-bottom-buttons-button" href="../../qui-sommes-nous">En savoir plus</a>
                                 </div>
                             </div>
     

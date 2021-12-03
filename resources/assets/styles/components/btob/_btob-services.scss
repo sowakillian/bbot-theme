@@ -125,17 +125,9 @@
           cursor: pointer;
         }
 
-        &:first-of-type {
-          margin-bottom: 15px;
-          background-color: #23979a;
-          color: white;
-        }
-
-        &:last-of-type {
-          border: 2px solid #23979a;
-          background-color: white;
-          color: #23979a;
-        }
+        margin-bottom: 15px;
+        background-color: #23979a;
+        color: white;
       }
     }
 

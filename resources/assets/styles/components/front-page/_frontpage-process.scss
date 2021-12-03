@@ -39,6 +39,19 @@
     }
   }
 
+  &-header {
+    align-items: center !important;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    margin-top: 0 !important;
+
+    .item-image {
+      img {
+        height: 85px;
+      }
+    }
+  }
+
   .items {
     display: flex;
     justify-content: space-around;
@@ -61,10 +74,6 @@
         }
       }
     }
-  }
-
-  &-header {
-    align-items: center !important;
   }
 
   .row {
@@ -94,10 +103,6 @@
         font-weight: 800;
       }
     }
-  }
-
-  .slide1 {
-    padding: 120px 0;
   }
 
   .slide2 {
