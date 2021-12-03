@@ -21,15 +21,16 @@
   a,
   a:visited {
     font-size: 14px;
-    color: #353535;
+    color: white;
   }
 
   a:hover {
     text-decoration: none;
+    color: #d53c84;
   }
 
   .current-menu-item a {
-    color: white;
+    color: #d53c84;
   }
 
   .nav-primary {
@@ -56,7 +57,7 @@
   }
 
   .nav-primary a:hover {
-    color: white;
+    color: #d53c84;
   }
 
   @media all and (max-width: 900px) {

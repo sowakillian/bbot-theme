@@ -64,6 +64,8 @@
         style: 'mapbox://styles/mapbox/streets-v11'
         });
 
+        map.addControl(new mapboxgl.NavigationControl());
+
         const geocoder = new MapboxGeocoder({
             accessToken: mapboxgl.accessToken,
             mapboxgl: mapboxgl,
