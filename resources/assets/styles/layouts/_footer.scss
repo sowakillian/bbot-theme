@@ -13,4 +13,8 @@
       color: #19969a;
     }
   }
+
+  @media all and (max-width: 440px) {
+    font-size: 14px;
+  }
 }
