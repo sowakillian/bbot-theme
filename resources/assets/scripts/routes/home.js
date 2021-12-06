@@ -34,5 +34,19 @@ export default {
         prevEl: '.frontpage-process .swiper-button-prev',
       },
     });
+
+    // eslint-disable-next-line no-unused-vars
+    const sliderTestimonials = new Swiper('.frontpage-community .swiper', {
+      loop: false,
+      slidesPerView: 1,
+      breakpoints: {
+        700: {
+          slidesPerView: 2,
+        },
+      },
+      pagination: {
+        el: '.frontpage-community .swiper-pagination',
+      },
+    });
   },
 };

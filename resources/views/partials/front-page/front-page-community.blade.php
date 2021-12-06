@@ -9,14 +9,21 @@
         <p class="frontpage-community-subtitle">bouteilles plastiques recyclées !</p>
         <p class="frontpage-community-distance">L’équivalant de la distance entre Paris et Venise en nombre de bouteilles bout à bout.</p>
     
-        <div class="frontpage-community-testimonials">
-            @foreach ($datas->testimonials as $testimonial)
-            <div class="item">
-                <img src={{ ($testimonial["photo"])["url"] }} />
-                <p class="name">{{ $testimonial["name_age"] }}</p>
-                <p class="message">“ {{ $testimonial["message"] }} ”
+        <div class="frontpage-community-testimonials swiper">
+            <div class="swiper-wrapper">
+                @foreach ($datas->testimonials as $testimonial)
+                <div class="swiper-slide">
+                    <div class="swiper-slide-wrapper item">
+                        <img src={{ ($testimonial["photo"])["url"] }} />
+                        <p class="name">{{ $testimonial["name_age"] }}</p>
+                        <p class="message">“ {{ $testimonial["message"] }} ”
+                    </div>
+                </div>
+                @endforeach
             </div>
-            @endforeach
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
 
         <div class="frontpage-community-networks">
