@@ -1,0 +1,38 @@
+.btob-market-header {
+  .slideItem {
+    &-desc {
+      margin-top: 20px;
+      font-weight: 500;
+      font-size: 25px;
+    }
+
+    &-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #23979a;
+      font-size: 30px;
+      font-weight: 700;
+
+      p {
+        margin-bottom: 0;
+      }
+
+      span {
+        margin-right: 15px;
+        color: white;
+        background-color: #23979a;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+
+        p {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
