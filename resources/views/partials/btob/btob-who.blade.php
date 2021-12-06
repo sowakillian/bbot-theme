@@ -18,7 +18,7 @@
 
             <a href="./autre" class="block">
                 <p class="block-title">{{ $datas->who["block3"]["title"] }}</p>
-                <p>{{ $datas->who["block2"]["description"] }}</p>
+                <p>{{ $datas->who["block3"]["description"] }}</p>
             </a>
         </div>
     </div>

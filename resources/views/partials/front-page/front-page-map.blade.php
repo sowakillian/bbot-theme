@@ -10,10 +10,12 @@
         @foreach ($datas->map_points as $map_point)
             <span 
             class="map_point" 
-            data-name={{($map_point["positions"])["name"]}}
-            data-enseigne={{($map_point["positions"])["enseigne"]}}
+            data-name={{(str_replace(' ', '_', $map_point["positions"])["name"])}}
+            data-enseigne={{(str_replace(' ', '_', $map_point["positions"])["enseigne"])}}
             data-latitude={{($map_point["positions"])["latitude"]}} 
-            data-longitude={{($map_point["positions"])["longitude"]}}>
+            data-longitude={{($map_point["positions"])["longitude"]}}
+            data-address={{(str_replace(' ', '_', $map_point["positions"])["address"])}}
+            >
         </span>
         @endforeach
         <div id="geocoder" class="geocoder"></div>
@@ -50,7 +52,7 @@
         }
 
         document.querySelectorAll(".map_point").forEach(point => {
-            bbotPlaces.push({name: point.dataset.name, enseigne: point.dataset.enseigne, lngLat: [point.dataset.longitude, point.dataset.latitude]});
+            bbotPlaces.push({name: point.dataset.name, address: point.dataset.address, enseigne: point.dataset.enseigne, lngLat: [point.dataset.longitude, point.dataset.latitude]});
         })
 
         document.querySelector(".frontpage-map-overlay .cross").addEventListener("click", () => {
@@ -103,7 +105,7 @@
             .setLngLat(place.lngLat)
             .setPopup(
                 new mapboxgl.Popup({ offset: 25 }) // add popups
-            .setHTML( `<h3>${place.enseigne}</h3><p>${place.name}</p>`)
+            .setHTML( `<h3>${place.enseigne.replaceAll("_", " ")}</h3><p>${place.name.replaceAll("_", " ")}</p><p>${place.address.replaceAll("_", " ")}</p>`)
   )
             .addTo(map);
         })
