@@ -162,6 +162,7 @@
 
     h2 {
       font-size: 20px !important;
+      margin-top: 30px;
     }
 
     h3 {
@@ -247,6 +248,13 @@
 
     .swiper-slide-wrapper {
       padding: 0 30px;
+    }
+  }
+
+  @media all and (max-width: 400px) {
+    h2,
+    h3 {
+      font-size: 25px !important;
     }
   }
 }

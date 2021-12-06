@@ -12,6 +12,22 @@
     color: #19969a;
     text-decoration: underline;
     font-weight: 600;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .mapboxgl-canvas {
+    border-radius: 30px;
+  }
+
+  .mapboxgl-ctrl-logo {
+    display: none;
+  }
+
+  .mapboxgl-ctrl-attrib-inner {
+    display: none;
   }
 
   &-overlay {

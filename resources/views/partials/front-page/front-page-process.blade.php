@@ -138,7 +138,7 @@
                     <p class="slide-title">Scannez vos bouteilles codes-barre vers le haut<span> et le tour est joué !</span></p>
                     <div class="row">
                         <div class="row-item">
-                            <p>Pourquoi j’ai besoin de scanner ma bouteille ?</p>
+                            <p class="question">Pourquoi j’ai besoin de scanner ma bouteille ?</p>
                             <p>Le code-barres permet à b:bot de vérifier que c’est une bouteille acceptée et d’identifier sa couleur. 
                                 Les plastiques colorés ne se recyclent pas de la même manière que les plastiques transparents</p>
                             <p>Petit conseil:</p>
