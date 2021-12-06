@@ -256,5 +256,13 @@
     h3 {
       font-size: 25px !important;
     }
+
+    .swiper-button-prev {
+      left: 10px;
+    }
+
+    .swiper-button-next {
+      right: 10px;
+    }
   }
 }

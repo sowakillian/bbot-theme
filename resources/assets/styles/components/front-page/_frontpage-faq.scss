@@ -102,6 +102,11 @@
 
   @media all and (max-width: 1120px) {
     padding: 0 30px;
+
+    &-bkg {
+      max-width: 100%;
+      width: auto;
+    }
   }
 
   @media all and (max-width: 600px) {

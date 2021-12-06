@@ -60,6 +60,7 @@
   &-testimonials {
     margin-top: 200px;
     display: flex;
+    flex-wrap: wrap;
 
     .item {
       border: 1px solid rgba(128, 128, 128, 0.151);
