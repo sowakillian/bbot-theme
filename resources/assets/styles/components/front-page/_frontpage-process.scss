@@ -290,6 +290,18 @@
   }
 
   @media all and (max-width: 400px) {
+    .row {
+      padding: 0 30px;
+    }
+
+    .swiper-button-prev {
+      left: 10px;
+    }
+
+    .swiper-button-next {
+      right: 10px;
+    }
+
     .slide-title {
       font-size: 25px !important;
     }
