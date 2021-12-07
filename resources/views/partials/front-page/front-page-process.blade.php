@@ -249,6 +249,10 @@
                         <img src="@asset('images/frontpage-process/bbot_process5_full.png')">
                 </div>
             </div>
+
+            <div class="swiper-slide slide5">
+                @include('partials.front-page.front-page-map3')
+            </div>
         </div>
 
         <div class="swiper-pagination"></div>

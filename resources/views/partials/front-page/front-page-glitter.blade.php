@@ -108,6 +108,9 @@
                     </div>
             </div>
 
+            <div class="swiper-slide slide5">
+                @include('partials.front-page.front-page-map2')
+            </div>
         </div>
 
         <div class="swiper-pagination"></div>

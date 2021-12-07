@@ -1,6 +1,21 @@
 .frontpage-process {
   text-align: center;
   margin: 120px auto;
+  position: relative;
+
+  .frontpage-map {
+    padding: 60px 0 64px 0;
+
+    .wrap {
+      .map {
+        height: 395px;
+      }
+    }
+  }
+
+  .frontpage-map-arrow {
+    display: none;
+  }
 
   .swiper-button-next,
   .swiper-button-prev {
@@ -184,6 +199,11 @@
   @media all and (max-width: 1180px) {
     margin: 50px auto;
 
+    .frontpage-map {
+      padding: 40px 30px 80px 30px;
+      text-align: center;
+    }
+
     .swiper-slide-wrapper {
       padding: 0 30px;
     }
@@ -286,6 +306,16 @@
   @media all and (max-width: 480px) {
     &-header {
       max-width: 310px;
+    }
+
+    .frontpage-map {
+      padding: 40px 30px 80px 30px;
+
+      .wrap {
+        .map {
+          height: 600px !important;
+        }
+      }
     }
   }
 
