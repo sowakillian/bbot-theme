@@ -3,9 +3,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 140px 0;
   max-width: 1080px;
   margin: 0 auto;
+  min-height: calc(100vh - 130px);
 
   &-image {
     margin-right: 50px;
@@ -53,16 +53,18 @@
         background-color: white;
         border: 2px solid #19969a;
         color: #19969a;
+        text-align: center;
       }
     }
   }
 
   @media all and (max-width: 1180px) {
-    padding: 80px 30px;
+    padding: 0 30px;
   }
 
   @media all and (max-width: 767px) {
     flex-direction: column-reverse;
+    min-height: none;
     padding: 50px 30px;
     text-align: center;
 

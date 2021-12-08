@@ -1,4 +1,4 @@
-<section class="btob-why">
+<section class="btob-why" id="btob-why">
     <div class="wrap">
         <h2>Pourquoi choisir b:bot ?</h2>
 

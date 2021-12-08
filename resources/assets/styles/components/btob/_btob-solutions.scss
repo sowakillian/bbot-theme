@@ -24,6 +24,15 @@
       flex-direction: column;
       justify-content: space-between;
 
+      a {
+        transition: all 0.3s ease;
+
+        &:hover {
+          transform: scale(0.95);
+          text-decoration: none;
+        }
+      }
+
       img {
         margin: 30px auto 0 auto;
         max-width: 100%;

@@ -12,10 +12,10 @@
 
                 <img src="@asset('images/bbot_solution.png')" style="width: 153px;">
 
-                <div class="fiche">
+                <a target="_blank" href="{{ $datas->solutions["block1"]["pdf_file"]["url"] }}" class="fiche">
                     <p>Fiche technique</p>
                     <p>{{ $datas->solutions["block1"]["title"] }}</p>
-                </div>
+                </a>
             </div>
 
             <div class="card card-green">
@@ -27,10 +27,10 @@
 
                 <img src="@asset('images/bbot_solution_xl.png')">
 
-                <div class="fiche">
+                <a target=_blank href="{{ $datas->solutions["block2"]["pdf_file"]["url"] }}" class="fiche">
                     <p>Fiche technique</p>
                     <p>{{ $datas->solutions["block2"]["title"] }}</p>
-                </div>
+                </a>
             </div>
 
             <div class="card">
@@ -42,10 +42,10 @@
 
                 <img src="@asset('images/bbot_solution_xxl.png')">
 
-                <div class="fiche">
+                <a target=_blank href="{{ $datas->solutions["block3"]["pdf_file"]["url"] }}" class="fiche">
                     <p>Fiche technique</p>
                     <p>{{ $datas->solutions["block3"]["title"] }}</p>
-                </div>
+                </a>
             </div>
         </div>
     </div>
