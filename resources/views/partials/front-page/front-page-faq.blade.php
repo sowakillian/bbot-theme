@@ -4,8 +4,6 @@
     </div>
 
     <h2>F.A.Q</h2>
-
-    <a href="./contact" class="subtitle">Posez votre question</a>
     
     <div class="questions">
         <ul>
@@ -22,4 +20,6 @@
             @endforeach
         </ul>
     </div>
+
+    <a href="./contact" class="subtitle">Posez votre question</a>
 </section>

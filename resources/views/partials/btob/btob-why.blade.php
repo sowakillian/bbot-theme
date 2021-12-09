@@ -73,7 +73,7 @@
                             <div class="items">
                                 <div class="item">
                                     <img src="@asset('images/btob-why/btob_why3_left.png')" style="width: 160px">
-                                    <p>Machine conçue pour broyer <span>3000 bouteilles</span> dans 1m2.</p>
+                                    <p>Machine conçue pour broyer <span>3500 bouteilles</span> dans 1m2.</p>
                                 </div>
     
                                 <div class="item">
