@@ -3,7 +3,7 @@
         <div class="btob-collectivity-you">
             Vous êtes ...
         </div> 
-        <h2>Un point de vente à l'étranger, une entreprise, un aéroport, une gare, un évènement..</h2>
+        <h2>Un point de vente à l'étranger,<br> une entreprise, un aéroport, une gare, un évènement..</h2>
     
         <h1>{{ $datas->title }}</h1>
         {!! $datas->description !!}
