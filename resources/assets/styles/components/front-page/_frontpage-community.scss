@@ -94,6 +94,7 @@
       border: 1px solid rgba(128, 128, 128, 0.151);
       padding: 25px;
       margin-right: 20px;
+      min-height: 370px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -108,6 +109,7 @@
         height: 60px;
         border-radius: 50%;
         margin: 0 auto 20px auto;
+        object-fit: cover;
       }
 
       .name {
