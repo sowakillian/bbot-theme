@@ -13,10 +13,15 @@ export default {
     // eslint-disable-next-line no-unused-vars
     const sliderTestimonials = new Swiper('.btob-testimonials .swiper', {
       loop: false,
-      slidesPerView: 3,
+      slidesPerView: 1,
+      breakpoints: {
+        767: {
+          slidesPerView: 3,
+        },
+      },
       spaceBetween: 60,
       centeredSlides: true,
-      initialSlide : 2,
+      initialSlide : 1,
       pagination: {
         el: '.btob-testimonials .swiper-pagination',
       },
@@ -41,7 +46,12 @@ export default {
       // eslint-disable-next-line no-unused-vars
       const sliderThanks = new Swiper('.btob-thanks .swiper', {
         loop: false,
-        slidesPerView: 3,
+        slidesPerView: 1,
+        breakpoints: {
+          767: {
+            slidesPerView: 3,
+          },
+        },
         spaceBetween: 60,
         centeredSlides: true,
         initialSlide: 1,
