@@ -3,7 +3,7 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="swiper-slide-wrapper slide1">
-                    <p class="slide-title">"Recycler ses bouteilles, <br><span>c'est simple comme b:bot."</span></p>
+                    <p class="slide-title">"Recycler ses bouteilles, <br><span>c'est simple comme b:bot"</span></p>
 
                     <div class="items">
                         <div class="item">
@@ -81,7 +81,7 @@
     
                     <p class="slide-title">Triez à<span> la maison</span></p>
                     <p>Pour vous simplifier la vie, déposez vos bouteilles vides directement dans vos sacs de course.
-                        b:bot accepte toutes les bouteilles boissons en PET jusqu’à 2,5 litres, vides et avec leurs étiquettes pour 
+                        B:bot accepte toutes les bouteilles boissons en PET jusqu’à 2,5 litres, vides et avec leurs étiquettes pour 
                         avoir le code-barres qui permet de les reconnaître...</p>
                         <a href="#">En savoir plus...</a>
     
@@ -135,7 +135,7 @@
                         </div>
                     </div>
     
-                    <p class="slide-title">Scannez vos bouteilles codes-barre vers le haut<span> et le tour est joué !</span></p>
+                    <p class="slide-title">Scannez vos bouteilles code-barres vers le haut<span> et le tour est joué !</span></p>
                     <div class="row">
                         <div class="row-item">
                             <p class="question">Pourquoi j’ai besoin de scanner ma bouteille ?</p>

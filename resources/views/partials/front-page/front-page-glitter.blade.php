@@ -3,9 +3,9 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="swiper-slide-wrapper slide1">
-                    <h2>Pourquoi <span>la paillette, c'est super ?</span></h2>
+                    <h2>Pourquoi <span>les paillettes c'est super ?</span></h2>
 
-                    <h3>Zoom sur les <br><span>3 atouts de la paillette.</span></h3>
+                    <h3>Zoom sur les <br><span>3 atouts de la paillette</span></h3>
                     <div class="items">
                         <div class="item">
                             <div class="item-image">

@@ -5,7 +5,7 @@
     </div>
 
     <div class="frontpage-header-desc">
-        <h2>La meilleure manière de <span>recycler vos bouteilles.</span></h2>
+        <h2>La meilleure manière de <span>recycler vos bouteilles</span></h2>
 
         {!! $datas->header_text !!}
 

@@ -6,7 +6,7 @@
                 <span>{{ $partner_number_item }}</span>
             @endforeach
         </div>
-        <p class="frontpage-community-subtitle">bouteilles plastiques recyclées !</p>
+        <p class="frontpage-community-subtitle">bouteilles plastique recyclées !</p>
         <p class="frontpage-community-distance">L’équivalant de la distance entre Paris et Venise en nombre de bouteilles bout à bout.</p>
     
         <div class="frontpage-community-testimonials swiper">
