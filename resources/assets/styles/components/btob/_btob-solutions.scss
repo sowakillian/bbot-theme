@@ -76,4 +76,56 @@
       }
     }
   }
+
+  @media all and (max-width: 767px) {
+    .cards {
+      .card {
+        padding: 22px;
+      }
+
+      .card-title {
+        font-size: 28px;
+      }
+    }
+
+    li {
+      font-size: 14px;
+    }
+  }
+
+  @media all and (max-width: 700px) {
+    .wrap {
+      width: 100%;
+
+      h2 {
+        margin-bottom: 0;
+      }
+    }
+
+    .cards {
+      flex-direction: column;
+      width: 100%;
+
+      .card {
+        width: 100%;
+        border-radius: 0;
+        min-height: 500px;
+      }
+    }
+  }
+
+  @media all and (max-width: 480px) {
+    .wrap {
+      h2 {
+        font-size: 22px;
+        padding: 15px 15px;
+      }
+    }
+
+    .cards {
+      .card {
+        padding: 30px 22px;
+      }
+    }
+  }
 }

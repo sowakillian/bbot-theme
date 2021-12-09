@@ -1,6 +1,5 @@
 .btob-market-header {
-  padding: 50px 0;
-  height: calc(100vh - 180px);
+  min-height: calc(100vh - 180px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,6 +83,69 @@
     &-image {
       width: 300px;
       margin-right: 40px;
+    }
+  }
+
+  @media all and (max-width: 767px) {
+    padding: 0 30px;
+  }
+
+  @media all and (max-width: 600px) {
+    padding: 0 30px;
+
+    .slideItem {
+      &-title {
+        p {
+          font-size: 25px;
+        }
+      }
+
+      &-desc {
+        font-size: 18px;
+      }
+    }
+
+    .slideEnd {
+      &-bottom {
+        flex-direction: column;
+
+        &-image {
+          width: 200px;
+          margin-right: 0;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 480px) {
+    padding: 30px;
+
+    .slideItem {
+      &-title {
+        p {
+          font-size: 22px;
+        }
+      }
+
+      &-desc {
+        font-size: 14px;
+      }
+    }
+
+    .slideEnd {
+      &-bottom {
+        &-buttons {
+          a {
+            font-size: 14px;
+            padding: 10px;
+          }
+
+          .button-white {
+            padding: 8px 10px;
+          }
+        }
+      }
     }
   }
 }
