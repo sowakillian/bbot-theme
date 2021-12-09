@@ -10,7 +10,8 @@
                     {!! $datas->solutions["block1"]["description"] !!}
                 </div>
 
-                <img src="@asset('images/bbot_solution.png')" style="width: 153px;">
+
+                <img src="{{ $datas->solutions["block1"]["image"] }}" style="width: 153px;">
 
                 <a target="_blank" href="{{ $datas->solutions["block1"]["pdf_file"]["url"] }}" class="fiche">
                     <p>Fiche technique</p>
@@ -25,7 +26,7 @@
                     {!! $datas->solutions["block2"]["description"] !!}
                 </div>
 
-                <img src="@asset('images/bbot_solution_xl.png')">
+                <img src="{{ $datas->solutions["block2"]["image"] }}">
 
                 <a target=_blank href="{{ $datas->solutions["block2"]["pdf_file"]["url"] }}" class="fiche">
                     <p>Fiche technique</p>
@@ -40,7 +41,7 @@
                     {!! $datas->solutions["block3"]["description"] !!}
                 </div>
 
-                <img src="@asset('images/bbot_solution_xxl.png')">
+                <img src="{{ $datas->solutions["block3"]["image"] }}">
 
                 <a target=_blank href="{{ $datas->solutions["block3"]["pdf_file"]["url"] }}" class="fiche">
                     <p>Fiche technique</p>
