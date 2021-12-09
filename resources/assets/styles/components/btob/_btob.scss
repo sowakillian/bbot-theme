@@ -70,4 +70,29 @@
       }
     }
   }
+
+  @media all and (max-width: 1180px) {
+    .block-title {
+      font-size: 25px;
+
+      span {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    .block {
+      &-image {
+        max-width: 70%;
+      }
+    }
+  }
+
+  @media all and (max-width: 500px) {
+    h2 {
+      font-size: 22px;
+      padding: 15px;
+      max-width: 90%;
+    }
+  }
 }

@@ -207,4 +207,22 @@
       margin-right: 40px;
     }
   }
+
+  @media all and (max-width: 1180px) {
+    .swiper-slide-wrapper {
+      padding: 80px 30px;
+    }
+  }
+
+  @media all and (max-width: 767px) {
+    .slide1 {
+      flex-direction: column;
+      padding: 0 30px;
+
+      & > * {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  }
 }
