@@ -40,11 +40,9 @@ export default {
         document.querySelectorAll('.choices-list li').forEach(item => {
             item.addEventListener('click', (e) => {
                 const fields = e.target.dataset.fields
-                console.warn('fields', fields)
 
                 document.querySelectorAll('.contact-form-field').forEach((field) => {
-                  console.warn('field', field.id)
-                  if (!fields.includes(field.id)) {
+                  if (!fields.includes(field.id) && field.id !== 'message') {
                     field.classList.add('contact-form-field-disabled');
                     field.removeAttribute('required')
                   } else {

@@ -13,11 +13,16 @@
 
             <div class="contact-form-row">
                 <input class="contact-form-field" type="email" placeholder="Email*" name="email" id="email"/>
-                <input type="text" placeholder="Organisme représenté*" name="company" id="company"/>
+                <input class="contact-form-field" type="phone" placeholder="Téléphone*" name="phone" id="phone"/>
+            </div>
+            
+            <div class="contact-form-row">
+                <input class="contact-form-field" type="text" placeholder="Organisme représenté*" name="company" id="company"/>
+                <input class="contact-form-field" type="text" placeholder="Poste au sein de l'organisme*" name="company_role" id="company_role"/>
             </div>
 
             <div class="contact-form-row">
-                <input class="contact-form-field" type="phone" placeholder="Téléphone*" name="phone" id="phone"/>
+                <input class="contact-form-field" type="text" placeholder="Domaine d'activité*" name="activity_domain" id="activity_domain"/>
             </div>
 
             <div class="contact-form-row">
