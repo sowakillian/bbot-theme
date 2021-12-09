@@ -3,6 +3,7 @@
 export default {
     init() {
       this.initListClickListener();
+      this.initFormSending();
       //this.sendMail();
     },
     finalize() {
@@ -25,17 +26,28 @@ export default {
 
     },
 
+    initFormSending() {
+      document.querySelector('.contact-form-form').addEventListener('submit', (e) => {
+        e.preventDefault()
+        document.querySelector('.contact-form').classList.remove('contact-form-visible')
+        document.querySelector('.contact-choices h2').innerHTML = 'Message envoyé ✅'
+        document.querySelector('.contact-form-form').reset()
+      })
+    },
+
     initListClickListener() {
         document.querySelectorAll('.choices-list li').forEach(item => {
             console.warn(item)
             item.addEventListener('click', () => {
                 document.querySelector('.contact-form h2').innerHTML = item.innerHTML;
+                document.querySelector('.contact-choices h2').innerHTML = 'Contact en cours..'
                 document.querySelector('.contact-form').classList.add('contact-form-visible')
             })
         })
 
         document.querySelector('.cross').addEventListener('click', () => {
             document.querySelector('.contact-form').classList.remove('contact-form-visible')
+            document.querySelector('.contact-choices h2').innerHTML = 'Que cherchez-vous ?'
         })
 
         document.querySelector('.choices-list-title').addEventListener('click', () => {

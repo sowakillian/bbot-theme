@@ -30,11 +30,13 @@ export default {
     const videosReviewsVideos = document.querySelector('.videos-reviews-videos');
     let isOpened = false;
 
-    videosMoreButton.addEventListener('click', () => {
-      isOpened = !isOpened
-      videosMoreButton.innerHTML = isOpened ? 'Refermer' : 'Voir plus'
-      videosReviewsVideos.classList.toggle('videos-reviews-videos-opened')
-    })
+    if (videosMoreButton) {
+      videosMoreButton.addEventListener('click', () => {
+        isOpened = !isOpened
+        videosMoreButton.innerHTML = isOpened ? 'Refermer' : 'Voir plus'
+        videosReviewsVideos.classList.toggle('videos-reviews-videos-opened')
+      })
+    }
   },
 
   addSmoothScrolling() {
