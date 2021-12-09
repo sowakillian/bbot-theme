@@ -32,13 +32,26 @@ export default {
         document.querySelector('.contact-form').classList.remove('contact-form-visible')
         document.querySelector('.contact-choices h2').innerHTML = 'Message envoyé ✅'
         document.querySelector('.contact-form-form').reset()
+        this.resetFormFields()
       })
     },
 
     initListClickListener() {
         document.querySelectorAll('.choices-list li').forEach(item => {
-            console.warn(item)
-            item.addEventListener('click', () => {
+            item.addEventListener('click', (e) => {
+                const fields = e.target.dataset.fields
+                console.warn('fields', fields)
+
+                document.querySelectorAll('.contact-form-field').forEach((field) => {
+                  console.warn('field', field.id)
+                  if (!fields.includes(field.id)) {
+                    field.classList.add('contact-form-field-disabled');
+                    field.removeAttribute('required')
+                  } else {
+                    field.setAttribute('required', '')
+                  }
+                })
+
                 document.querySelector('.contact-form h2').innerHTML = item.innerHTML;
                 document.querySelector('.contact-choices h2').innerHTML = 'Contact en cours..'
                 document.querySelector('.contact-form').classList.add('contact-form-visible')
@@ -47,6 +60,7 @@ export default {
 
         document.querySelector('.cross').addEventListener('click', () => {
             document.querySelector('.contact-form').classList.remove('contact-form-visible')
+            this.resetFormFields()
             document.querySelector('.contact-choices h2').innerHTML = 'Que cherchez-vous ?'
         })
 
@@ -54,6 +68,14 @@ export default {
           document.querySelector('.choices-list-choices').classList.toggle('choices-list-choices-visible')
           document.querySelector('.question-arrow').classList.toggle('question-arrow-clicked')
         })
+    },
+
+    resetFormFields() {
+      setTimeout(() => {
+        document.querySelectorAll('.contact-form-field').forEach((field) => {
+          field.classList.remove('contact-form-field-disabled');
+        })
+      }, 500)
     },
   };
   

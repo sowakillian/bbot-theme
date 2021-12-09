@@ -10,8 +10,8 @@
                 </div>
             </div>
             <ul class="choices-list-choices">
-                @foreach ($datas->contact_goals as $contact_goal)
-                    <li>{{ $contact_goal }}</li>
+                @foreach ($datas->contact_goals_v2 as $contact_goal)
+                    <li data-fields="{{ implode(",", $contact_goal["fields"]) }}">{{ $contact_goal["goal"] }}</li>
                 @endforeach
             </ul>
         </div>
