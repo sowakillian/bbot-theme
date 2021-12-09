@@ -73,7 +73,7 @@
 
   @media all and (max-width: 1180px) {
     .block-title {
-      font-size: 25px;
+      font-size: 22px;
 
       span {
         width: 40px;
@@ -84,6 +84,15 @@
     .block {
       &-image {
         max-width: 70%;
+      }
+    }
+  }
+
+  @media all and (max-width: 767px) {
+    .block-image {
+      img {
+        max-width: 60%;
+        margin-top: 20px;
       }
     }
   }
