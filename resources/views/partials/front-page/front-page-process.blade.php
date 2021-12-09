@@ -198,7 +198,7 @@
                                 à ce moment là, c’est 
                                 admirer votre chef-d’oeuvre 
                                 “la bouteille qui se transforme 
-                                en paillettes” et d’être fier 
+                                en paillettes”. Vous pouvez être fier
                                 de vous puisque vous venez
                                 de réussir un “100% recyclé”.</p>
                         </div>
