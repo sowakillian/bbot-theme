@@ -1,15 +1,12 @@
 <div class="videos-reviews">
     <div class="videos-reviews-videos">
-        <a href="#"  class="video">
-            <div class="video-image"  style="background-image: url(@asset('images/review-1245.png'));"></div>
-             <p class="video-text">Replay Greenbig M6 12:45 03/07</p>
+        @foreach ($datas->reviews as $review)
+        <a target="_blank" href="{{ $review["link"] }}"  class="video">
+            <div class="video-image"  style="background-image: url('{{ $review["image"]["url"] }}');"></div>
+             <p class="video-text">{{ $review["title"] }}</p>
         </a>
-    
-        <a href="#" class="video">
-            <div class="video-image" style="background-image: url(@asset('images/review-telematin.png'));"></div>
-            <p class="video-text">B:bot lèvetôt: Extrait dur eportage sur Télématin</p>
-        </a>
+        @endforeach
     </div>
     
-    <button>En voir plus</button>
+    <button class="videos-reviews-more">En voir plus</button>
 </div>

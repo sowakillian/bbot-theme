@@ -14,11 +14,21 @@
   &-videos {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    max-height: 320px;
+    overflow: hidden;
+    transition: all 1s ease;
+
+    &-opened {
+      max-height: 2000px;
+    }
 
     .video {
       width: calc(50% - 20px);
       overflow: hidden;
+      margin-bottom: 30px;
 
       &-image {
         height: 250px;
@@ -28,9 +38,11 @@
 
       &-text {
         background-color: red;
+        overflow: hidden;
         color: white;
         padding: 10px 15px;
         white-space: nowrap;
+        text-overflow: ellipsis;
       }
     }
   }

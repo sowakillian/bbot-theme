@@ -4,6 +4,7 @@ export default {
     this.listenQuestionClicked();
     this.addSmoothScrolling();
     this.listenMobileNavClicked();
+    this.listenSeeMoreClicked();
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired
@@ -21,6 +22,18 @@ export default {
             item.querySelector('.question-answer').classList.toggle('question-answer-visible')
             item.querySelector('.question-arrow').classList.toggle('question-arrow-clicked')
         })
+    })
+  },
+
+  listenSeeMoreClicked() {
+    const videosMoreButton = document.querySelector('.videos-reviews-more');
+    const videosReviewsVideos = document.querySelector('.videos-reviews-videos');
+    let isOpened = false;
+
+    videosMoreButton.addEventListener('click', () => {
+      isOpened = !isOpened
+      videosMoreButton.innerHTML = isOpened ? 'Refermer' : 'Voir plus'
+      videosReviewsVideos.classList.toggle('videos-reviews-videos-opened')
     })
   },
 
