@@ -81,5 +81,33 @@
     .wrap {
       padding: 0 30px;
     }
+
+    .swiper-button-prev {
+      left: -5px;
+      color: white;
+
+      img {
+        display: none;
+      }
+
+      &::after {
+        font-size: 13px;
+        content: "prev";
+      }
+    }
+
+    .swiper-button-next {
+      right: -5px;
+      color: white;
+
+      img {
+        display: none;
+      }
+
+      &::after {
+        font-size: 13px;
+        content: "next";
+      }
+    }
   }
 }
