@@ -4,7 +4,7 @@
   width: 100%;
   position: fixed;
   left: 0;
-  height: calc(100% - 97px);
+  min-height: calc(100% - 97px);
   top: 100%;
   opacity: 0;
   visibility: hidden;
@@ -118,5 +118,30 @@
   select {
     width: 100%;
     color: #19969a;
+  }
+
+  @media all and (max-width: 767px) {
+    .wrap {
+      width: 100%;
+      padding: 50px 40px;
+    }
+  }
+
+  @media all and (max-width: 480px) {
+    h2 {
+      font-size: 22px;
+    }
+
+    .wrap {
+      padding: 30px 30px;
+    }
+
+    input {
+      width: 100% !important;
+    }
+
+    .contact-form-row {
+      flex-direction: column;
+    }
   }
 }
