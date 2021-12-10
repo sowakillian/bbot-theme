@@ -4,9 +4,18 @@ export default {
   init() {
     console.warn('weshh')
     this.initSliders()
+    this.initKnowMoreClicked()
   },
   finalize() {
     // JavaScript to be fired on the home page, after the init JS
+  },
+
+  initKnowMoreClicked() {
+    const buttonKnowMore = document.querySelector('.frontpage-cycle-desc-more')
+    const divCycleSuit = document.querySelector('.frontpage-cycle-desc-suit')
+    buttonKnowMore.addEventListener('click', () => {
+      divCycleSuit.classList.toggle('frontpage-cycle-desc-suit-visible')
+    })
   },
 
   initSliders() {

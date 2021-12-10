@@ -156,6 +156,13 @@
     }
   }
 
+  .slide5 {
+    img {
+      margin-top: 40px;
+      max-width: 500px;
+    }
+  }
+
   .slide4 {
     .row-item {
       p {
@@ -171,13 +178,6 @@
         align-items: center;
         display: flex;
       }
-    }
-  }
-
-  .slide5 {
-    img {
-      margin-top: 40px;
-      max-width: 500px;
     }
   }
 
@@ -288,6 +288,14 @@
 
         &:last-of-type {
           margin-top: 20px;
+        }
+      }
+    }
+
+    .slide4 {
+      .row-item {
+        img {
+          width: 120px !important;
         }
       }
     }
