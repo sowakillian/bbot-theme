@@ -141,12 +141,16 @@
                             <p class="question">Pourquoi j’ai besoin de scanner ma bouteille ?</p>
                             <p>Le code-barres permet à b:bot de vérifier que c’est une bouteille acceptée et d’identifier sa couleur. 
                                 Les plastiques colorés ne se recyclent pas de la même manière que les plastiques transparents</p>
-                            <p class="green">Petit conseil:<br>
+                            <p class="green slide3-textdesktop">Petit conseil:<br>
                             Présentez bien le code-barres vers le haut et déposer après avoir entendu le bip.</p>
                         </div>
     
-                        <div class="row-item row-item-cross">
+                        <div class="row-item row-item-cross slide3-imgdesktop">
                             <img style="width: 200px" src="@asset('images/frontpage-process/bbot_process3_right.png')">
+                        </div>
+
+                        <div class="slide3-imgmob">
+                            <img src="@asset('images/frontpage-process/bbot_process3_imgmob.png')">
                         </div>
                     </div>
                 </div>
@@ -246,7 +250,7 @@
                     <p>En fonction des magasins, la récompense pour chaque bouteille est de 0,01 ou 0,02 euro que 
                         vous pouvez donner à une association ou utiliser en bon d’achat.</p>
     
-                        <img src="@asset('images/frontpage-process/bbot_process5_full.png')">
+                        <img class="slide5-img" src="@asset('images/frontpage-process/bbot_process5_full.png')">
                 </div>
             </div>
 

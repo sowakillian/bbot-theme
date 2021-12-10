@@ -120,6 +120,7 @@
 
   @media all and (max-width: 480px) {
     padding: 30px;
+    min-height: calc(100vh - 62px);
 
     .slideItem {
       &-title {

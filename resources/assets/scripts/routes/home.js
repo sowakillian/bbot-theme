@@ -11,9 +11,13 @@ export default {
   },
 
   initKnowMoreClicked() {
+    let isOpened = false
     const buttonKnowMore = document.querySelector('.frontpage-cycle-desc-more')
     const divCycleSuit = document.querySelector('.frontpage-cycle-desc-suit')
     buttonKnowMore.addEventListener('click', () => {
+      isOpened = !isOpened
+
+      buttonKnowMore.innerHTML = isOpened ? 'Refermer' : 'En savoir plus'
       divCycleSuit.classList.toggle('frontpage-cycle-desc-suit-visible')
     })
   },

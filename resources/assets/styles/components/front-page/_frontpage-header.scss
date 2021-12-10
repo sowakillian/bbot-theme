@@ -5,7 +5,7 @@
   align-items: center;
   max-width: 1080px;
   margin: 0 auto;
-  min-height: calc(100vh - 130px);
+  min-height: calc(100vh - 97px);
 
   &-image {
     margin-right: 50px;
@@ -84,8 +84,9 @@
 
     &-image {
       margin-top: 40px;
-      width: 100%;
-      margin-right: 0;
+      width: 90%;
+      margin-right: auto;
+      margin-left: auto;
     }
   }
 

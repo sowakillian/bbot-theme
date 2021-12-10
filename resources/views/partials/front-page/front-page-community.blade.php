@@ -29,7 +29,9 @@
         <div class="frontpage-community-networks">
             <p>Rejoignez la communauté :</p>
             <div class="frontpage-community-networks-buttons">
-                <img src="@asset('images/networks.png')">
+                <a href="https://www.facebook.com/bbotbygreenbig/" target="_blank"><img src="@asset('images/frontpage-community/ic_fb.png')"/></a>
+                <a href="https://fr.linkedin.com/company/greenbig" target="_blank"><img src="@asset('images/frontpage-community/ic_linkedin.png')"/></a>
+                <a href="https://www.instagram.com/bbotbygreenbig/?hl=fr" target="_blank"><img src="@asset('images/frontpage-community/ic_insta.png')"/></a>
             </div>
         </div>
     </div>

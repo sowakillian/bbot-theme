@@ -49,7 +49,13 @@
 
     &-buttons {
       margin-left: 30px;
-      width: 130px;
+      display: flex;
+
+      a {
+        width: 45px;
+        height: 45px;
+        margin: 0 5px;
+      }
 
       img {
         max-width: 100%;
@@ -167,13 +173,22 @@
   }
 
   @media all and (max-width: 480px) {
+    &-bkg {
+      height: 800px;
+    }
+
     &-networks {
       flex-direction: column;
+      margin-top: 30px;
 
       &-buttons {
         margin-left: 0;
         margin-top: 15px;
       }
+    }
+
+    &-testimonials {
+      margin-top: 30px;
     }
   }
 }
