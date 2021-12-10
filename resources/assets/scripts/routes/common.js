@@ -6,9 +6,76 @@ export default {
     this.listenMobileNavClicked();
     this.listenSeeMoreClicked();
     this.listenAskQuestionClicked();
+    this.listenPopupProjectClicked();
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired
+  },
+
+  listenPopupProjectClicked() {
+    const popupProjectButton = document.querySelector('.button-popup-project');
+    const popupProject = document.querySelector('.popup-project')
+    const popupProjectContent = document.querySelector('.popup-project-content')
+    const crossButton = document.querySelector('.popup-project .cross')
+    const step1Buttons = document.querySelectorAll('.popup-project-content-step1 button')
+    const step2Form = document.querySelector('.popup-project-content-step2 form')
+    const step3Form = document.querySelector('.popup-project-content-step3 form')
+
+    if (step1Buttons) {
+      step1Buttons.forEach(button => {
+        button.addEventListener('click', () => {
+          popupProjectContent.classList.add('step2')
+        })
+      })
+    }
+
+    if (step2Form) {
+      step2Form.addEventListener('submit', (e) => {
+        e.preventDefault()
+
+        popupProjectContent.classList.add('step3')
+      })
+    }
+
+    if (step3Form) {
+      step3Form.addEventListener('submit', (e) => {
+        e.preventDefault()
+
+        popupProject.classList.remove('popup-project-visible')
+
+        setTimeout(() => {
+          this.resetPopupProject();
+        }, 500)
+      })
+    }
+    
+    if (popupProjectButton) {
+      popupProjectButton.addEventListener('click', () => {
+        popupProject.classList.add('popup-project-visible')
+      })
+    }
+
+    if (crossButton) {
+      crossButton.addEventListener('click', () => {
+        popupProject.classList.remove('popup-project-visible')
+
+        setTimeout(() => {
+          this.resetPopupProject();
+        }, 500)
+      })
+    }
+  },
+
+  resetPopupProject() {
+    const step2Form = document.querySelector('.popup-project-content-step2 form')
+    const step3Form = document.querySelector('.popup-project-content-step3 form')
+
+    step2Form.reset()
+    step3Form.reset()
+
+    const popupProjectContent = document.querySelector('.popup-project-content')
+    popupProjectContent.classList.remove('step2')
+    popupProjectContent.classList.remove('step3')
   },
 
   listenMobileNavClicked () {

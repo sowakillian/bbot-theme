@@ -1,4 +1,6 @@
 <div class="btob-collectivity">
+    @include('partials.commons.popup-project')
+
     <div class="wrap">
         <div class="btob-collectivity-you">
             Vous êtes ...
@@ -10,7 +12,7 @@
     
         <div class="cta">
             Vous souhaitez devenir <span>partenaire de b:bot ?</span>
-            <a href="../../contact">Décrivez-nous<br> votre projet ici</a>
+            <a class="button-popup-project">Décrivez-nous<br> votre projet ici</a>
         </div>
     </div>
 
