@@ -1,23 +1,21 @@
-.contact-form {
-  background-color: #19969ad2;
-  color: white;
-  width: 100%;
+.popup-ask {
   position: fixed;
+  background-color: #19969ad2;
+  width: 100%;
+  height: 100vh;
+  z-index: 50;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 60;
-  left: 0;
-  min-height: 100vh;
-  top: 100%;
+  transition: all 0.6s ease-in-out;
   opacity: 0;
-  visibility: hidden;
-  transition: all 0.6s ease;
+  transform: translateY(100%);
 
-  &-field {
-    &-disabled {
-      display: none;
-    }
+  &-visible {
+    opacity: 1;
+    transform: translateY(0);
   }
 
   .cross {
@@ -36,61 +34,17 @@
     }
   }
 
-  &-visible {
-    top: 0;
-    opacity: 100;
-    visibility: visible;
-  }
-
-  h2 {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-
-  input,
-  select,
-  textarea {
-    margin-bottom: 15px;
-  }
-
-  &-row {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-
-    &-right {
-      justify-content: flex-end;
-    }
-  }
-
   .wrap {
-    width: 600px;
-    margin: 0 auto;
-    padding: 50px 0;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-width: 600px !important;
   }
 
   form {
-    width: 100%;
+    margin-top: 30px;
   }
 
-  textarea {
+  #question {
     width: 100%;
-    border-radius: 8px;
-    background-color: white;
-    border: none;
-    padding: 8px 15px;
-    color: #19969a;
-    font-weight: 600;
-
-    &::placeholder {
-      color: #19969a;
-      font-weight: 400;
-    }
+    margin: 20px 0;
   }
 
   input[type=submit] {
@@ -100,6 +54,16 @@
     color: #19969a;
     font-weight: 600;
     border: none;
+  }
+
+  .contact-form-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    &-right {
+      justify-content: flex-end;
+    }
   }
 
   input[type=text],
@@ -120,14 +84,20 @@
     }
   }
 
-  select {
-    width: 100%;
-    color: #19969a;
-  }
+  &-header {
+    color: white;
 
-  #shop_type,
-  #buy_type {
-    width: calc(50% - 5px);
+    h2 {
+      margin-bottom: 30px;
+      text-align: center;
+      color: white;
+      font-size: 40px !important;
+    }
+
+    p {
+      color: white;
+      font-size: 18px;
+    }
   }
 
   @media all and (max-width: 767px) {
@@ -138,8 +108,18 @@
   }
 
   @media all and (max-width: 480px) {
+    #firstname {
+      margin-bottom: 20px;
+    }
+
+    &-header {
+      p {
+        font-size: 16px;
+      }
+    }
+
     h2 {
-      font-size: 22px;
+      font-size: 22px !important;
     }
 
     .wrap {

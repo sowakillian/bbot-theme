@@ -42,7 +42,7 @@ export default {
                 const fields = e.target.dataset.fields
 
                 document.querySelectorAll('.contact-form-field').forEach((field) => {
-                  if (!fields.includes(field.id) && field.id !== 'message') {
+                  if (!fields.includes(field.id)) {
                     field.classList.add('contact-form-field-disabled');
                     field.removeAttribute('required')
                   } else {

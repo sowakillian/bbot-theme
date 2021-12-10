@@ -26,8 +26,31 @@
             </div>
 
             <div class="contact-form-row">
+                <input class="contact-form-field" type="text" placeholder="Ville*" name="city" id="city"/>
+                <input class="contact-form-field" type="text" placeholder="Nb moy. de passages en caisse/jour*" name="nb_customers" id="nb_customers"/>
+            </div>
+
+            <div class="contact-form-row">
+                <select class="contact-form-field" name="shop_type" id="shop_type">
+                    <option value="">Type de point de vente*</option>
+                    <option value="press">Hypermarché</option>
+                    <option value="medias">Supermarché</option>
+                    <option value="bouche">Point de vente de proximité</option>
+                    <option value="other">Autres</option>
+                </select>
+
+                <select class="contact-form-field" name="buy_type" id="buy_type">
+                    <option value="">Souhaitez-vous plutôt* :</option>
+                    <option value="press">Louer sur 60 mois (520€/mois)</option>
+                    <option value="medias">Acheter (26500€)</option>
+                    <option value="bouche">Evenementiel 1 mois minimum (sur devis)</option>
+                </select>
+            </div>
+
+            <div class="contact-form-row">
                 <textarea class="contact-form-field" rows="5" placeholder="Votre message ici*" name="message" id="message"></textarea>
             </div>
+
 
             <div class="contact-form-row">
                 <select class="contact-form-field" name="where_come" id="where_com">

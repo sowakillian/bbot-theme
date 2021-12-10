@@ -1,4 +1,6 @@
 <section class="frontpage-faq">
+    @include('partials.commons.popup-ask')
+
     <div class="frontpage-faq-bkg">
         <img src="@asset('images/bkg_why.png')">
     </div>
@@ -21,5 +23,5 @@
         </ul>
     </div>
 
-    <a href="./contact" class="subtitle">Posez votre question</a>
+    <button class="subtitle question-button">Posez votre question</button>
 </section>

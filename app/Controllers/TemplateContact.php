@@ -9,8 +9,7 @@ class TemplateContact extends Controller
     public function datas() {
         return (object) array(
             'title' => get_field("title"),
-            'contact_goals_v2' => get_field("contact_goals_v2"),
-            'contact_goals' => explode("|", get_field("contact_goals"))
+            'contact_goals' => get_field("contact_goals"),
         );
     }   
 }

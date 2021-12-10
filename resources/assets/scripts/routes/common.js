@@ -5,6 +5,7 @@ export default {
     this.addSmoothScrolling();
     this.listenMobileNavClicked();
     this.listenSeeMoreClicked();
+    this.listenAskQuestionClicked();
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired
@@ -35,6 +36,39 @@ export default {
         isOpened = !isOpened
         videosMoreButton.innerHTML = isOpened ? 'Refermer' : 'Voir plus'
         videosReviewsVideos.classList.toggle('videos-reviews-videos-opened')
+      })
+    }
+  },
+
+  listenAskQuestionClicked() {
+    const questionButton = document.querySelector('.question-button');
+    const crossButton = document.querySelector('.popup-ask .cross')
+    const questionPopup = document.querySelector('.popup-ask');
+    const questionForm = document.querySelector('.popup-ask-form');
+
+    if (questionButton) {
+      questionButton.addEventListener('click', () => {
+        questionPopup.classList.add('popup-ask-visible')
+      })
+    }
+
+    if (crossButton) {
+      crossButton.addEventListener('click', () => {
+        document.querySelector('.popup-ask').classList.remove('popup-ask-visible')
+      })
+    }
+
+    if (questionForm) {
+      questionForm.addEventListener('submit', (e) => {
+        e.preventDefault()
+        document.querySelector('.popup-ask').classList.remove('popup-ask-visible')
+        questionButton.innerHTML = 'Message envoyé ✅'
+
+        setTimeout(() => {
+          questionButton.innerHTML = 'Posez votre question'
+        }, 2500)
+
+        document.querySelector('.popup-ask-form').reset()
       })
     }
   },
