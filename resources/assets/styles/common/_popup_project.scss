@@ -1,3 +1,11 @@
+.button-popup-project {
+  text-align: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
 .popup-project {
   position: fixed;
   background-color: #19969ae7;
@@ -20,6 +28,7 @@
   }
 
   input[type=submit] {
+    margin-top: 20px;
     border-radius: 50px;
     background-color: white;
     padding: 8px 25px;
@@ -38,6 +47,7 @@
   input[type=email],
   select {
     font-weight: 600;
+    font-size: 14px;
     border-radius: 50px;
     background-color: white;
     border: none;
@@ -73,7 +83,7 @@
       width: 100%;
 
       &-wrapper {
-        max-width: 600px;
+        max-width: 700px;
         margin: 0 auto;
       }
     }
@@ -86,6 +96,8 @@
       &-buttons {
         display: flex;
         flex-direction: column;
+        max-width: 300px;
+        margin: 0 auto;
 
         button {
           border-radius: 50px;
@@ -118,6 +130,24 @@
 
     img {
       max-width: 100%;
+    }
+  }
+
+  @media all and (max-width: 767px) {
+    .wrap {
+      .popup-project-content-step-wrapper {
+        padding: 0 30px;
+      }
+    }
+  }
+
+  @media all and (max-width: 767px) {
+    .contact-form-row {
+      flex-direction: column;
+
+      input {
+        width: 100% !important;
+      }
     }
   }
 }

@@ -20,11 +20,24 @@ export default {
     const step1Buttons = document.querySelectorAll('.popup-project-content-step1 button')
     const step2Form = document.querySelector('.popup-project-content-step2 form')
     const step3Form = document.querySelector('.popup-project-content-step3 form')
+    let currentFields = []
 
     if (step1Buttons) {
       step1Buttons.forEach(button => {
         button.addEventListener('click', () => {
           popupProjectContent.classList.add('step2')
+          currentFields = button.dataset.fields
+
+          document.querySelectorAll('.popup-project-content-step3 .contact-form-field').forEach((field) => {
+            if (!currentFields.includes(field.id)) {
+              field.removeAttribute('required')
+            } else {
+              field.classList.remove('contact-form-field-disabled');
+              field.setAttribute('required', '')
+            }
+          })
+
+          console.warn('**currentFields', currentFields)
         })
       })
     }
@@ -42,6 +55,12 @@ export default {
         e.preventDefault()
 
         popupProject.classList.remove('popup-project-visible')
+        popupProjectButton.innerHTML = 'Demande<br> envoyée ✅'
+
+        setTimeout(() => {
+          popupProjectButton.innerHTML = 'Décrivez-nous<br> votre projet'
+        }, 2000)
+        
 
         setTimeout(() => {
           this.resetPopupProject();
@@ -72,6 +91,10 @@ export default {
 
     step2Form.reset()
     step3Form.reset()
+
+    document.querySelectorAll('.popup-project-content-step3 .contact-form-field').forEach((field) => {
+      field.classList.add('contact-form-field-disabled');
+    })
 
     const popupProjectContent = document.querySelector('.popup-project-content')
     popupProjectContent.classList.remove('step2')
