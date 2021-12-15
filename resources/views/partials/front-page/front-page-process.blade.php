@@ -11,7 +11,7 @@
                                 <img src="@asset('images/frontpage-process/bbot_process1.png')">
                             </div>
                             <p class="item-text">
-                                Triez<br>à la maison
+                                Triez&nbsp;<br>à la maison
                             </p>
                         </div>
     
@@ -20,7 +20,7 @@
                                 <img src="@asset('images/frontpage-process/bbot_process2.png')">
                             </div>
                             <p class="item-text">
-                                Apportez<br>vos bouteilles
+                                Apportez&nbsp;<br>vos bouteilles
                             </p>
                         </div>
     
@@ -29,7 +29,7 @@
                                 <img src="@asset('images/frontpage-process/bbot_process3.png')">
                             </div>
                             <p class="item-text">
-                                Admirez<br>la paillette
+                                Admirez&nbsp;<br>la paillette
                             </p>
                         </div>
     
@@ -38,7 +38,7 @@
                                 <img src="@asset('images/frontpage-process/bbot_process4.png')">
                             </div>
                             <p class="item-text">
-                                Gagnez<br>des euros
+                                Gagnez&nbsp;<br>des euros
                             </p>
                         </div>
                     </div>
@@ -83,7 +83,6 @@
                     <p>Pour vous simplifier la vie, déposez vos bouteilles vides directement dans vos sacs de course.
                         B:bot accepte toutes les bouteilles boissons en PET jusqu’à 2,5 litres, vides et avec leurs étiquettes pour 
                         avoir le code-barres qui permet de les reconnaître...</p>
-                        <a href="#">En savoir plus...</a>
     
                     <div class="row">
                         <div class="row-item row-item-check">
