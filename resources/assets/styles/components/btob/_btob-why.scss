@@ -348,11 +348,65 @@
 
   @media all and (max-width: 480px) {
     &-slideItem {
+      &-desc {
+        font-size: 14px;
+      }
+
       &-title {
         p {
+          font-size: 18px;
           flex: 1;
         }
       }
+    }
+
+    .slide1 {
+      .block-title {
+        p {
+          font-size: 16px !important;
+          text-align: left;
+        }
+      }
+
+      & > * {
+        margin-bottom: 8px;
+      }
+    }
+
+    .slide2 {
+      .row {
+        p {
+          font-size: 12px;
+        }
+
+        &:last-of-type {
+          margin-top: 5px;
+        }
+      }
+    }
+
+    .slide3 {
+      .items {
+        .item {
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .slide4 {
+      .items {
+        .item {
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    h2 {
+      margin-bottom: 15px;
     }
   }
 }

@@ -1,11 +1,12 @@
 <section class="btob-why" id="btob-why">
     <div class="wrap">
-        <h2>Pourquoi choisir b:bot ?</h2>
 
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="swiper-slide-wrapper slide1">
+                        <h2>Pourquoi choisir b:bot ?</h2>
+                        
                         <div class="block">
                             <div class="block-title">
                                 <span><p>1</p></span> <p>Autofinancée</p>

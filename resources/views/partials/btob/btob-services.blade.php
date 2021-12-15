@@ -1,14 +1,15 @@
 <section class="btob-services">
     <div class="wrap">
-        <h2>Derrière la machine, les services</h2>
 
         <div class="swiper">
             <div class="slides swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="swiper-slide-wrapper slide-1">
+                        <h2>Derrière la machine, les services</h2>
+
                         <div class="block">
                             <div class="block-title">
-                                <span><p>1</p></span> <p>Reprise et rachat matière garantis</p>
+                                <span><p>1</p></span> <p class="slide1-title">Reprise et rachat matière garantis</p>
                             </div>
                             <div class="block-image">
                                 <img src="@asset('images/bbot_services_retake.png')">
@@ -17,7 +18,7 @@
         
                         <div class="block">
                             <div class="block-title">
-                                <span><p>2</p></span> <p>Pilotage optimisé via la data</p>
+                                <span><p>2</p></span> <p class="slide1-title">Pilotage optimisé via la data</p>
                             </div>
                             <div class="block-image">
                                 <img src="@asset('images/bbot_services_datas.png')">
@@ -26,7 +27,7 @@
         
                         <div class="block">
                             <div class="block-title">
-                                <span><p>3</p></span> <p>Une team à votre service</p>
+                                <span><p>3</p></span> <p class="slide1-title">Une team à votre service</p>
                             </div>
                             <div class="block-image">
                                 <img src="@asset('images/bbot_services_team.png')">
