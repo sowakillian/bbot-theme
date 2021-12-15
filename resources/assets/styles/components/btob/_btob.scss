@@ -104,4 +104,27 @@
       max-width: 90%;
     }
   }
+
+  @media all and (max-width: 480px) {
+    min-height: calc(100vh - 140px);
+
+    h2 {
+      font-size: 16px;
+      padding: 10px;
+      max-width: 90%;
+    }
+
+    .blocks {
+      margin-top: 20px;
+    }
+
+    .block {
+      padding: 15px !important;
+
+      &-title,
+      p {
+        font-size: 12px !important;
+      }
+    }
+  }
 }

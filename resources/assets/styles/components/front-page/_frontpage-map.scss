@@ -236,15 +236,27 @@
     }
   }
 
-  @media all and (max-width: 400px) {
+  @media all and (max-width: 480px) {
     padding: 60px 30px 80px 30px;
+    min-height: 100vh;
+
+    .geocoder,
+    .mapboxgl-ctrl-geocoder {
+      width: 100%;
+    }
+
+    .wrap {
+      .map {
+        height: 300px !important;
+      }
+    }
 
     &-arrow {
       display: none;
     }
 
     h2 {
-      font-size: 25px;
+      font-size: 18px;
     }
   }
 }

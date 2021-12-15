@@ -173,8 +173,17 @@
   }
 
   @media all and (max-width: 480px) {
+    font-size: 14px;
+
     &-bkg {
-      height: 800px;
+      height: 600px;
+    }
+
+    &-number {
+      span {
+        font-size: 20px;
+        padding: 3px 7px;
+      }
     }
 
     &-networks {
@@ -184,11 +193,29 @@
       &-buttons {
         margin-left: 0;
         margin-top: 15px;
+
+        a {
+          height: 25px;
+          width: 25px;
+        }
       }
     }
 
     &-testimonials {
       margin-top: 30px;
+
+      .item {
+        min-height: 250px;
+        font-size: 12px;
+
+        img {
+          margin: 0 auto 10px auto;
+        }
+
+        .name {
+          margin-bottom: 5px;
+        }
+      }
     }
   }
 }
