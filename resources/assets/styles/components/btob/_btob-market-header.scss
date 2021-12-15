@@ -125,21 +125,30 @@
     .slideItem {
       &-title {
         p {
-          font-size: 22px;
+          font-size: 20px;
+          line-height: 23px;
         }
       }
 
       &-desc {
-        font-size: 14px;
+        font-size: 12px;
       }
     }
 
     .slideEnd {
       &-bottom {
+        flex-direction: column-reverse;
+
         &-buttons {
+          flex-direction: row;
+
           a {
-            font-size: 14px;
-            padding: 10px;
+            font-size: 12px;
+            padding: 10px 8px;
+
+            &:first-of-type {
+              margin-right: 8px;
+            }
           }
 
           .button-white {
