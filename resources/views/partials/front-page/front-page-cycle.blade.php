@@ -1,6 +1,6 @@
 <section class="frontpage-cycle" id="frontpage-cycle">
     <div class="frontpage-cycle-image">
-        <img src="@asset('images/cycle-illu.png')">
+        <img src="@asset('images/cyclebouteille_2.gif')">
     </div>
 
     <div class="frontpage-cycle-desc">
