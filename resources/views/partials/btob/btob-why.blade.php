@@ -123,7 +123,6 @@
                                 <p>Vous souhaitez acheter une b:bot ?</p>
                             </div>
                             <div class="slideEnd-bottom">
-                                <img class="slideEnd-bottom-image" src="@asset('images/bbot-header-illu.png')">
                                 <div class="slideEnd-bottom-buttons">
                                     <a href="{{ home_url('/') }}contact" class="slideEnd-bottom-buttons-button">Demander un devis</a>
                                 </div>

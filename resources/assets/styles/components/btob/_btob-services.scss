@@ -112,6 +112,19 @@
     display: inline-block;
   }
 
+  .slide5 {
+    background-color: #23979a;
+    min-height: 100vh;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      color: white;
+    }
+  }
+
   .slideEnd-bottom {
     display: flex;
     margin-top: 40px;
@@ -136,8 +149,8 @@
         }
 
         margin-bottom: 15px;
-        background-color: #23979a;
-        color: white;
+        background-color: white;
+        color: #23979a;
       }
     }
 
@@ -259,6 +272,15 @@
 
       &-content {
         font-size: 12px;
+        margin-top: 20px;
+
+        br:first-of-type {
+          display: none;
+        }
+
+        &-img {
+          margin-right: 0;
+        }
       }
     }
   }
