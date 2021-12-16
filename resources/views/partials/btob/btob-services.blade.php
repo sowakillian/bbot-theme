@@ -7,30 +7,32 @@
                     <div class="swiper-slide-wrapper slide-1">
                         <h2>Derrière la machine, les services</h2>
 
-                        <div class="block">
-                            <div class="block-title">
-                                <span><p>1</p></span> <p class="slide1-title">Reprise et rachat matière garantis</p>
+                        <div class="swiper-slide-wrapper-bottom">
+                            <div class="block">
+                                <div class="block-title">
+                                    <span><p>1</p></span> <p class="slide1-title">Reprise et rachat matière garantis</p>
+                                </div>
+                                <div class="block-image">
+                                    <img src="@asset('images/bbot_services_retake.png')">
+                                </div>
                             </div>
-                            <div class="block-image">
-                                <img src="@asset('images/bbot_services_retake.png')">
+            
+                            <div class="block">
+                                <div class="block-title">
+                                    <span><p>2</p></span> <p class="slide1-title">Pilotage optimisé via la data</p>
+                                </div>
+                                <div class="block-image">
+                                    <img src="@asset('images/bbot_services_datas.png')">
+                                </div>
                             </div>
-                        </div>
-        
-                        <div class="block">
-                            <div class="block-title">
-                                <span><p>2</p></span> <p class="slide1-title">Pilotage optimisé via la data</p>
-                            </div>
-                            <div class="block-image">
-                                <img src="@asset('images/bbot_services_datas.png')">
-                            </div>
-                        </div>
-        
-                        <div class="block">
-                            <div class="block-title">
-                                <span><p>3</p></span> <p class="slide1-title">Une team à votre service</p>
-                            </div>
-                            <div class="block-image">
-                                <img src="@asset('images/bbot_services_team.png')">
+            
+                            <div class="block">
+                                <div class="block-title">
+                                    <span><p>3</p></span> <p class="slide1-title">Une team à votre service</p>
+                                </div>
+                                <div class="block-image">
+                                    <img src="@asset('images/bbot_services_team.png')">
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -6,31 +6,33 @@
                 <div class="swiper-slide">
                     <div class="swiper-slide-wrapper slide1">
                         <h2>Pourquoi choisir b:bot ?</h2>
-                        
-                        <div class="block">
-                            <div class="block-title">
-                                <span><p>1</p></span> <p>Autofinancée</p>
+
+                        <div class="swiper-slide-wrapper-bottom">
+                            <div class="block">
+                                <div class="block-title">
+                                    <span><p>1</p></span> <p>Autofinancée</p>
+                                </div>
+                                <div class="block-image" style="width: 120px">
+                                    <img src="@asset('images/bbot_why_autofinanced.png')">
+                                </div>
                             </div>
-                            <div class="block-image" style="width: 120px">
-                                <img src="@asset('images/bbot_why_autofinanced.png')">
+        
+                            <div class="block">
+                                <div class="block-title">
+                                    <span><p>2</p></span> <p>La plus simple pour vous</p>
+                                </div>
+                                <div class="block-image" style="width: 311px">
+                                    <img src="@asset('images/bbot_why_simple.png')">
+                                </div>
                             </div>
-                        </div>
-    
-                        <div class="block">
-                            <div class="block-title">
-                                <span><p>2</p></span> <p>La plus simple pour vous</p>
-                            </div>
-                            <div class="block-image" style="width: 311px">
-                                <img src="@asset('images/bbot_why_simple.png')">
-                            </div>
-                        </div>
-    
-                        <div class="block">
-                            <div class="block-title">
-                                <span><p>3</p></span> <p>Attractive pour vos clients</p>
-                            </div>
-                            <div class="block-image" style="width: 222px">
-                                <img src="@asset('images/bbot_why_attractive.png')">
+        
+                            <div class="block">
+                                <div class="block-title">
+                                    <span><p>3</p></span> <p>Attractive pour vos clients</p>
+                                </div>
+                                <div class="block-image" style="width: 222px">
+                                    <img src="@asset('images/bbot_why_attractive.png')">
+                                </div>
                             </div>
                         </div>
                     </div>
