@@ -110,7 +110,8 @@
                                     <img style="height: 175px" src="@asset('images/btob-services/btob_services4_left.png')">
                                 </div>
                                 <div class="btob-services-slideItem-content-desc">
-                                    <p>Nous accompagnons votre <span>communication : </span>
+                                    <p>Nous accompagnons votre <span>communication : </span></p>
+                                    <img class="btob-services-slideItem-kakemono" src="@asset('images/btob-services/btob_services4_right.png')">
                                     <p><span>Affichages, kakemonos, stop-rayons, stickers...</span></p>
                                 </div>
                             </div>
