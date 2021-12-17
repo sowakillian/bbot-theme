@@ -29,4 +29,10 @@
       font-size: 28px;
     }
   }
+
+  @media all and (max-width: 480px) {
+    p {
+      text-align: left;
+    }
+  }
 }

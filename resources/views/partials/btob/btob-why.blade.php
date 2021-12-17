@@ -108,7 +108,7 @@
                                 </div>
     
                                 <div class="item">
-                                    <img src="@asset('images/btob-why/btob_why4_left.png')">
+                                    <img src="@asset('images/btob-why/btob_why4_right.png')">
                                     <p><span>Toutes bouteilles acceptées</span> Communication personnalisable Sondages, QCM, jeux concours</p>
                                 </div>
                             </div>

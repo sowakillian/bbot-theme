@@ -10,6 +10,10 @@
     max-width: 1080px;
     margin: 0 auto;
     text-align: center;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &-bottom {
       display: flex;
@@ -47,6 +51,10 @@
 
   .swiper-button-prev {
     left: 25px;
+  }
+
+  .swiper-pagination-bullets {
+    bottom: 30px;
   }
 
   .block {
@@ -92,11 +100,7 @@
 
   .slide5 {
     background-color: #23979a;
-    min-height: 100vh;
-    display: flex;
-    padding: 0 30px;
-    align-items: center;
-    justify-content: center;
+    max-width: none;
 
     p {
       color: white;
@@ -104,9 +108,8 @@
   }
 
   .slide1 {
-    padding: 80px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
   }
@@ -154,7 +157,9 @@
       justify-content: center;
 
       img {
-        height: 150px;
+        height: 125px;
+        max-width: 100%;
+        object-fit: contain;
       }
 
       .item {
@@ -249,11 +254,15 @@
   @media all and (max-width: 767px) {
     &-slideItem {
       &-title {
-        font-size: 22px;
+        font-size: 14px;
+
+        p {
+          font-size: 14px;
+        }
 
         span {
-          width: 40px;
-          height: 40px;
+          width: 30px;
+          height: 30px;
           font-size: 18px;
         }
       }
@@ -383,13 +392,8 @@
       align-items: center;
     }
 
-    .swiper-pagination-bullets,
-    .swiper-pagination-horizontal {
-      bottom: 8px;
-    }
-
-    .swiper-pagination {
-      margin-top: 15px;
+    .swiper-pagination-bullets {
+      bottom: 12px;
     }
 
     .swiper-pagination-bullet {
@@ -401,6 +405,7 @@
     &-slideItem {
       &-desc {
         font-size: 14px;
+        margin-bottom: 15px;
       }
 
       &-title {
@@ -412,7 +417,7 @@
         }
 
         p {
-          font-size: 18px;
+          font-size: 14px;
           flex: 1;
         }
       }
@@ -448,8 +453,11 @@
     .slide4 {
       .items {
         .item {
+          margin-bottom: 10px;
+
           p {
             font-size: 12px;
+            margin-top: 6px;
           }
         }
       }
@@ -458,6 +466,11 @@
     .slide3 {
       .items {
         .item {
+          &:first-of-type {
+            margin-right: 0;
+            margin-top: 10px;
+          }
+
           p {
             font-size: 12px;
           }

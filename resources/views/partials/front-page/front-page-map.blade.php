@@ -16,6 +16,7 @@
             data-longitude={{($map_point["positions"])["longitude"]}}
             data-address={{(str_replace(' ', '_', $map_point["positions"])["address"])}}
             data-link={{($map_point["positions"])["gmaps_link"]}}
+            data-bottleprice={{($map_point["positions"])["bottle_price"]}}
             >
         </span>
         @endforeach
@@ -59,7 +60,7 @@
         }
 
         document.querySelectorAll(".map_point").forEach(point => {
-            bbotPlaces.push({name: point.dataset.name, link: point.dataset.link, address: point.dataset.address, enseigne: point.dataset.enseigne, lngLat: [point.dataset.longitude, point.dataset.latitude]});
+            bbotPlaces.push({name: point.dataset.name, bottleprice: point.dataset.bottleprice, link: point.dataset.link, address: point.dataset.address, enseigne: point.dataset.enseigne, lngLat: [point.dataset.longitude, point.dataset.latitude]});
         })
 
         document.querySelector(".frontpage-map-overlay .cross").addEventListener("click", () => {
@@ -112,7 +113,7 @@
             .setLngLat(place.lngLat)
             .setPopup(
                 new mapboxgl.Popup({ offset: 25 }) // add popups
-            .setHTML( `<h3>${place.enseigne.replaceAll("_", " ")}</h3><p>${place.name.replaceAll("_", " ")}</p><a target=_blank href='${place.link}'><p>${place.address.replaceAll("_", " ")}</p></a>`)
+            .setHTML( `<h3>${place.enseigne.replaceAll("_", " ")}</h3><p>${place.name.replaceAll("_", " ")}</p><p class="bold">${place.bottleprice}€ la bouteille</p><a target=_blank href='${place.link}'><p>${place.address.replaceAll("_", " ")}</p></a>`)
   )
             .addTo(map);
         })

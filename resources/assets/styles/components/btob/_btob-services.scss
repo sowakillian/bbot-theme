@@ -53,6 +53,10 @@
   .swiper-slide-wrapper {
     max-width: 1080px;
     margin: 0 auto;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &-bottom {
       display: flex;
@@ -81,7 +85,7 @@
 
   .swiper-pagination {
     position: relative;
-    margin-top: 50px;
+    bottom: 30px;
 
     .swiper-pagination-bullet-active {
       opacity: 1;
@@ -114,11 +118,7 @@
 
   .slide5 {
     background-color: #23979a;
-    min-height: 100vh;
-    display: flex;
-    padding: 0 30px;
-    align-items: center;
-    justify-content: center;
+    max-width: none;
 
     p {
       color: white;
@@ -237,13 +237,10 @@
   @media all and (max-width: 480px) {
     margin-bottom: 40px;
 
-    .swiper-pagination-bullets,
-    .swiper-pagination-horizontal {
-      bottom: 8px;
-    }
-
-    .swiper-pagination {
-      margin-top: 15px;
+    .swiper-slide-wrapper {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
     }
 
     .swiper-pagination-bullet {
