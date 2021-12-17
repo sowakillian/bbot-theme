@@ -29,8 +29,36 @@ export default {
     initFormSending() {
       document.querySelector('.contact-form-form').addEventListener('submit', (e) => {
         e.preventDefault()
-        document.querySelector('.contact-form').classList.remove('contact-form-visible')
-        document.querySelector('.contact-choices h2').innerHTML = 'Message envoyé ✅'
+
+        const goal = document.querySelector('#contact-goal').value || 'Non demandé'
+        const email = document.querySelector('.contact-form-form #email').value || 'Non demandé'
+        const firstname = document.querySelector('.contact-form-form #firstname').value || 'Non demandé'
+        const lastname = document.querySelector('.contact-form-form #lastname').value || 'Non demandé'
+        const tel = document.querySelector('.contact-form-form #phone').value || 'Non demandé'
+        const company = document.querySelector('.contact-form-form #company').value || 'Non demandé'
+        const company_role = document.querySelector('.contact-form-form #company_role').value || 'Non demandé'
+        const activity_domain = document.querySelector('.contact-form-form #activity_domain').value || 'Non demandé'
+        const city = document.querySelector('.contact-form-form #city').value || 'Non demandé'
+        const nb_customers = document.querySelector('.contact-form-form #nb_customers').value || 'Non demandé'
+        const shop_type = document.querySelector('.contact-form-form #shop_type').value || 'Non demandé'
+        const buy_type = document.querySelector('.contact-form-form #buy_type').value || 'Non demandé'
+        const where_com = document.querySelector('.contact-form-form #where_com').value || 'Non demandé'
+        const message = document.querySelector('.contact-form-form #message').value || 'Non demandé'
+
+
+        fetch('https://api.sendinblue.com/v3/smtp/email', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'api-key': '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',
+          },
+          body: `{"sender":{"name":"${firstname}", "email":"${email}"},"to":[{"email":"ksowa@outlook.fr"}],"replyTo":{"email":"ksowa@outlook.fr"},"templateId":3, "params": {"goal":"${goal}", "firstname":"${firstname}", "email":"${email}", "message": "${message}", "lastname":"${lastname}", "tel":"${tel}", "company":"${company}", "company_role":"${company_role}", "activity_domain":"${activity_domain}", "city":"${city}", "nb_customers":"${nb_customers}", "shop_type":"${shop_type}", "buy_type":"${buy_type}", "where_com":"${where_com}"}}`,
+        }).then((res) => {
+          console.warn(res)
+          document.querySelector('.contact-form').classList.remove('contact-form-visible')
+          document.querySelector('.contact-choices h2').innerHTML = 'Message envoyé ✅'
+        });
+
         document.querySelector('.contact-form-form').reset()
         this.resetFormFields()
       })

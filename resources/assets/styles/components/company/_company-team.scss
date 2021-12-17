@@ -27,6 +27,7 @@
 
   .team-member {
     text-align: center;
+    margin-right: 24px;
 
     &-photo {
       width: 260px;
@@ -91,6 +92,10 @@
   }
 
   @media all and (max-width: 480px) {
+    .team-member {
+      margin-right: 0;
+    }
+
     .job-type-name {
       font-size: 50px;
       font-weight: 900;
