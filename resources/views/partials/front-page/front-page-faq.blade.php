@@ -17,7 +17,7 @@
                         <img src="@asset('images/arrow.png')">
                     </div>
                 </div>
-                <p class="question-answer">{{ $faq_question["answer"] }}</p>
+                <div class="question-answer">{!! $faq_question["answer"] !!}</div>
             </li>
             @endforeach
         </ul>

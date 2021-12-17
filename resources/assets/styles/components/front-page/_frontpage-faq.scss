@@ -92,10 +92,13 @@
       }
 
       &-answer {
-        color: #3e3f40;
         max-height: 0;
         opacity: 0;
         transition: all 0.3s ease;
+
+        p {
+          color: #3e3f40;
+        }
 
         &-visible {
           transition: all 0.3s ease;

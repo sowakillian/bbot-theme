@@ -33,8 +33,8 @@
                     Saisissez votre adresse mail et votre code postal, nous vous préviendrons dès qu’une B:bot débarque près de chez vous !
 
                     <form class="frontpage-map-overlay-form">
-                        <input type="text" placeholder="Adresse mail">
-                        <input type="text" placeholder="Code postal" class="zipcode">
+                        <input type="text" placeholder="Adresse mail" id="email" name="email">
+                        <input type="text" placeholder="Code postal" class="zipcode" id="zipcode" name="zipcode">
                         <input type="submit" value="Envoyer">
                     </form>
                 </div>

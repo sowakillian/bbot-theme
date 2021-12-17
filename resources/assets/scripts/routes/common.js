@@ -37,7 +37,6 @@ export default {
             }
           })
 
-          console.warn('**currentFields', currentFields)
         })
       })
     }
@@ -151,12 +150,24 @@ export default {
     if (questionForm) {
       questionForm.addEventListener('submit', (e) => {
         e.preventDefault()
+
+        const firstname = document.querySelector('.popup-ask-form #firstname').value
+        const email = document.querySelector('.popup-ask-form #email').value
+        const question = document.querySelector('.popup-ask-form #question').value
+
         document.querySelector('.popup-ask').classList.remove('popup-ask-visible')
         questionButton.innerHTML = 'Message envoyé ✅'
 
-        setTimeout(() => {
+        fetch('https://api.sendinblue.com/v3/smtp/email', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'api-key': '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',
+          },
+          body: `{"sender":{"name":"${firstname}", "email":"${email}"},"to":[{"email":"info@b-bot.com"}],"replyTo":{"email":"info@b-bot.com"},"templateId":1, "params": {"firstname":"${firstname}", "email":"${email}", "question": "${question}"}}`,
+        }).then(() => {
           questionButton.innerHTML = 'Posez votre question'
-        }, 2500)
+        });
 
         document.querySelector('.popup-ask-form').reset()
       })
