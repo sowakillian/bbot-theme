@@ -4,26 +4,9 @@ export default {
     init() {
       this.initListClickListener();
       this.initFormSending();
-      //this.sendMail();
     },
     finalize() {
       // JavaScript to be fired on the home page, after the init JS
-    },
-
-    sendMail() {
-      console.warn('I sent an email')
-      
-      fetch('https://api.sendinblue.com/v3/smtp/email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'api-key': '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',
-        },
-        body: '{"sender":{"email":"ksowa@outlook.fr"},"to":[{"email":"ksowa@outlook.fr"}],"replyTo":{"email":"ksowa@outlook.fr"},"templateId":1, "params": {"firstname":"Jacky", "lastname":"Lefou"}}',
-      }).then(res => {
-        console.log('Request complete! response:', res);
-      });
-
     },
 
     initFormSending() {
@@ -52,7 +35,7 @@ export default {
             'Content-Type': 'application/json',
             'api-key': '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',
           },
-          body: `{"sender":{"name":"${firstname}", "email":"${email}"},"to":[{"email":"ksowa@outlook.fr"}],"replyTo":{"email":"ksowa@outlook.fr"},"templateId":3, "params": {"goal":"${goal}", "firstname":"${firstname}", "email":"${email}", "message": "${message}", "lastname":"${lastname}", "tel":"${tel}", "company":"${company}", "company_role":"${company_role}", "activity_domain":"${activity_domain}", "city":"${city}", "nb_customers":"${nb_customers}", "shop_type":"${shop_type}", "buy_type":"${buy_type}", "where_com":"${where_com}"}}`,
+          body: `{"sender":{"name":"${firstname}", "email":"${email}"},"to":[{"email":"info@b-bot.com"}],"replyTo":{"email":"info@b-bot.com"},"templateId":3, "params": {"goal":"${goal}", "firstname":"${firstname}", "email":"${email}", "message": "${message}", "lastname":"${lastname}", "tel":"${tel}", "company":"${company}", "company_role":"${company_role}", "activity_domain":"${activity_domain}", "city":"${city}", "nb_customers":"${nb_customers}", "shop_type":"${shop_type}", "buy_type":"${buy_type}", "where_com":"${where_com}"}}`,
         }).then((res) => {
           console.warn(res)
           document.querySelector('.contact-form').classList.remove('contact-form-visible')

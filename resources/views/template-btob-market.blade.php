@@ -5,6 +5,7 @@
 @extends('layouts.app')
 
 @section('content')
+    @include('partials.btob.btob-market-form')
     @include('partials.btob.btob-market-header')
     @include('partials.btob.btob-why')
     @include('partials.btob.btob-services')

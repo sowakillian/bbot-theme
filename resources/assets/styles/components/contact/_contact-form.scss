@@ -45,6 +45,7 @@
   h2 {
     margin-bottom: 30px;
     text-align: center;
+    background-color: transparent !important;
   }
 
   input,
@@ -143,11 +144,27 @@
     }
 
     .wrap {
-      padding: 30px 30px;
+      padding: 30px 15px;
     }
 
     input {
       width: 100% !important;
+      font-size: 11px;
+    }
+
+    input,
+    select,
+    textarea {
+      margin-bottom: 10px;
+    }
+
+    select {
+      font-size: 11px;
+    }
+
+    #shop_type,
+    #buy_type {
+      width: 100%;
     }
 
     .contact-form-row {

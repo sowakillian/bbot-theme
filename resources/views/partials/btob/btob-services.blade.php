@@ -128,7 +128,7 @@
 
                             <div class="slideEnd-bottom">
                                 <div class="slideEnd-bottom-buttons">
-                                    <a href="{{ home_url('/') }}contact" class="slideEnd-bottom-buttons-button">Demander un devis</a>
+                                    <a class="slideEnd-bottom-buttons-button button-form">Demander un devis</a>
                                 </div>
                             </div>
     

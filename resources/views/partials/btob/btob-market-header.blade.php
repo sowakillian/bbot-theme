@@ -7,7 +7,7 @@
         <div class="slideEnd-bottom">
             <img class="slideEnd-bottom-image" src="@asset('images/bbot-header-illu.png')">
             <div class="slideEnd-bottom-buttons">
-                <a href="{{ home_url('/') }}contact" class="slideEnd-bottom-buttons-button">Demander un devis</a>
+                <a class="slideEnd-bottom-buttons-button button-form">Demander un devis</a>
                 <a href="#btob-why" class="slideEnd-bottom-buttons-button button-white">En savoir plus</a>
             </div>
         </div>
