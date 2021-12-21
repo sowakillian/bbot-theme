@@ -10,7 +10,7 @@
                         <div class="swiper-slide-wrapper-bottom">
                             <div class="block">
                                 <div class="block-title">
-                                    <span><p>1</p></span> <p>Autofinancée</p>
+                                    <span><p>{{ ($datas->why_first_slide[0])["number"] }}</p></span> <p>{{ ($datas->why_first_slide[0])["title"] }}</p>
                                 </div>
                                 <div class="block-image" style="width: 120px">
                                     <img src="@asset('images/bbot_why_autofinanced.png')">
@@ -19,7 +19,7 @@
         
                             <div class="block">
                                 <div class="block-title">
-                                    <span><p>2</p></span> <p>La plus simple pour vous</p>
+                                    <span><p>{{ ($datas->why_first_slide[1])["number"] }}</p></span> <p>{{ ($datas->why_first_slide[1])["title"] }}</p>
                                 </div>
                                 <div class="block-image" style="width: 311px">
                                     <img src="@asset('images/bbot_why_simple.png')">
@@ -28,7 +28,7 @@
         
                             <div class="block">
                                 <div class="block-title">
-                                    <span><p>3</p></span> <p>Attractive pour vos clients</p>
+                                    <span><p>{{ ($datas->why_first_slide[2])["number"] }}</p></span> <p>{{ ($datas->why_first_slide[2])["title"] }}</p>
                                 </div>
                                 <div class="block-image" style="width: 222px">
                                     <img src="@asset('images/bbot_why_attractive.png')">
@@ -42,9 +42,9 @@
                     <div class="swiper-slide-wrapper slide2">
                         <div class="btob-why-slideItem">
                             <div class="btob-why-slideItem-title">
-                                <span><p>1</p></span> <p>Autofinancée</p>
+                                <span><p>1</p></span> <p>{{ ($datas->why_slides[0])["title"] }}</p>
                             </div>
-                            <p class="btob-why-slideItem-desc">Pour que le bon recyclage progresse, il doit s’autofinancer</p>
+                            <p class="btob-why-slideItem-desc">{{ ($datas->why_slides[0])["subtitle"] }}</p>
     
                             <div class="rows">
                                 <div class="row">
@@ -69,9 +69,9 @@
                     <div class="swiper-slide-wrapper slide3">
                         <div class="btob-why-slideItem">
                             <div class="btob-why-slideItem-title">
-                                <span><p>2</p></span> <p>La plus simple pour vous</p>
+                                <span><p>2</p></span> <p>{{ ($datas->why_slides[1])["title"] }}</p>
                             </div>
-                            <p class="btob-why-slideItem-desc">Moins de stockage & moins de manutention</p>
+                            <p class="btob-why-slideItem-desc">{{ ($datas->why_slides[1])["subtitle"] }}</p>
     
                             <div class="items">
                                 <div class="item">
@@ -92,9 +92,9 @@
                     <div class="swiper-slide-wrapper slide4">
                         <div class="btob-why-slideItem">
                             <div class="btob-why-slideItem-title">
-                                <span><p>3</p></span> <p>Attractive pour vos clients</p>
+                                <span><p>3</p></span> <p>{{ ($datas->why_slides[2])["title"] }}</p>
                             </div>
-                            <p  class="btob-why-slideItem-desc">3 exclusivités pour le trafic et la fidélisation</p>
+                            <p  class="btob-why-slideItem-desc">{{ ($datas->why_slides[2])["subtitle"] }}</p>
     
                             <div class="items">
                                 <div class="item">

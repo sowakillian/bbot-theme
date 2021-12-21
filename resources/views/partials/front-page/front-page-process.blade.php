@@ -3,7 +3,7 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="swiper-slide-wrapper slide1">
-                    <p class="slide-title">"Recycler ses bouteilles, <br><span>c'est simple comme b:bot"</span></p>
+                    <p class="slide-title">{{ $datas->process_first_slide["title_black"] }}  <br><span>{{ $datas->process_first_slide["title_green"] }} </span></p>
 
                     <div class="items">
                         <div class="item">
@@ -79,7 +79,7 @@
                         </div>
                     </div>
     
-                    <p class="slide-title">Triez à<span> la maison</span></p>
+                    <p class="slide-title">{{ ($datas->process_slides[0])["black_title"] }}<span> {{ ($datas->process_slides[0])["green_title"] }}</span></p>
                     <p>Pour vous simplifier la vie, déposez vos bouteilles vides directement dans vos sacs de course.
                         B:bot accepte toutes les bouteilles boissons en PET jusqu’à 2,5 litres, vides et avec leurs étiquettes pour 
                         avoir le code-barres qui permet de les reconnaître...</p>
@@ -134,7 +134,7 @@
                         </div>
                     </div>
     
-                    <p class="slide-title">Scannez vos bouteilles code-barres vers le haut<span> et le tour est joué !</span></p>
+                    <p class="slide-title">{{ ($datas->process_slides[1])["black_title"] }}<span> {{ ($datas->process_slides[1])["green_title"] }}</span></p>
                     <div class="row">
                         <div class="row-item">
                             <p class="question">Pourquoi j’ai besoin de scanner ma bouteille ?</p>
@@ -189,7 +189,7 @@
                         </div>
                     </div>
     
-                    <p class="slide-title">Admirez<span> la paillette magique</span></p>
+                    <p class="slide-title">{{ ($datas->process_slides[2])["black_title"] }}<span> {{ ($datas->process_slides[2])["green_title"] }}</span></p>
     
                     <div class="row">
                         <div class="row-item">
@@ -244,7 +244,7 @@
                         </div>
                     </div>
     
-                    <p class="slide-title">Cerise sur le gâteau,<span> chaque bouteille déposée rapporte des euros...</span></p>
+                    <p class="slide-title">{{ ($datas->process_slides[3])["black_title"] }}<span> {{ ($datas->process_slides[3])["green_title"] }}</span></p>
     
                     <p>En fonction des magasins, la récompense pour chaque bouteille est de 0,01 ou 0,02 euro que 
                         vous pouvez donner à une association ou utiliser en bon d’achat.</p>

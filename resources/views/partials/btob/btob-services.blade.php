@@ -10,7 +10,7 @@
                         <div class="swiper-slide-wrapper-bottom">
                             <div class="block">
                                 <div class="block-title">
-                                    <span><p>1</p></span> <p class="slide1-title">Reprise et rachat matière garantis</p>
+                                    <span><p>{{ ($datas->services_first_slide[0])["number"] }}</p></span> <p class="slide1-title">{{ ($datas->services_first_slide[0])["title"] }}</p>
                                 </div>
                                 <div class="block-image">
                                     <img src="@asset('images/bbot_services_retake.png')">
@@ -19,7 +19,7 @@
             
                             <div class="block">
                                 <div class="block-title">
-                                    <span><p>2</p></span> <p class="slide1-title">Pilotage optimisé via la data</p>
+                                    <span><p>{{ ($datas->services_first_slide[1])["number"] }}</p></span> <p class="slide1-title">{{ ($datas->services_first_slide[1])["title"] }}</p>
                                 </div>
                                 <div class="block-image">
                                     <img src="@asset('images/bbot_services_datas.png')">
@@ -28,7 +28,7 @@
             
                             <div class="block">
                                 <div class="block-title">
-                                    <span><p>3</p></span> <p class="slide1-title">Une team à votre service</p>
+                                    <span><p>{{ ($datas->services_first_slide[2])["number"] }}</p></span> <p class="slide1-title">{{ ($datas->services_first_slide[2])["title"] }}</p>
                                 </div>
                                 <div class="block-image">
                                     <img src="@asset('images/bbot_services_team.png')">
@@ -42,9 +42,9 @@
                     <div class="swiper-slide-wrapper">
                         <div class="btob-why-slideItem">
                             <div class="btob-why-slideItem-title">
-                                <span><p>1</p></span> <p>Reprise et rachat matière garantis</p>
+                                <span><p>1</p></span> <p>{{ ($datas->services_slides[0])["title"] }}</p>
                             </div>
-                            <p class="btob-why-slideItem-desc">Logistique et valorisation optimisées</p>
+                            <p class="btob-why-slideItem-desc">{{ ($datas->services_slides[0])["subtitle"] }}</p>
 
                             <div class="btob-services-slideItem-content">
                                 <div class="btob-services-slideItem-content-img">
@@ -72,9 +72,9 @@
                     <div class="swiper-slide-wrapper">
                         <div class="btob-why-slideItem">
                             <div class="btob-why-slideItem-title">
-                                <span><p>2</p></span> <p>Pilotage optimisé via la data</p>
+                                <span><p>2</p></span> <p>{{ ($datas->services_slides[1])["title"] }}</p>
                             </div>
-                            <p class="btob-why-slideItem-desc">Gestion simplifiée & analyse facilitée</p>
+                            <p class="btob-why-slideItem-desc">{{ ($datas->services_slides[1])["subtitle"] }}</p>
 
                             <div class="btob-services-slideItem-content">
                                 <div class="btob-services-slideItem-content-img">
@@ -96,9 +96,9 @@
                     <div class="swiper-slide-wrapper">
                         <div class="btob-why-slideItem btob-services-slideItem">
                             <div class="btob-why-slideItem-title">
-                                <span><p>3</p></span> <p>Une team à votre service</p>
+                                <span><p>3</p></span> <p>{{ ($datas->services_slides[2])["title"] }}</p>
                             </div>
-                            <p class="btob-why-slideItem-desc">Choisir b:bot c’est rejoindre une équipe</p>
+                            <p class="btob-why-slideItem-desc">{{ ($datas->services_slides[2])["subtitle"] }}</p>
 
                             <p class="teamDesc">• <span>Formation</span> de vos équipes<br>
                                 • <span>Hotline</span><br>
