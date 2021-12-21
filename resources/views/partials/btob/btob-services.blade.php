@@ -56,11 +56,11 @@
                                         <br><br>
                                         Objectif : utiliser les m3 dans des camions déjà 
                                         roulant plutôt que de mettre des camions 
-                                        supplémentaires sur la route
+                                        supplémentaires sur la route.
                                     </p>
                                     <br><br>
                                     <p><span>Rachat</span> matière à un prix indexé sur l’ICIS Recycled
-                                        PET Europe, avec un minimum garanti</p> 
+                                        PET Europe, avec un minimum garanti.</p> 
                                 </div>
                             </div>
                         </div>
@@ -81,11 +81,11 @@
                                     <img style="height: 300px;" src={{ ($datas->services_slides[1])["illu1"] }}>
                                 </div>
                                 <div class="btob-services-slideItem-content-desc">
-                                    <p>• <span>Réduit les coûts</span> de logistique et maintenance<br>
-                                       • Suivi des volumes et des <span>marques collectées</span><br>
-                                       • Reconnaît automatiquement <span>les nouvelles bouteilles.</span> Sa technologie est prête pour le <span>« sans ticket »</span><br>
+                                    <p>• <span>Réduit les coûts</span> de logistique et maintenance.<br>
+                                       • Suivi des volumes et des <span>marques collectées.</span><br>
+                                       • Reconnaît automatiquement <span>les nouvelles bouteilles.</span> Sa technologie est prête pour le <span>« sans ticket ».</span><br>
                                         • <span>Une app</span> prolonge et simplifie l’expérience utilisateur. Plus besoin de ticket pour collecter des bons d’achat 
-                                        ou points de fidélité
+                                        ou points de fidélité.
                                 </div>
                             </div>
                         </div>
@@ -100,10 +100,10 @@
                             </div>
                             <p class="btob-why-slideItem-desc">{{ ($datas->services_slides[2])["subtitle"] }}</p>
 
-                            <p class="teamDesc">• <span>Formation</span> de vos équipes<br>
+                            <p class="teamDesc">• <span>Formation</span> de vos équipes.<br>
                                 • <span>Hotline</span><br>
-                                • <span>Monitoring à distance</span> en temps réel (8-20h 6/7j) <br>
-                                • <span>Maintenance sur site</span> préventive (toutes les 100k bouteilles) et curative (j+1)</p>
+                                • <span>Monitoring à distance</span> en temps réel (8-20h 6/7j). <br>
+                                • <span>Maintenance sur site</span> préventive (toutes les 100k bouteilles) et curative (j+1).</p>
 
                             <div class="btob-services-slideItem-content">
                                 <div class="btob-services-slideItem-content-img">

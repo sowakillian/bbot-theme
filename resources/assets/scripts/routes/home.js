@@ -84,6 +84,10 @@ export default {
       pagination: {
         el: '.frontpage-community .swiper-pagination',
       },
+      navigation: {
+        nextEl: '.frontpage-community .swiper-button-next',
+        prevEl: '.frontpage-community .swiper-button-prev',
+      },
     });
   },
 };
