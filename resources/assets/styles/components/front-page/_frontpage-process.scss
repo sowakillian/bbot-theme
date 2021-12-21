@@ -198,7 +198,8 @@
 
   .swiper-pagination {
     position: relative;
-    margin-top: 50px;
+    margin-top: 0;
+    bottom: 100px;
 
     .swiper-pagination-bullet-active {
       background-color: #23979a;
