@@ -7,32 +7,17 @@
 
                     <h3>{{ $datas->glitter_first_slide["title_black"] }} <br><span>{{ $datas->glitter_first_slide["title_green"] }}</span></h3>
                     <div class="items">
+                        @foreach ($datas->glitter_first_slide["description"] as $slide) 
                         <div class="item">
                             <div class="item-image">
-                                <img src={{ ($datas->glitter_first_slide["description"][0])["image"] }}>
+                                <img src={{ $slide["image"] }}>
                             </div>
                             <p class="item-text">
-                                {{ ($datas->glitter_first_slide["description"][0])["title"] }}
+                                {{ $slide["title"] }}
                             </p>
                         </div>
-    
-                        <div class="item">
-                            <div class="item-image">
-                                <img src={{ ($datas->glitter_first_slide["description"][1])["image"] }}>
-                            </div>
-                            <p class="item-text">
-                                {{ ($datas->glitter_first_slide["description"][1])["title"] }}
-                            </p>
-                        </div>
-    
-                        <div class="item">
-                            <div class="item-image">
-                                <img src={{ ($datas->glitter_first_slide["description"][2])["image"] }}>
-                            </div>
-                            <p class="item-text">
-                                {{ ($datas->glitter_first_slide["description"][2])["title"] }}
-                            </p>
-                        </div>
+                        @endforeach
+
                     </div>
                 </div>
             </div>
@@ -47,13 +32,13 @@
                         <div class="with-bbot">
                             <p>Avec la b:bot</p>
                             <div class="with-bbot-image">
-                                <img src="@asset('images/frontpage-glitter/bbot_glitter2_left.png')">
+                                <img src={{ ($datas->glitter_slides[0])["illu_with_bbot"] }}>
                             </div>
                         </div>
                         <div class="without-bbot">
                             <p>Avec la poubelle de tri</p>
                             <div class="without-bbot-image">
-                                <img src="@asset('images/frontpage-glitter/bbot_glitter2_right.png')">
+                                <img src={{ ($datas->glitter_slides[0])["illu_without_bbot"] }}>
                             </div>
                         </div>
                     </div>
@@ -69,13 +54,13 @@
                         <div class="with-bbot">
                             <p>Avec la b:bot</p>
                             <div class="with-bbot-image">
-                                <img src="@asset('images/frontpage-glitter/bbot_glitter3_left.png')">
+                                <img src={{ ($datas->glitter_slides[1])["illu_with_bbot"] }}>
                             </div>
                         </div>
                         <div class="without-bbot">
                             <p>Avec la poubelle de tri</p>
                             <div class="without-bbot-image">
-                                <img src="@asset('images/frontpage-glitter/bbot_glitter3_right.png')">
+                                <img src={{ ($datas->glitter_slides[1])["illu_without_bbot"] }}>
                             </div>
                         </div>
                     </div>
@@ -91,13 +76,13 @@
                         <div class="with-bbot">
                             <p>Avec la b:bot</p>
                             <div class="with-bbot-image">
-                                <img src="@asset('images/frontpage-glitter/bbot_glitter4_left.png')">
+                                <img src={{ ($datas->glitter_slides[2])["illu_with_bbot"] }}>
                             </div>
                         </div>
                         <div class="without-bbot">
                             <p>Avec la poubelle de tri</p>
                             <div class="without-bbot-image">
-                                <img src="@asset('images/frontpage-glitter/bbot_glitter4-right.png')">
+                                <img src={{ ($datas->glitter_slides[0])["illu_without_bbot"] }}>
                             </div>
                         </div>
                     </div>

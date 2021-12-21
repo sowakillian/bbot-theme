@@ -8,7 +8,7 @@
                     <div class="items">
                         <div class="item">
                             <div class="item-image">
-                                <img src="@asset('images/frontpage-process/bbot_process1.png')">
+                                <img src={{ ($datas->process_first_slide["description"][0])["image"] }}>
                             </div>
                             <p class="item-text">
                                 Triez&nbsp;<br>à la maison
@@ -17,7 +17,7 @@
     
                         <div class="item">
                             <div class="item-image">
-                                <img src="@asset('images/frontpage-process/bbot_process2.png')">
+                                <img src={{ ($datas->process_first_slide["description"][1])["image"] }}>
                             </div>
                             <p class="item-text">
                                 Apportez&nbsp;<br>vos bouteilles
@@ -26,7 +26,7 @@
     
                         <div class="item">
                             <div class="item-image">
-                                <img src="@asset('images/frontpage-process/bbot_process3.png')">
+                                <img src={{ ($datas->process_first_slide["description"][2])["image"] }}>
                             </div>
                             <p class="item-text">
                                 Admirez&nbsp;<br>la paillette
@@ -35,7 +35,7 @@
     
                         <div class="item">
                             <div class="item-image">
-                                <img src="@asset('images/frontpage-process/bbot_process4.png')">
+                                <img src={{ ($datas->process_first_slide["description"][3])["image"] }}>
                             </div>
                             <p class="item-text">
                                 Gagnez&nbsp;<br>des euros
@@ -50,7 +50,7 @@
                     <div class="items frontpage-process-header">
                         <div class="item">
                             <div class="item-image">
-                                <img src="@asset('images/frontpage-process/bbot_process1.png')">
+                                <img src={{ ($datas->process_first_slide["description"][0])["image"] }}>
                             </div>
                         </div>
     
@@ -58,7 +58,7 @@
     
                         <div class="item">
                             <div class="item-image item-image-transparent">
-                                <img src="@asset('images/frontpage-process/bbot_process2.png')">
+                                <img src={{ ($datas->process_first_slide["description"][1])["image"] }}>
                             </div>
                         </div>
     
@@ -66,7 +66,7 @@
     
                         <div class="item">
                             <div class="item-image item-image-transparent">
-                                <img src="@asset('images/frontpage-process/bbot_process3.png')">
+                                <img src={{ ($datas->process_first_slide["description"][2])["image"] }}>
                             </div>
                         </div>
     
@@ -74,7 +74,7 @@
     
                         <div class="item">
                             <div class="item-image item-image-transparent">
-                                <img src="@asset('images/frontpage-process/bbot_process4.png')">
+                                <img src={{ ($datas->process_first_slide["description"][3])["image"] }}>
                             </div>
                         </div>
                     </div>
@@ -86,13 +86,13 @@
     
                     <div class="row">
                         <div class="row-item row-item-check">
-                            <img src="@asset('images/frontpage-process/bbot_process2_left.png')">
+                            <img src={{ ($datas->process_slides[0])["illu1"] }}>
                             <p>Bouteille de boisson (sauf lait), vide, 
                                 avec étiquette, non écrasée</p>
                         </div>
     
                         <div class="row-item row-item-cross">
-                            <img src="@asset('images/frontpage-process/bbot_process2_right.png')">
+                            <img src={{ ($datas->process_slides[0])["illu2"] }}>
                             <p>Bouteille pleine, écrasée, de lait, 
                                 de shampooing et sans étiquette</p>
                         </div>
@@ -105,7 +105,7 @@
                     <div class="items frontpage-process-header">
                         <div class="item">
                             <div class="item-image item-image-transparent">
-                                <img src="@asset('images/frontpage-process/bbot_process1.png')">
+                                <img src={{ ($datas->process_first_slide["description"][0])["image"] }}>
                             </div>
                         </div>
     
@@ -113,7 +113,7 @@
     
                         <div class="item">
                             <div class="item-image">
-                                <img src="@asset('images/frontpage-process/bbot_process2.png')">
+                                <img src={{ ($datas->process_first_slide["description"][1])["image"] }}>
                             </div>
                         </div>
     
@@ -121,7 +121,7 @@
     
                         <div class="item">
                             <div class="item-image item-image-transparent">
-                                <img src="@asset('images/frontpage-process/bbot_process3.png')">
+                                <img src={{ ($datas->process_first_slide["description"][2])["image"] }}>
                             </div>
                         </div>
     
@@ -129,7 +129,7 @@
     
                         <div class="item">
                             <div class="item-image item-image-transparent">
-                                <img src="@asset('images/frontpage-process/bbot_process4.png')">
+                                <img src={{ ($datas->process_first_slide["description"][3])["image"] }}>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                         </div>
     
                         <div class="row-item row-item-cross slide3-imgdesktop">
-                            <img style="width: 200px" src="@asset('images/frontpage-process/bbot_process3_right.png')">
+                            <img style="width: 200px" src={{ ($datas->process_slides[1])["illu1"] }}>
                         </div>
 
                         <div class="slide3-imgmob">
@@ -160,7 +160,7 @@
                     <div class="items frontpage-process-header">
                         <div class="item">
                             <div class="item-image item-image-transparent">
-                                <img src="@asset('images/frontpage-process/bbot_process1.png')">
+                                <img src={{ ($datas->process_first_slide["description"][0])["image"] }}>
                             </div>
                         </div>
     
@@ -168,7 +168,7 @@
     
                         <div class="item">
                             <div class="item-image item-image-transparent">
-                                <img src="@asset('images/frontpage-process/bbot_process2.png')">
+                                <img src={{ ($datas->process_first_slide["description"][1])["image"] }}>
                             </div>
                         </div>
     
@@ -176,7 +176,7 @@
     
                         <div class="item">
                             <div class="item-image">
-                                <img src="@asset('images/frontpage-process/bbot_process3.png')">
+                                <img src={{ ($datas->process_first_slide["description"][2])["image"] }}>
                             </div>
                         </div>
     
@@ -184,7 +184,7 @@
     
                         <div class="item">
                             <div class="item-image item-image-transparent">
-                                <img src="@asset('images/frontpage-process/bbot_process4.png')">
+                                <img src={{ ($datas->process_first_slide["description"][3])["image"] }}>
                             </div>
                         </div>
                     </div>
@@ -193,7 +193,7 @@
     
                     <div class="row">
                         <div class="row-item">
-                            <img style="width: 150px" src="@asset('images/frontpage-process/bot_process4_left.png')">
+                            <img style="width: 150px" src={{ ($datas->process_slides[2])["illu1"] }}>
                         </div>
     
                         <div class="row-item">
@@ -215,7 +215,7 @@
                     <div class="items frontpage-process-header">
                         <div class="item">
                             <div class="item-image item-image-transparent">
-                                <img src="@asset('images/frontpage-process/bbot_process1.png')">
+                                <img src={{ ($datas->process_first_slide["description"][0])["image"] }}>
                             </div>
                         </div>
     
@@ -223,7 +223,7 @@
     
                         <div class="item">
                             <div class="item-image item-image-transparent">
-                                <img src="@asset('images/frontpage-process/bbot_process2.png')">
+                                <img src={{ ($datas->process_first_slide["description"][1])["image"] }}>
                             </div>
                         </div>
     
@@ -231,7 +231,7 @@
     
                         <div class="item">
                             <div class="item-image item-image-transparent">
-                                <img src="@asset('images/frontpage-process/bbot_process3.png')">
+                                <img src={{ ($datas->process_first_slide["description"][2])["image"] }}>
                             </div>
                         </div>
     
@@ -239,7 +239,7 @@
     
                         <div class="item">
                             <div class="item-image">
-                                <img src="@asset('images/frontpage-process/bbot_process4.png')">
+                                <img src={{ ($datas->process_first_slide["description"][3])["image"] }}>
                             </div>
                         </div>
                     </div>
@@ -249,7 +249,7 @@
                     <p>En fonction des magasins, la récompense pour chaque bouteille est de 0,01 ou 0,02 euro que 
                         vous pouvez donner à une association ou utiliser en bon d’achat.</p>
     
-                        <img class="slide5-img" src="@asset('images/frontpage-process/bbot_process5_full.png')">
+                        <img class="slide5-img" src={{ ($datas->process_slides[3])["illu1"] }}>
                 </div>
             </div>
 
