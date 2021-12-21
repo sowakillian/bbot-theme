@@ -13,7 +13,7 @@
                                     <span><p>{{ ($datas->why_first_slide[0])["number"] }}</p></span> <p>{{ ($datas->why_first_slide[0])["title"] }}</p>
                                 </div>
                                 <div class="block-image" style="width: 120px">
-                                    <img src="@asset('images/bbot_why_autofinanced.png')">
+                                    <img src={{ ($datas->why_first_slide[0])["image"] }}>
                                 </div>
                             </div>
         
@@ -22,7 +22,7 @@
                                     <span><p>{{ ($datas->why_first_slide[1])["number"] }}</p></span> <p>{{ ($datas->why_first_slide[1])["title"] }}</p>
                                 </div>
                                 <div class="block-image" style="width: 311px">
-                                    <img src="@asset('images/bbot_why_simple.png')">
+                                    <img src={{ ($datas->why_first_slide[1])["image"] }}>
                                 </div>
                             </div>
         
@@ -31,7 +31,7 @@
                                     <span><p>{{ ($datas->why_first_slide[2])["number"] }}</p></span> <p>{{ ($datas->why_first_slide[2])["title"] }}</p>
                                 </div>
                                 <div class="block-image" style="width: 222px">
-                                    <img src="@asset('images/bbot_why_attractive.png')">
+                                    <img src={{ ($datas->why_first_slide[2])["image"] }}>
                                 </div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
     
                             <div class="rows">
                                 <div class="row">
-                                    <img src="@asset('images/btob-why/btob_why2_top.png')">
+                                    <img src={{ ($datas->why_slides[0])["illu1"] }}>
                                     <p>La machine la plus <span>économique</span> à l’achat.</p>
                                 </div>
     
@@ -58,7 +58,7 @@
                                         stockage et transport<br>
                                         La garantie d’une valorisation matière <span>plus élevée.</span>
                                     </p>
-                                    <img src="@asset('images/btob-why/btob_why2_bottom.png')">
+                                    <img src={{ ($datas->why_slides[0])["illu2"] }}>
                                 </div>
                             </div>
                         </div>
@@ -75,12 +75,12 @@
     
                             <div class="items">
                                 <div class="item">
-                                    <img src="@asset('images/btob-why/btob_why3_left.png')" style="width: 160px">
+                                    <img src={{ ($datas->why_slides[1])["illu1"] }} style="width: 160px">
                                     <p>Machine conçue pour broyer <span>3500 bouteilles</span> dans 1m2.</p>
                                 </div>
     
                                 <div class="item">
-                                    <img src="@asset('images/btob-why/btob_why3_right.png')" style="width: 330px">
+                                    <img src={{ ($datas->why_slides[1])["illu2"] }} style="width: 330px">
                                     <p>Les paillettes : <span>10 fois moins de volume</span> que les bouteilles compactées.</p>
                                 </div>
                             </div>
@@ -98,17 +98,17 @@
     
                             <div class="items">
                                 <div class="item">
-                                    <img src="@asset('images/btob-why/btob_why4_left.png')">
+                                    <img src={{ ($datas->why_slides[2])["illu1"] }}>
                                     <p><span>Ils voient les paillettes</span> tomber grâce au bac transparent</p>
                                 </div>
     
                                 <div class="item">
-                                    <img src="@asset('images/btob-why/btob_why4_middle.png')">
+                                    <img src={{ ($datas->why_slides[2])["illu2"] }}>
                                     <p><span>Écran géant tactile</span> Communication personnalisable Sondages, QCM, jeux concours</p>
                                 </div>
     
                                 <div class="item">
-                                    <img src="@asset('images/btob-why/btob_why4_right.png')">
+                                    <img src={{ ($datas->why_slides[2])["illu3"] }}>
                                     <p><span>Toutes bouteilles acceptées</span> Communication personnalisable Sondages, QCM, jeux concours</p>
                                 </div>
                             </div>

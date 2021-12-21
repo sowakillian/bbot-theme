@@ -13,7 +13,7 @@
                                     <span><p>{{ ($datas->services_first_slide[0])["number"] }}</p></span> <p class="slide1-title">{{ ($datas->services_first_slide[0])["title"] }}</p>
                                 </div>
                                 <div class="block-image">
-                                    <img src="@asset('images/bbot_services_retake.png')">
+                                    <img src={{ ($datas->services_first_slide[0])["image"] }}>
                                 </div>
                             </div>
             
@@ -22,7 +22,7 @@
                                     <span><p>{{ ($datas->services_first_slide[1])["number"] }}</p></span> <p class="slide1-title">{{ ($datas->services_first_slide[1])["title"] }}</p>
                                 </div>
                                 <div class="block-image">
-                                    <img src="@asset('images/bbot_services_datas.png')">
+                                    <img src={{ ($datas->services_first_slide[1])["image"] }}>
                                 </div>
                             </div>
             
@@ -31,7 +31,7 @@
                                     <span><p>{{ ($datas->services_first_slide[2])["number"] }}</p></span> <p class="slide1-title">{{ ($datas->services_first_slide[2])["title"] }}</p>
                                 </div>
                                 <div class="block-image">
-                                    <img src="@asset('images/bbot_services_team.png')">
+                                    <img src={{ ($datas->services_first_slide[2])["image"] }}>
                                 </div>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
 
                             <div class="btob-services-slideItem-content">
                                 <div class="btob-services-slideItem-content-img">
-                                    <img src="@asset('images/btob-services/btob_services1.png')">
+                                    <img src={{ ($datas->services_slides[0])["illu1"] }}>
                                 </div>
                                 <div class="btob-services-slideItem-content-desc">
                                     <p><span>Reprise</span> matière organisée pour s’intégrer à votre 
@@ -78,7 +78,7 @@
 
                             <div class="btob-services-slideItem-content">
                                 <div class="btob-services-slideItem-content-img">
-                                    <img style="height: 300px;" src="@asset('images/btob-services/btob_services3.png')">
+                                    <img style="height: 300px;" src={{ ($datas->services_slides[1])["illu1"] }}>
                                 </div>
                                 <div class="btob-services-slideItem-content-desc">
                                     <p>• <span>Réduit les coûts</span> de logistique et maintenance<br>
@@ -107,11 +107,11 @@
 
                             <div class="btob-services-slideItem-content">
                                 <div class="btob-services-slideItem-content-img">
-                                    <img style="height: 175px" src="@asset('images/btob-services/btob_services4_left.png')">
+                                    <img style="height: 175px" src={{ ($datas->services_slides[2])["illu1"] }}>
                                 </div>
                                 <div class="btob-services-slideItem-content-desc">
                                     <p>Nous accompagnons votre <span>communication : </span></p>
-                                    <img class="btob-services-slideItem-kakemono" src="@asset('images/btob-services/btob_services4_right.png')">
+                                    <img class="btob-services-slideItem-kakemono" src={{ ($datas->services_slides[2])["illu2"] }}>
                                     <p><span>Affichages, kakemonos, stop-rayons, stickers...</span></p>
                                 </div>
                             </div>
