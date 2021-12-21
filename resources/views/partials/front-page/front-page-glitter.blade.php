@@ -9,7 +9,7 @@
                     <div class="items">
                         <div class="item">
                             <div class="item-image">
-                                <img src="@asset('images/frontpage-glitter/bbot_glitter1_1.png')">
+                                <img src={{ ($datas->glitter_first_slide["description"][0])["image"] }}>
                             </div>
                             <p class="item-text">
                                 {{ ($datas->glitter_first_slide["description"][0])["title"] }}
@@ -18,7 +18,7 @@
     
                         <div class="item">
                             <div class="item-image">
-                                <img src="@asset('images/frontpage-glitter/bbot_glitter1_2.png')">
+                                <img src={{ ($datas->glitter_first_slide["description"][1])["image"] }}>
                             </div>
                             <p class="item-text">
                                 {{ ($datas->glitter_first_slide["description"][1])["title"] }}
@@ -27,7 +27,7 @@
     
                         <div class="item">
                             <div class="item-image">
-                                <img src="@asset('images/frontpage-glitter/bbot_glitter1_3.png')">
+                                <img src={{ ($datas->glitter_first_slide["description"][2])["image"] }}>
                             </div>
                             <p class="item-text">
                                 {{ ($datas->glitter_first_slide["description"][2])["title"] }}
