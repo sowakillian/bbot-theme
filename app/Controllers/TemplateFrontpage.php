@@ -10,14 +10,17 @@ class TemplateFrontpage extends Controller
 {
     public function datas() {
         return (object) array(
-            'header_illu' => get_field("header_illu", $post->ID),
-            'header_text' => get_field("header_text", $post->ID),
-            'map_title' => get_field("map_title", $post->ID),
-            'map_points' => get_field("map_points", $post->ID),
-            'faq_questions' => get_field("faq_questions", $post->ID),
-            'testimonials' => get_field("testimonials", $post->ID),
-            'reviews' => get_field("reviews", $post->ID),
-            'bottle_number' => get_field("bottle_number", $post->ID),
+            'header_illu' => get_field("header_illu"),
+            'header_text' => get_field("header_text"),
+            'map_title' => get_field("map_title"),
+            'map_points' => get_field("map_points"),
+            'map_overlay' => get_field("map_overlay"),
+            'faq_questions' => get_field("faq_questions"),
+            'testimonials' => get_field("testimonials"),
+            'reviews' => get_field("reviews"),
+            'bottle_number' => get_field("bottle_number"),
+            'bottle_subtitle' => get_field("bottle_subtitle"),
+            'bottle_description' => get_field("bottle_description"),
         );
     }   
 }
