@@ -3,16 +3,16 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="swiper-slide-wrapper slide1">
-                    <h2>Pourquoi <span>les paillettes c'est super ?</span></h2>
+                    <h2>{{ $datas->glitter_first_slide["subtitle_black"] }} <span>{{ $datas->glitter_first_slide["subtitle_green"] }}</span></h2>
 
-                    <h3>Zoom sur les <br><span>3 atouts de la paillette</span></h3>
+                    <h3>{{ $datas->glitter_first_slide["title_black"] }} <br><span>{{ $datas->glitter_first_slide["title_green"] }}</span></h3>
                     <div class="items">
                         <div class="item">
                             <div class="item-image">
                                 <img src="@asset('images/frontpage-glitter/bbot_glitter1_1.png')">
                             </div>
                             <p class="item-text">
-                                10x moins de volume
+                                {{ ($datas->glitter_first_slide["description"][0])["title"] }}
                             </p>
                         </div>
     
@@ -21,7 +21,7 @@
                                 <img src="@asset('images/frontpage-glitter/bbot_glitter1_2.png')">
                             </div>
                             <p class="item-text">
-                                8 étapes en moins
+                                {{ ($datas->glitter_first_slide["description"][1])["title"] }}
                             </p>
                         </div>
     
@@ -30,7 +30,7 @@
                                 <img src="@asset('images/frontpage-glitter/bbot_glitter1_3.png')">
                             </div>
                             <p class="item-text">
-                                100% recyclé
+                                {{ ($datas->glitter_first_slide["description"][2])["title"] }}
                             </p>
                         </div>
                     </div>
@@ -39,11 +39,8 @@
 
             <div class="swiper-slide slide2">
                 <div class="frontpage-glitter-slideHeader">
-                    <h3>La paillette magique qui fait disparaitre <br><span>les camions... ou presque.</span></h3>
-                    <p>Une bouteille réduite en paillette prend 10x moins de place qu’une bouteille compactée. C'est donc 10x moins 
-                        de camions nécessaires au transport !
-                        
-                        La planète vous dit merci !</p>
+                    <h3>{{ ($datas->glitter_slides[0])["black_title"] }} <br><span>{{ ($datas->glitter_slides[0])["green_title"] }}</span></h3>
+                    <p>{!! ($datas->glitter_slides[0])["description"] !!}</p>
                 </div>
 
                     <div class="frontpage-glitter-comparison">
@@ -64,9 +61,8 @@
 
             <div class="swiper-slide slide3">
                 <div class="frontpage-glitter-slideHeader">
-                    <h3>8 étapes en moins<br><span>dans la chaîne de recyclage.</span></h3>
-                    <p>Avec b:bot, le recyclage de votre bouteille nécessite en moyenne 8 étapes de moins que le système de collecte classique. 
-                    Recycler avec  b:bot nécessite 3 intermédiaires : Vous, b:bot, le recycleur.</p>
+                    <h3>{{ ($datas->glitter_slides[1])["black_title"] }}<br><span>{{ ($datas->glitter_slides[1])["green_title"] }}</span></h3>
+                    <p>{!! ($datas->glitter_slides[1])["description"] !!}</p>
                 </div>
 
                     <div class="frontpage-glitter-comparison">
@@ -87,9 +83,8 @@
 
             <div class="swiper-slide slide4">
                 <div class="frontpage-glitter-slideHeader">
-                    <h3>Là où il y a de la paillette,<br><span>il y a 0 perte !</span></h3>
-                    <p>Dans la poubelle de tri, la bouteille est mélangée avec d’autres déchets recyclables ce qui rend le tri beaucoup plus 
-                        compliqué . Au final, c’est seulement une bouteille sur deux qui est recyclée.</p>
+                    <h3>{{ ($datas->glitter_slides[2])["black_title"] }}<br><span>{{ ($datas->glitter_slides[2])["green_title"] }}</span></h3>
+                    <p>{!! ($datas->glitter_slides[2])["description"] !!}</p>
                 </div>
 
                     <div class="frontpage-glitter-comparison">

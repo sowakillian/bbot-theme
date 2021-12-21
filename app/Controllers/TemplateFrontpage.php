@@ -21,6 +21,10 @@ class TemplateFrontpage extends Controller
             'bottle_number' => get_field("bottle_number"),
             'bottle_subtitle' => get_field("bottle_subtitle"),
             'bottle_description' => get_field("bottle_description"),
+            'glitter_first_slide' => get_field("glitter_first_slide"),
+            'glitter_slides' => get_field("glitter_slides"),
+            'process_first_slide' => get_field("process_first_slide"),
+            'process_slides' => get_field("process_slides"),
         );
     }   
 }
