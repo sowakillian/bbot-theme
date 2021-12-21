@@ -22,6 +22,7 @@ class TemplateBtobMarket extends Controller
             'why_slides' => get_field("why_slides"),
             'services_first_slide' => get_field("services_first_slide"),
             'services_slides' => get_field("services_slides"),
+            'ask_bbot_text' => get_field("ask_bbot_text"),
         );
     }   
 }

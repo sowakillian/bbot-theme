@@ -123,7 +123,7 @@
                     <div class="swiper-slide-wrapper slide5 slideEnd">
                         <div class="btob-why-slideItem">
                             <div class="btob-why-slideItem-title">
-                                <p>Vous souhaitez acheter une b:bot ?</p>
+                                <p>{{ $datas->ask_bbot_text }}</p>
                             </div>
 
                             <div class="slideEnd-bottom">
