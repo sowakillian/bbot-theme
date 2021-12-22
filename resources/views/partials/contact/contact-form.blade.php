@@ -4,7 +4,7 @@
     </div>
     
     <div class="wrap">
-        <h2 id="contact-goal">Je veux devenir partenaire de b:bot</h2>
+        <h2 id="contact-goal" data-email="info@b-bot.com">Je veux devenir partenaire de b:bot</h2>
         <form class="contact-form-form">
             <div class="contact-form-row">
                 <input class="contact-form-field" type="text" placeholder="Nom*" name="lastname" id="lastname"/>
