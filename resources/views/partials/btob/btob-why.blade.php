@@ -104,7 +104,7 @@
     
                                 <div class="item">
                                     <img src={{ ($datas->why_slides[2])["illu2"] }}>
-                                    <p><span>Écran géant tactile : </span> Communication personnalisable Sondages, QCM, jeux concours</p>
+                                    <p><span>Écran géant tactile : </span> Communication personnalisable, sondages, QCM, jeux concours</p>
                                 </div>
     
                                 <div class="item">

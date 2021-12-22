@@ -81,12 +81,12 @@
                                     <img style="height: 300px;" src={{ ($datas->services_slides[1])["illu1"] }}>
                                 </div>
                                 <div class="btob-services-slideItem-content-desc">
-                                    <p>• <span>Réduit les coûts</span> de logistique et maintenance.<br>
-                                       • Suit les volumes et des <span>marques collectées.</span><br>
-                                       • Reconnaît automatiquement <span>les nouvelles bouteilles.</span> <br>
-                                       • Sa technologie est prête pour le <span>« sans ticket ».</span><br>
-                                        • <span>Une app</span> prolonge et simplifie l’expérience utilisateur. Plus besoin de ticket pour collecter des bons d’achat 
-                                        ou points de fidélité.
+                                    <p>• <span>Réduit les coûts</span> de logistique et maintenance.</p>
+                                       <p>• Suit les volumes et des <span>marques collectées.</span></p>
+                                       <p>• Reconnaît automatiquement <span>les nouvelles bouteilles.</span> </p>
+                                       <p>• Sa technologie est prête pour le <span>« sans ticket ».</span></p>
+                                        <p>• <span>Une app</span> prolonge et simplifie l’expérience utilisateur. Plus besoin de ticket pour collecter des bons d’achat 
+                                        ou points de fidélité.</p>
                                 </div>
                             </div>
                         </div>

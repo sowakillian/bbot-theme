@@ -82,7 +82,7 @@
                         <div class="without-bbot">
                             <p>Avec la poubelle de tri</p>
                             <div class="without-bbot-image">
-                                <img src={{ ($datas->glitter_slides[0])["illu_without_bbot"] }}>
+                                <img src={{ ($datas->glitter_slides[2])["illu_without_bbot"] }}>
                             </div>
                         </div>
                     </div>
