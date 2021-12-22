@@ -82,7 +82,7 @@
                     <p class="slide-title">{{ ($datas->process_slides[0])["black_title"] }}<span> {{ ($datas->process_slides[0])["green_title"] }}</span></p>
                     <p>Pour vous simplifier la vie, déposez vos bouteilles vides directement dans vos sacs de course.</p>
                     <p class="frontpage-process-slide2-end">B:bot accepte toutes les bouteilles boissons en PET jusqu’à 2,5 litres, vides et avec leurs étiquettes pour 
-                        avoir le code-barres qui permet de les reconnaître...</p>
+                        avoir le code-barres qui permet de les reconnaître.<br><br>Afin de produire de la paillette 100% recyclable, b:bot refuse tout ce qui n’est pas en PET (Lait, produits d’entretien, cosmétiques). Car ce sont des plastiques qui ne sont pas recyclable ensemble.</p>
                     <button class="frontpage-process-slide2-more">En savoir plus</button>
     
                     <div class="row">
@@ -142,7 +142,7 @@
                             <p>Le code-barres permet à b:bot de vérifier que c’est une bouteille acceptée et d’identifier sa couleur. 
                                 Les plastiques colorés ne se recyclent pas de la même manière que les plastiques transparents.</p>
                             <p class="green slide3-textdesktop">Petit conseil:<br>
-                            Présentez bien le code-barres vers le haut et déposer après avoir entendu le bip.</p>
+                            Présentez bien le code-barres vers le haut et déposez après avoir entendu le bip.</p>
                         </div>
     
                         <div class="row-item row-item-cross slide3-imgdesktop">
@@ -245,7 +245,7 @@
                         </div>
                     </div>
     
-                    <p class="slide-title">{{ ($datas->process_slides[3])["black_title"] }}<span> {{ ($datas->process_slides[3])["green_title"] }}</span></p>
+                    <p class="slide-title">{{ ($datas->process_slides[3])["black_title"] }}<br><span> {{ ($datas->process_slides[3])["green_title"] }}</span></p>
     
                     <p>En fonction des magasins, la récompense pour chaque bouteille est de 0,01 ou 0,02 euro que 
                         vous pouvez donner à une association ou utiliser en bon d’achat.</p>

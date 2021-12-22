@@ -7,6 +7,10 @@
     padding: 50px 0;
   }
 
+  .swiper {
+    width: 100%;
+  }
+
   .swiper-button-prev,
   .swiper-button-next {
     color: black;
@@ -27,7 +31,6 @@
 
   .team-member {
     text-align: center;
-    margin-right: 24px;
 
     &-photo {
       width: 260px;

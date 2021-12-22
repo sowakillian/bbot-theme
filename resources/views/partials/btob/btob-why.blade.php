@@ -58,7 +58,7 @@
                                         stockage et transport<br>
                                         La garantie d’une valorisation matière <span>plus élevée.</span>
                                     </p>
-                                    <img src={{ ($datas->why_slides[0])["illu2"] }}>
+                                    <img src='{{ ($datas->why_slides[0])["illu2"] }}'>
                                 </div>
                             </div>
                         </div>

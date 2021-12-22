@@ -132,6 +132,7 @@
         align-items: center;
 
         img {
+          object-fit: contain;
           max-width: 100%;
         }
       }
@@ -324,6 +325,14 @@
     h2 {
       font-size: 13px !important;
       margin-top: 0 !important;
+    }
+
+    .slide2 {
+      .with-bbot-image {
+        img {
+          max-width: 60px;
+        }
+      }
     }
 
     .slide1 {

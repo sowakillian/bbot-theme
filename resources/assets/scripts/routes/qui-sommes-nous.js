@@ -24,7 +24,7 @@ export default {
                   slidesPerView: membersCount > 1 ? 2 : 1,
                 },
                 900: {
-                  slidesPerView: membersCount > 2 ? 3 : 2,
+                  slidesPerView: membersCount > 2 ? 3 : membersCount > 1 ? 2 : 1,
                 },
             },
             pagination: {

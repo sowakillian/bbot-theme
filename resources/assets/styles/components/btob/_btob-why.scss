@@ -444,8 +444,20 @@
           font-size: 12px;
         }
 
+        &:first-of-type {
+          img {
+            margin-bottom: 8px;
+          }
+        }
+
         &:last-of-type {
           margin-top: 5px;
+          flex-direction: column-reverse;
+
+          img {
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
         }
       }
     }
