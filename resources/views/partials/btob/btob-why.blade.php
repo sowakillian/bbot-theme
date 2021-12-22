@@ -54,7 +54,7 @@
     
                                 <div class="row">
                                     <p>La moins coûteuse en exploitation :<br>
-                                        <span>moins de volume</span> donc moins de vidage 
+                                        <span>moins de volume</span> donc moins de vidage,
                                         stockage et transport<br>
                                         La garantie d’une valorisation matière <span>plus élevée.</span>
                                     </p>
@@ -104,12 +104,12 @@
     
                                 <div class="item">
                                     <img src={{ ($datas->why_slides[2])["illu2"] }}>
-                                    <p><span>Écran géant tactile</span> Communication personnalisable Sondages, QCM, jeux concours</p>
+                                    <p><span>Écran géant tactile : </span> Communication personnalisable Sondages, QCM, jeux concours</p>
                                 </div>
     
                                 <div class="item">
                                     <img src={{ ($datas->why_slides[2])["illu3"] }}>
-                                    <p><span>Toutes bouteilles acceptées</span> Communication personnalisable Sondages, QCM, jeux concours</p>
+                                    <p><span>Toutes bouteilles acceptées</span> même en plastique coloré</p>
                                 </div>
                             </div>
                         </div>

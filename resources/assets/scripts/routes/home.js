@@ -5,6 +5,7 @@ export default {
     console.warn('weshh')
     this.initSliders()
     this.initKnowMoreClicked()
+    this.initSlide3MoreClicked()
     this.initAskForm()
   },
   finalize() {
@@ -43,6 +44,18 @@ export default {
 
       buttonKnowMore.innerHTML = isOpened ? 'Refermer' : 'En savoir plus'
       divCycleSuit.classList.toggle('frontpage-cycle-desc-suit-visible')
+    })
+  },
+
+  initSlide3MoreClicked() {
+    let isOpened = false
+    const buttonKnowMore = document.querySelector('.frontpage-process-slide2-more')
+    const divCycleSuit = document.querySelector('.frontpage-process-slide2-end')
+    buttonKnowMore.addEventListener('click', () => {
+      isOpened = !isOpened
+
+      buttonKnowMore.innerHTML = isOpened ? 'Refermer' : 'En savoir plus'
+      divCycleSuit.classList.toggle('frontpage-process-slide2-end-visible')
     })
   },
 

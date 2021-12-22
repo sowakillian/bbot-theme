@@ -80,9 +80,10 @@
                     </div>
     
                     <p class="slide-title">{{ ($datas->process_slides[0])["black_title"] }}<span> {{ ($datas->process_slides[0])["green_title"] }}</span></p>
-                    <p>Pour vous simplifier la vie, déposez vos bouteilles vides directement dans vos sacs de course.
-                        B:bot accepte toutes les bouteilles boissons en PET jusqu’à 2,5 litres, vides et avec leurs étiquettes pour 
+                    <p>Pour vous simplifier la vie, déposez vos bouteilles vides directement dans vos sacs de course.</p>
+                    <p class="frontpage-process-slide2-end">B:bot accepte toutes les bouteilles boissons en PET jusqu’à 2,5 litres, vides et avec leurs étiquettes pour 
                         avoir le code-barres qui permet de les reconnaître...</p>
+                    <button class="frontpage-process-slide2-more">En savoir plus</button>
     
                     <div class="row">
                         <div class="row-item row-item-check">

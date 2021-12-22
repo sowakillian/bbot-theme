@@ -478,9 +478,10 @@
       }
 
       .items .item:last-of-type {
-        margin-top: 15px;
+        margin-top: 30px;
 
         img {
+          margin-top: 0;
           max-width: 40%;
         }
       }

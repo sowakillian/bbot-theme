@@ -79,6 +79,7 @@
             mapboxgl: mapboxgl,
             placeholder: 'Code postal',
             marker: false,
+            countries: 'FR',
             flyTo: {
                 zoom: 9
             }
@@ -93,7 +94,7 @@
             })
 
 
-            if (Math.min(...distancesArray) > 30) {
+            if (Math.min(...distancesArray) > 15) {
                 document.querySelector(".frontpage-map-overlay").classList.add("frontpage-map-overlay-visible")
             } else {
                 document.querySelector(".frontpage-map-overlay").classList.remove("frontpage-map-overlay-visible")

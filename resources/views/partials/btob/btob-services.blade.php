@@ -82,7 +82,7 @@
                                 </div>
                                 <div class="btob-services-slideItem-content-desc">
                                     <p>• <span>Réduit les coûts</span> de logistique et maintenance.<br>
-                                       • Suivi des volumes et des <span>marques collectées.</span><br>
+                                       • Suit les volumes et des <span>marques collectées.</span><br>
                                        • Reconnaît automatiquement <span>les nouvelles bouteilles.</span> Sa technologie est prête pour le <span>« sans ticket ».</span><br>
                                         • <span>Une app</span> prolonge et simplifie l’expérience utilisateur. Plus besoin de ticket pour collecter des bons d’achat 
                                         ou points de fidélité.
