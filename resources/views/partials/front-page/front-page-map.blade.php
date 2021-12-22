@@ -28,7 +28,10 @@
                 <div class="frontpage-map-overlay-wrapper">
                     <p class="frontpage-map-overlay-wrapper-title">{{ $datas->map_overlay["title"] }}</p><br>
                 
-                    {!! $datas->map_overlay["description"] !!}
+                    <div class="frontpage-map-overlay-wrapper-desc">{!! $datas->map_overlay["description"] !!}</div>
+                    <p class="frontpage-map-overlay-wrapper-desc-mobile">
+                        Pas encore de b:bot chez vous ! Entrez vos infos, nous arrivons bientôt !
+                    </p>
 
                     <form class="frontpage-map-overlay-form">
                         <input type="text" placeholder="Adresse mail" id="email" name="email">

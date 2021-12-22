@@ -25,11 +25,12 @@
             <div class="frontpage-map-overlay frontpage-map2-overlay">
                 <span class="cross">X</span>
                 <div class="frontpage-map-overlay-wrapper">
-                    <p class="frontpage-map-overlay-wrapper-title">Zuuut !</p><br>
+                    <p class="frontpage-map-overlay-wrapper-title">{{ $datas->map_overlay["title"] }}</p><br>
                 
-                    Il n’y a pas encore de B:bot à moins de 30km de chez vous. Mais pas de panique, nous arrivons bientôt !<br><br>
-    
-                    Saisissez votre adresse mail et votre code postal, nous vous préviendrons dès qu’une B:bot débarque près de chez vous !
+                    <div class="frontpage-map-overlay-wrapper-desc">{!! $datas->map_overlay["description"] !!}</div>
+                    <p class="frontpage-map-overlay-wrapper-desc-mobile">
+                        Pas encore de b:bot chez vous ! Entrez vos infos, nous arrivons bientôt !
+                    </p>
 
                     <form class="frontpage-map-overlay-form">
                         <input type="text" placeholder="Adresse mail">
