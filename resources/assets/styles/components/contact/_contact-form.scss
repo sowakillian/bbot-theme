@@ -171,4 +171,34 @@
       flex-direction: column;
     }
   }
+
+  @media all and (max-width: 375px) {
+    .wrap {
+      padding: 15px 15px;
+    }
+
+    h2 {
+      font-size: 14px;
+    }
+
+    .cross {
+      width: 31px;
+      height: 32px;
+      right: 5px;
+      top: 8px;
+    }
+
+    input[type=text],
+    input[type=phone],
+    input[type=email],
+    select {
+      padding: 6px 10px;
+    }
+
+    input,
+    select,
+    textarea {
+      margin-bottom: 7px;
+    }
+  }
 }
