@@ -194,8 +194,7 @@
     
                     <div class="row">
                         <div class="row-item">
-                            {{-- <img style="width: 150px" src={{ ($datas->process_slides[2])["illu1"] }}> --}}
-                            <img style="width: 150px" src="@asset('images/frontpage-process/bot_process4_left.png')">
+                            <img style="width: 150px" src={{ ($datas->process_slides[2])["illu1"] }}>
                         </div>
     
                         <div class="row-item">
