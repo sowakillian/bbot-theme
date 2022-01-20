@@ -36,7 +36,7 @@
                             </div>
                         </div>
                         <div class="without-bbot">
-                            <p>Avec la poubelle de tri</p>
+                            <p>Avec les autres</p>
                             <div class="without-bbot-image">
                                 <img src={{ ($datas->glitter_slides[0])["illu_without_bbot"] }}>
                             </div>
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                         <div class="without-bbot">
-                            <p>Avec la poubelle de tri</p>
+                            <p>Avec les autres</p>
                             <div class="without-bbot-image">
                                 <img src={{ ($datas->glitter_slides[1])["illu_without_bbot"] }}>
                             </div>
@@ -80,7 +80,7 @@
                             </div>
                         </div>
                         <div class="without-bbot">
-                            <p>Avec la poubelle de tri</p>
+                            <p>Avec les autres</p>
                             <div class="without-bbot-image">
                                 <img src={{ ($datas->glitter_slides[2])["illu_without_bbot"] }}>
                             </div>

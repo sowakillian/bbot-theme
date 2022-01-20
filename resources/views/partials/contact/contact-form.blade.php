@@ -33,17 +33,17 @@
             <div class="contact-form-row">
                 <select class="contact-form-field" name="shop_type" id="shop_type">
                     <option value="">Type de point de vente*</option>
-                    <option value="press">Hypermarché</option>
-                    <option value="medias">Supermarché</option>
-                    <option value="bouche">Point de vente de proximité</option>
-                    <option value="other">Autres</option>
+                    <option value="hypermarche">Hypermarché</option>
+                    <option value="supermarche">Supermarché</option>
+                    <option value="proximite_pdv">Point de vente de proximité</option>
+                    <option value="autre">Autres</option>
                 </select>
 
                 <select class="contact-form-field" name="buy_type" id="buy_type">
                     <option value="">Souhaitez-vous plutôt* :</option>
-                    <option value="press">Louer sur 60 mois (520€/mois)</option>
-                    <option value="medias">Acheter (26500€)</option>
-                    <option value="bouche">Evenementiel 1 mois minimum (sur devis)</option>
+                    <option value="location">Louer sur 60 mois (520€/mois)</option>
+                    <option value="achat">Acheter (26500€)</option>
+                    <option value="evenementiel">Evenementiel 1 mois minimum (sur devis)</option>
                 </select>
             </div>
 
@@ -55,10 +55,10 @@
             <div class="contact-form-row">
                 <select class="contact-form-field" name="where_come" id="where_com">
                     <option value="">Où avez-vous entendu parler de nous ?</option>
-                    <option value="press">Presse</option>
+                    <option value="presse">Presse</option>
                     <option value="medias">Réseaux sociaux</option>
-                    <option value="bouche">Bouche à oreille</option>
-                    <option value="other">Autre</option>
+                    <option value="bouche_oreille">Bouche à oreille</option>
+                    <option value="autre">Autre</option>
                 </select>
             </div>
 

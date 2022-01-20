@@ -12,6 +12,8 @@ class TemplateFrontpage extends Controller
         return (object) array(
             'header_illu' => get_field("header_illu", 721),
             'header_text' => get_field("header_text", 721),
+            'logo' => get_field("logo", 721),
+            'cycle' => get_field("cycle", 721),
             'map_title' => get_field("map_title"),
             'map_points' => get_field("map_points"),
             'map_overlay' => get_field("map_overlay"),

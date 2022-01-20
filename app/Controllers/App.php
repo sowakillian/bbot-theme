@@ -11,6 +11,12 @@ class App extends Controller
         return get_bloginfo('name');
     }
 
+    public function datasglobal() {
+        return (object) array(
+            'logo' => get_field("logo", 721)
+        );
+    }
+
     public static function title()
     {
         if (is_home()) {
