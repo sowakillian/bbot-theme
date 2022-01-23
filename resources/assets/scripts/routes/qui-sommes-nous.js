@@ -2,7 +2,6 @@ import Swiper, { Navigation, Pagination } from 'swiper';
 
 export default {
   init() {
-    console.warn('weshqui')
     this.initSliders();
   },
   finalize() {
