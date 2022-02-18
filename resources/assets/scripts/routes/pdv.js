@@ -48,9 +48,19 @@ export default {
       }).then((res) => {
         console.warn(res)
         document.querySelector('.contact-form').classList.remove('contact-form-visible')
-      });
 
-      document.querySelector('.contact-form-form').reset()
+        document.querySelectorAll('.button-form').forEach(button => {
+          button.innerHTML = 'Message envoyé ✅'
+        })
+
+        document.querySelector('.contact-form-form').reset()
+
+        setTimeout(() => {
+          document.querySelectorAll('.button-form').forEach(button => {
+            button.innerHTML = 'Demander un devis'
+          })
+        }, 1500)
+      });
     })
   },
 

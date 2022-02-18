@@ -1,6 +1,5 @@
 export default {
   init() {
-    console.warn('listenquestio init')
     this.listenQuestionClicked();
     this.addSmoothScrolling();
     this.listenMobileNavClicked();

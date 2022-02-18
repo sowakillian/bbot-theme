@@ -82,7 +82,7 @@
                     <p class="slide-title">{{ ($datas->process_slides[0])["black_title"] }}<span> {{ ($datas->process_slides[0])["green_title"] }}</span></p>
                     <p>Pour vous simplifier la vie, déposez vos bouteilles vides directement dans vos sacs de course.</p>
                     <p class="frontpage-process-slide2-end">B:bot accepte toutes les bouteilles boissons en PET jusqu’à 2,5 litres, vides et avec leurs étiquettes pour 
-                        avoir le code-barres qui permet de les reconnaître.<br><br>Afin de produire de la paillette 100% recyclable, b:bot refuse tout ce qui n’est pas en PET (Lait, produits d’entretien, cosmétiques). Car ce sont des plastiques qui ne sont pas recyclable ensemble.</p>
+                        avoir le code-barres qui permet de les reconnaître.<br><br>Afin de produire de la paillette 100% recyclable, b:bot refuse tout ce qui n’est pas en PET (Lait, produits d’entretien, cosmétiques). Car ce sont des plastiques qui ne sont pas recyclables ensemble.</p>
                     <button class="frontpage-process-slide2-more">En savoir plus</button>
     
                     <div class="row">
