@@ -1,5 +1,5 @@
 <footer class="footer">
   <div class="wrap">
-    Copyright - GreenBigSAS -  <a href="{{ home_url('/') }}mentions-legales">&nbspMentions légales</a>
+    Copyright - <a href="https://www.greenbig.com">GreenBigSAS</a> -  <a href="{{ home_url('/') }}mentions-legales">&nbspMentions légales</a>
   </div>
 </footer>
