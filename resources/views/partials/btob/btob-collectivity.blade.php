@@ -11,7 +11,7 @@
     
         <div class="cta">
             Vous souhaitez devenir <span>partenaire de b:bot ?</span>
-            <a href="{{ home_url('/') }}contact">Décrivez-nous<br> votre projet ici</a>
+            <a class="button-form">Décrivez-nous<br> votre projet ici</a>
         </div>
     </div>
 
