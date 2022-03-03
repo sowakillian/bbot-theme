@@ -17,7 +17,7 @@ class TemplateBtobMarket extends Controller
             'partners' => get_field('partners'),
             'partners_number' => get_field('partners_number'),
             'faq_questions' => get_field("faq_questions_btob"),
-            'reviews' => get_field("reviews", 140),
+            'reviews' => get_field("reviews_pdv"),
             'why_first_slide' => get_field("why_first_slide"),
             'why_slides' => get_field("why_slides"),
             'services_first_slide' => get_field("services_first_slide"),
